@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'JetBrainsMono-MediumItalic';
+  src: url('JetBrainsMono-MediumItalic.eot');
+  src: url('JetBrainsMono-MediumItalic.eot?#iefix') format('embedded-opentype'),
+       url('JetBrainsMono-MediumItalic.svg#JetBrainsMono-MediumItalic') format('svg'),
+       url('JetBrainsMono-MediumItalic.ttf') format('truetype'),
+       url('JetBrainsMono-MediumItalic.woff') format('woff'),
+       url('JetBrainsMono-MediumItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

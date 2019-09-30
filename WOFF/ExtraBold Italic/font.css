@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'JetBrainsMono-ExtraBoldItalic';
+  src: url('JetBrainsMono-ExtraBoldItalic.eot');
+  src: url('JetBrainsMono-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('JetBrainsMono-ExtraBoldItalic.svg#JetBrainsMono-ExtraBoldItalic') format('svg'),
+       url('JetBrainsMono-ExtraBoldItalic.ttf') format('truetype'),
+       url('JetBrainsMono-ExtraBoldItalic.woff') format('woff'),
+       url('JetBrainsMono-ExtraBoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
