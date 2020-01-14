@@ -1,6 +1,6 @@
 # JetBrainsMono
 A typeface made for developers. \
-More about font features & design can be found on [it's page](https://entry.staging.w3jbcom.aws.intellij.net/lp/mono/)
+More about font features & design can be found on [it's page](https://jetbrains.com/mono/)
 
 # **Installation**
 
@@ -26,7 +26,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 3. Restart your IDE.
 4. Go to `Preferences/Settings` → `Editor` → `Font`, and pick JetBrains Mono from the Font dropdown.
 
-### **VScode**
+### **Visual Studio Code**
 
 * Follow the instructions above to step 3.
 * Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut `Ctrl`+, (`Cmd`+, on Mac).
@@ -44,30 +44,6 @@ Then paste the following lines and save the file.
 "editor.fontLigatures": true,
 ```
 
-## Browser support
-
-```
-<!-- HTML -->
-<link rel="stylesheet" href="<https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css>">
-```
-
-```
-/* CSS */
-@import url(<https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css>);
-```
-
-```
-/* Specify in CSS */
-code { font-family: 'JetBrains Mono', monospace; }
-```
-
-* IE 10+, Edge: enable with `font-feature-settings: "calt";`
-* Firefox
-* Safari
-* Chromium-based browsers (Chrome, Opera)
-* ACE
-* CodeMirror (enable with `font-variant-ligatures: contextual;`)
-
 ## Source files
 
 Can be found in the *"Source"* folder. To open them you will need FontLab 6 or higher.
@@ -81,18 +57,13 @@ JetBrains Mono typeface is available under the [Apache 2.0 license](https://www.
 **Type designer**\
 Philipp Nurullin
 
-**Web design**\
-Tatiana Tulupenko\
-Philipp Nurullin\
-Sergei Ilin\
-Kirill Malich
-
 **Team lead**\
 Konstantin Bulenkov
 
 **Thanks to**\
 Nikita Prokopov\
 Eugene Auduchinok\
+Tatiana Tulupenko\
 Dmitrij Batrak\
 IntelliJ Platfrom UX Team\
 Web Team
