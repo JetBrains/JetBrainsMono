@@ -15,7 +15,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 2. Unzip the archive and install the font:
    1. Mac. Select all font files in the folder and double-click them. Click the "Install Font" button.
    2. Windows. Select all font files in the folder, right-click any of them, then pick “Install” from the menu.
-   3. Ubuntu. Open a terminal with `Ctrl`+`Alt`+`T` and run the following: \
+   3. Ubuntu. Open a terminal with `Ctrl`+`Alt`+`T` and run the following:
       ```
       cd <name_of_our_archive.zip>
       unzip "\*.zip" -d ${HOME}/.fonts
@@ -94,9 +94,9 @@ Kirill Malich
 **Team lead**\
 Konstantin Bulenkov
 
-**Thanks to\
+**Thanks to**\
 Nikita Prokopov\
 Eugene Auduchinok\
 Dmitrij Batrak\
 IntelliJ Platfrom UX Team\
-Web Team**
+Web Team
