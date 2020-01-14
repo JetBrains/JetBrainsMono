@@ -32,7 +32,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 * In the "Font Family" input box type JetBrains Mono, replacing any content.
 * To enable ligatures turn on the checkbox in “Font ligatures”.
 
-### **Manually editing settings.json**
+#### **Manually editing settings.json**
 
 Visual Studio Code allows you to also edit the underlying settings.json config file. First open the settings editor as described above, then click the "`{}`" icon, at the top right, to open the "settings.json" file.
 
