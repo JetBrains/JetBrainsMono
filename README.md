@@ -2,7 +2,7 @@
 
 # JetBrainsMono
 A typeface made for developers. \
-More about font features & design can be found on [it's page](https://jetbrains.com/mono/)
+More about font features & design can be found on [its page](https://jetbrains.com/mono/).
 
 # **Installation**
 
