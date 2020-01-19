@@ -67,5 +67,5 @@ Nikita Prokopov\
 Eugene Auduchinok\
 Tatiana Tulupenko\
 Dmitrij Batrak\
-IntelliJ Platfrom UX Team\
+IntelliJ Platform UX Team\
 Web Team
