@@ -1,2 +1,5 @@
 .idea
 JetBrainsMono.iml
+out
+lib
+source/JetBrainsMono.backup
