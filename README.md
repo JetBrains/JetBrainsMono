@@ -31,7 +31,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 ### **Visual Studio Code**
 
 * Follow the instructions above to step 3.
-* Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut `Ctrl`+, (`Cmd`+, on Mac).
+* Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut `Ctrl`+`,` (`Cmd`+`,` on Mac).
 * In the *"Font Family"* input box type JetBrains Mono, replacing any content.
 * To enable ligatures turn on the checkbox in *"Font ligatures"*.
 
