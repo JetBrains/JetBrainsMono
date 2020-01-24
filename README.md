@@ -71,8 +71,6 @@ In the terminal:
 }
 ```
 
-4. There is no step 4!
-
 ## Source files
 
 Can be found in the *"Source"* folder. To open them you will need FontLab 6 or higher.
