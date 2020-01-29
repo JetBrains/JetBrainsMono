@@ -14,11 +14,11 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 
 ### Another IDE or an older version of a JetBrains IDE
 
-1. [Download font](https://download.jetbrains.com/fonts/JetBrainsMono-1.0.0.zip?fromGitHub). 
+1. [Download font](https://github.com/JetBrains/JetBrainsMono/releases/download/v1.0.2/JetBrainsMono-1.0.2.zip). 
 2. Unzip the archive and install the font:
    - Mac. Select all font files in the folder and double-click them. Click the *"Install Font"* button.
    - Windows. Select all font files in the folder, right-click any of them, then pick *"Install"* from the menu.
-   - Ubuntu. Open a terminal with `Ctrl`+`Alt`+`T` and run the following:
+   - Ubuntu. Open a terminal with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> and run the following:
    
       ```
       cd <name_of_our_archive.zip>
@@ -31,7 +31,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 ### **Visual Studio Code**
 
 * Follow the instructions above to step 3.
-* Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut `Ctrl`+, (`Cmd`+, on Mac).
+* Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut <kbd>Ctrl</kbd>+, (<kbd>Cmd</kbd>+, on Mac).
 * In the *"Font Family"* input box type JetBrains Mono, replacing any content.
 * To enable ligatures turn on the checkbox in *"Font ligatures"*.
 
