@@ -1,6 +1,6 @@
 [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
-# JetBrainsMono
+# JetBrains Mono
 A typeface made for developers. \
 More about font features & design can be found on [its page](https://jetbrains.com/mono/).
 
@@ -14,11 +14,11 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 
 ### Another IDE or an older version of a JetBrains IDE
 
-1. [Download font](https://download.jetbrains.com/fonts/JetBrainsMono-1.0.0.zip?fromGitHub). 
+1. [Download font](https://github.com/JetBrains/JetBrainsMono/releases/download/v1.0.2/JetBrainsMono-1.0.2.zip). 
 2. Unzip the archive and install the font:
    - Mac. Select all font files in the folder and double-click them. Click the *"Install Font"* button.
    - Windows. Select all font files in the folder, right-click any of them, then pick *"Install"* from the menu.
-   - Ubuntu. Open a terminal with `Ctrl`+`Alt`+`T` and run the following:
+   - Ubuntu. Open a terminal with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> and run the following:
    
       ```
       cd <name_of_our_archive.zip>
@@ -31,7 +31,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 ### **Visual Studio Code**
 
 * Follow the instructions above to step 3.
-* Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut `Ctrl`+`,` (`Cmd`+`,` on Mac).
+* Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut <kbd>Ctrl</kbd>+<kbd>,</kbd> (<kbd>Cmd</kbd>+<kbd>,</kbd> on Mac).
 * In the *"Font Family"* input box type JetBrains Mono, replacing any content.
 * To enable ligatures turn on the checkbox in *"Font ligatures"*.
 
@@ -44,6 +44,31 @@ Then paste the following lines and save the file.
 ```
 "editor.fontFamily": "JetBrains Mono",
 "editor.fontLigatures": true,
+```
+
+### **ChromeOS Terminal**
+In the terminal:
+1. Use the keyboard shortcut <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> to open up settings.
+2. Scroll down to "Custom CSS (Inline Text)".
+3. Copy & paste the following:
+
+```
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-font-feature-settings: "liga" on, "calt" on;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: 'JetBrains Mono';
+}
 ```
 
 ## Source files
