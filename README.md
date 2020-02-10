@@ -13,7 +13,16 @@ The most recent version of JetBrains Mono ships with your JetBrains IDE starting
 Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Editor` → `Font`, and then select JetBrains Mono from the Font dropdown.
 
 ### Another IDE or an older version of a JetBrains IDE
-
+#### Through brew (MacOS only)
+1. Tap the font cask to make the Jetbrains Mono font available :
+    ```console
+    brew tap homebrew/cask-fonts
+    ```
+2. Install it using the `font-jetbrains-mono` cask:
+   ```console
+   brew cask install font-jetbrains-mono
+   ```
+#### Or manually
 1. [Download font](https://github.com/JetBrains/JetBrainsMono/releases/latest). 
 2. Unzip the archive and install the font:
    - Mac. Select all font files in the folder and double-click them. Click the *"Install Font"* button.
@@ -25,6 +34,8 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
       unzip "\*.zip" -d ${HOME}/.fonts
       sudo fc-cache -f -v
       ```
+
+#### Picking the font for your IDE
 3. Restart your IDE.
 4. Go to `Preferences/Settings` → `Editor` → `Font`, and pick JetBrains Mono from the Font dropdown.
 
