@@ -29,7 +29,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
    - Windows. Select all font files in the folder, right-click any of them, then pick *"Install"* from the menu.
    - Ubuntu. Open a terminal with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> and run the following:
    
-      ```
+      ```bash
       cd <name_of_our_archive.zip>
       unzip "\*.zip" -d ${HOME}/.fonts
       sudo fc-cache -f -v
@@ -52,7 +52,7 @@ Visual Studio Code allows you to also edit the underlying settings.json config f
 
 Then paste the following lines and save the file.
 
-```
+```json
 "editor.fontFamily": "JetBrains Mono",
 "editor.fontLigatures": true,
 ```
@@ -63,7 +63,7 @@ In the terminal:
 2. Scroll down to "Custom CSS (Inline Text)".
 3. Copy & paste the following:
 
-```
+```css
 @font-face{
     font-family: 'JetBrains Mono';
     src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'),
