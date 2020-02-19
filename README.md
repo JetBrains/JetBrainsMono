@@ -22,6 +22,14 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
    ```console
    brew cask install font-jetbrains-mono
    ```
+   
+#### Through Chocolatey (Windows only)
+1. Install Chocolatey if you haven't done already. See [this page](https://chocolatey.org/install) for instructions on how to do that.
+2. In an elevated cmd console (Run as administrator...) :
+    ```console
+    choco install jetbrainsmono
+    ```
+
 #### Or manually
 1. [Download font](https://github.com/JetBrains/JetBrainsMono/releases/latest). 
 2. Unzip the archive and install the font:
