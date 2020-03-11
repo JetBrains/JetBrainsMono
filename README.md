@@ -46,7 +46,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 3. Restart your IDE.
 4. Go to `Preferences/Settings` → `Editor` → `Font`, and pick JetBrains Mono from the Font dropdown.
 
-### **Visual Studio Code**
+### **Visual Studio Code** 
 
 * Follow the instructions above to step 3.
 * Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut <kbd>Ctrl</kbd>+, (<kbd>Cmd</kbd>+, on Mac).
