@@ -35,11 +35,10 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 2. Unzip the archive and install the font:
    - Mac. Select all font files in the folder and double-click them. Click the *"Install Font"* button.
    - Windows. Select all font files in the folder, right-click any of them, then pick *"Install"* from the menu.
-   - Linux. Open a terminal with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> and run the following:
+   - Linux. Open a terminal and run the following:
    
       ```bash
-      unzip <font_file.zip> -d ~/.local/share/fonts
-      fc-cache -f -v
+      unzip <font_file.zip> -d ~/.local/share/fonts && fc-cache -fv
       ```
 
 #### Picking the font for your IDE
