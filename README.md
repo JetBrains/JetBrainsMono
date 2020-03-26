@@ -15,10 +15,12 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 ### Another IDE or an older version of a JetBrains IDE
 #### Through brew (MacOS only)
 1. Tap the font cask to make the Jetbrains Mono font available :
+
     ```console
     brew tap homebrew/cask-fonts
     ```
 2. Install it using the `font-jetbrains-mono` cask:
+
    ```console
    brew cask install font-jetbrains-mono
    ```
@@ -26,6 +28,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 #### Through Chocolatey (Windows only)
 1. Install Chocolatey if you haven't done already. See [this page](https://chocolatey.org/install) for instructions on how to do that.
 2. In an elevated cmd console (Run as administrator...) :
+
     ```console
     choco install jetbrainsmono
     ```
