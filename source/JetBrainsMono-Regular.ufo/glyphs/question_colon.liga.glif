@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="question_colon.liga" format="2">
-  <advance width="600" height="985"/>
-  <outline>
-    <component base="question" xOffset="-498"/>
-    <component base="colon" xOffset="-50"/>
-  </outline>
-</glyph>

@@ -109,8 +109,8 @@ Konstantin Bulenkov
 
 **Thanks to**\
 Nikita Prokopov\
-Tatiana Tulupenko\
 Eugene Auduchinok\
+Tatiana Tulupenko\
 Dmitrij Batrak\
 IntelliJ Platform UX Team\
 Web Team

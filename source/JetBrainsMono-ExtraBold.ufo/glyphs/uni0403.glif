@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0403" format="2">
-  <advance width="600" height="985"/>
-  <unicode hex="0403"/>
-  <outline>
-    <component base="uni0413"/>
-    <component base="acute.case"/>
-  </outline>
-</glyph>

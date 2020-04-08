@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="question_period.liga" format="2">
-  <advance width="600" height="985"/>
-  <outline>
-    <component base="period" xOffset="-80"/>
-    <component base="question" xOffset="-490"/>
-  </outline>
-</glyph>

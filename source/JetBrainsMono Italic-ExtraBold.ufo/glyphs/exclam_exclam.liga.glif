@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="exclam_exclam.liga" format="2">
-  <advance width="600" height="985"/>
-  <outline>
-    <component base="exclam" xOffset="-540"/>
-    <component base="exclam" xOffset="-60"/>
-  </outline>
-</glyph>
