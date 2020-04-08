@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_hyphen_less.liga" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-858.92" y="625" type="line"/>
+      <point x="-1136.65" y="330" type="line"/>
+      <point x="-951.376" y="35" type="line"/>
+      <point x="-854.376" y="35" type="line"/>
+      <point x="-1005.68" y="273" type="line" smooth="yes"/>
+      <point x="-1033.02" y="315"/>
+      <point x="-1046.12" y="327"/>
+      <point x="-1046.12" y="327" type="curve"/>
+      <point x="-1045.65" y="330" type="line"/>
+      <point x="-1045.65" y="330"/>
+      <point x="-1014.11" y="346"/>
+      <point x="-973.302" y="389" type="curve" smooth="yes"/>
+      <point x="-749.92" y="625" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1055.31" y="370" type="line"/>
+      <point x="260.688" y="370" type="line"/>
+      <point x="248.016" y="290" type="line"/>
+      <point x="-1067.98" y="290" type="line"/>
+    </contour>
+    <contour>
+      <point x="480.458" y="625" type="line"/>
+      <point x="202.73" y="330" type="line"/>
+      <point x="388.002" y="35" type="line"/>
+      <point x="485.002" y="35" type="line"/>
+      <point x="333.701" y="273" type="line" smooth="yes"/>
+      <point x="306.354" y="315"/>
+      <point x="293.255" y="327"/>
+      <point x="293.255" y="327" type="curve"/>
+      <point x="293.73" y="330" type="line"/>
+      <point x="293.73" y="330"/>
+      <point x="325.265" y="346"/>
+      <point x="366.076" y="389" type="curve" smooth="yes"/>
+      <point x="589.458" y="625" type="line"/>
+    </contour>
+  </outline>
+</glyph>

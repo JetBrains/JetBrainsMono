@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="v" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="298" y="75" type="line"/>
+      <point x="305" y="75" type="line"/>
+      <point x="455" y="550" type="line" name="at01"/>
+      <point x="553" y="550" type="line"/>
+      <point x="363" y="0" type="line" name="ab01"/>
+      <point x="236" y="0" type="line"/>
+      <point x="47" y="550" type="line" name="at02"/>
+      <point x="142" y="550" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="xhgt"/>
+    <ttc code="alignt" point="at02" zone="xhgt"/>
+    <ttc code="alignb" point="ab01" zone="base"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="550" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

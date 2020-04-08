@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="0074"/>
+  <outline>
+    <contour>
+      <point x="385" y="135" type="curve" smooth="yes" name="sv01"/>
+      <point x="525" y="135" type="line"/>
+      <point x="525" y="0" type="line" name="ab01"/>
+      <point x="370" y="0" type="line" smooth="yes"/>
+      <point x="252" y="0"/>
+      <point x="180" y="72"/>
+      <point x="180" y="190" type="curve" smooth="yes" name="dh01"/>
+      <point x="180" y="415" type="line" name="sv02"/>
+      <point x="35" y="415" type="line"/>
+      <point x="35" y="550" type="line" name="at02"/>
+      <point x="180" y="550" type="line" name="sh01"/>
+      <point x="180" y="720" type="line" name="at01"/>
+      <point x="330" y="720" type="line" name="sh02"/>
+      <point x="330" y="550" type="line" name="at03"/>
+      <point x="535" y="550" type="line"/>
+      <point x="535" y="415" type="line" name="sv03"/>
+      <point x="330" y="415" type="line" name="sv04"/>
+      <point x="330" y="190" type="line" smooth="yes" name="dh02"/>
+      <point x="330" y="156"/>
+      <point x="351" y="135"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="caps"/>
+    <ttc code="alignt" point="at02" zone="xhgt"/>
+    <ttc code="alignt" point="at03" zone="xhgt"/>
+    <ttc code="alignb" point="ab01" zone="base"/>
+    <ttc code="singlev" point1="ab01" point2="sv01" stem="Y"/>
+    <ttc code="singlev" point1="at02" point2="sv02" stem="Y"/>
+    <ttc code="singlev" point1="sv02" point2="sv03"/>
+    <ttc code="singlev" point1="sv03" point2="sv04"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" stem="X"/>
+    <ttc code="singleh" point1="dh01" point2="sh01"/>
+    <ttc code="singleh" point1="dh02" point2="sh02"/>
+    <ttc code="singleh" point1="dh02" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  </dict>
+  </lib>
+</glyph>

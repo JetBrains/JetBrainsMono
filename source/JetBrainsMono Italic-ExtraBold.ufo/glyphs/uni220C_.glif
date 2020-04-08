@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni220C" format="2">
+  <advance width="600"/>
+  <unicode hex="220C"/>
+  <outline>
+    <contour>
+      <point x="430.012" y="780" type="line"/>
+      <point x="523.406" y="780" type="line"/>
+      <point x="113.999" y="-60" type="line"/>
+      <point x="20.9348" y="-60" type="line"/>
+    </contour>
+    <contour>
+      <point x="79.544" y="660" type="line" name="dh01"/>
+      <point x="384.544" y="660" type="line" smooth="yes"/>
+      <point x="535.544" y="660"/>
+      <point x="615.763" y="573"/>
+      <point x="593.429" y="432" type="curve" smooth="yes" name="dv01"/>
+      <point x="570.619" y="288" type="line" smooth="yes" name="sv01"/>
+      <point x="548.126" y="146"/>
+      <point x="441.504" y="60"/>
+      <point x="289.504" y="60" type="curve" smooth="yes"/>
+      <point x="-15.496" y="60" type="line" name="dh04"/>
+      <point x="4.304" y="185" type="line" name="dh03"/>
+      <point x="309.304" y="185" type="line" smooth="yes"/>
+      <point x="371.304" y="185"/>
+      <point x="421.115" y="228"/>
+      <point x="430.936" y="290" type="curve" smooth="yes" name="sv03"/>
+      <point x="432.837" y="302" type="line"/>
+      <point x="22.8368" y="302" type="line" name="dv03"/>
+      <point x="41.0528" y="417" type="line" name="sv04"/>
+      <point x="451.053" y="417" type="line"/>
+      <point x="453.112" y="430" type="line" smooth="yes"/>
+      <point x="462.933" y="492"/>
+      <point x="426.744" y="535"/>
+      <point x="364.744" y="535" type="curve" smooth="yes"/>
+      <point x="59.744" y="535" type="line" name="dh02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,0</string>
+  </dict>
+  </lib>
+</glyph>

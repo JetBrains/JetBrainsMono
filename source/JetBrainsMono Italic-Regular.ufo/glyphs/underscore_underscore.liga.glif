@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore_underscore.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="-583.768" y="-25" type="line"/>
+      <point x="496.232" y="-25" type="line"/>
+      <point x="484.352" y="-100" type="line"/>
+      <point x="-595.648" y="-100" type="line"/>
+    </contour>
+  </outline>
+</glyph>

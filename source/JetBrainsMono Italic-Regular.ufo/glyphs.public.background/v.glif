@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="v" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="258" y="65" type="curve"/>
+      <point x="267" y="65" type="line"/>
+      <point x="267" y="65"/>
+      <point x="269" y="103"/>
+      <point x="299" y="161" type="curve" smooth="yes"/>
+      <point x="491" y="550" type="line"/>
+      <point x="585" y="550" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="201" y="0" type="line"/>
+      <point x="87" y="550" type="line"/>
+      <point x="174" y="550" type="line"/>
+      <point x="250" y="161" type="line" smooth="yes"/>
+      <point x="260" y="103"/>
+      <point x="258" y="65"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_numbersign.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="187" y="720" type="line"/>
+      <point x="257" y="720" type="line"/>
+      <point x="123" y="0" type="line"/>
+      <point x="53" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="417" y="720" type="line"/>
+      <point x="487" y="720" type="line"/>
+      <point x="353" y="0" type="line"/>
+      <point x="283" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-353" y="720" type="line"/>
+      <point x="-283" y="720" type="line"/>
+      <point x="-417" y="0" type="line"/>
+      <point x="-487" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-123" y="720" type="line"/>
+      <point x="-53" y="720" type="line"/>
+      <point x="-187" y="0" type="line"/>
+      <point x="-257" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-501" y="520" type="line"/>
+      <point x="535" y="520" type="line"/>
+      <point x="535" y="455" type="line"/>
+      <point x="-501" y="455" type="line"/>
+    </contour>
+    <contour>
+      <point x="-535" y="260" type="line"/>
+      <point x="500" y="260" type="line"/>
+      <point x="500" y="195" type="line"/>
+      <point x="-535" y="195" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-550" y="0"/>
+  <guideline angle="90" x="-516" y="0"/>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="195" width="65" />
+      <hstem pos="455" width="65" />
+      <hstem pos="720" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

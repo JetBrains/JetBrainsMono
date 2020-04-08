@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_bar_equal.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="-460" y="750" type="line"/>
+      <point x="-310" y="750" type="line"/>
+      <point x="-310" y="525" type="line"/>
+      <point x="371" y="525" type="line"/>
+      <point x="371" y="385" type="line"/>
+      <point x="-310" y="385" type="line"/>
+      <point x="-310" y="275" type="line"/>
+      <point x="371" y="275" type="line"/>
+      <point x="371" y="135" type="line"/>
+      <point x="-310" y="135" type="line"/>
+      <point x="-310" y="-85" type="line"/>
+      <point x="-460" y="-85" type="line"/>
+    </contour>
+    <contour>
+      <point x="-890" y="750" type="line"/>
+      <point x="-740" y="750" type="line"/>
+      <point x="-740" y="-85" type="line"/>
+      <point x="-890" y="-85" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-2271" y="0"/>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent.case" format="2">
+  <advance width="600" height="975"/>
+  <outline>
+    <contour>
+      <point x="280" y="916" type="curve" smooth="yes"/>
+      <point x="300" y="916" type="line" smooth="yes"/>
+      <point x="339" y="916"/>
+      <point x="365" y="891"/>
+      <point x="365" y="855" type="curve" smooth="yes"/>
+      <point x="365" y="819"/>
+      <point x="339" y="796"/>
+      <point x="300" y="796" type="curve" smooth="yes"/>
+      <point x="280" y="796" type="line" smooth="yes"/>
+      <point x="241" y="796"/>
+      <point x="215" y="818"/>
+      <point x="215" y="854.5" type="curve" smooth="yes"/>
+      <point x="215" y="891"/>
+      <point x="241" y="916"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="856" width="-21" />
+      <hstem pos="955" width="-20" />
+      <vstem pos="215" width="150" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

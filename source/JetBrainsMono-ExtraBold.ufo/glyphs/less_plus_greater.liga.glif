@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_plus_greater.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="-225" y="615" type="line"/>
+      <point x="-225" y="400" type="line"/>
+      <point x="-15" y="400" type="line"/>
+      <point x="-15" y="260" type="line"/>
+      <point x="-225" y="260" type="line"/>
+      <point x="-225" y="45" type="line"/>
+      <point x="-375" y="45" type="line"/>
+      <point x="-375" y="260" type="line"/>
+      <point x="-585" y="260" type="line"/>
+      <point x="-585" y="400" type="line"/>
+      <point x="-375" y="400" type="line"/>
+      <point x="-375" y="615" type="line"/>
+    </contour>
+    <contour>
+      <point x="427" y="322" type="curve"/>
+      <point x="427" y="332" type="line"/>
+      <point x="427" y="332"/>
+      <point x="374" y="335"/>
+      <point x="336" y="350" type="curve" smooth="yes"/>
+      <point x="60" y="462" type="line"/>
+      <point x="60" y="599" type="line"/>
+      <point x="520" y="401" type="line"/>
+      <point x="520" y="258" type="line"/>
+      <point x="60" y="59" type="line"/>
+      <point x="60" y="195" type="line"/>
+      <point x="336" y="307" type="line" smooth="yes"/>
+      <point x="375" y="323"/>
+      <point x="427" y="322"/>
+    </contour>
+    <contour>
+      <point x="-1027" y="337" type="curve"/>
+      <point x="-1027" y="327" type="line"/>
+      <point x="-1027" y="327"/>
+      <point x="-974" y="324"/>
+      <point x="-936" y="309" type="curve" smooth="yes"/>
+      <point x="-660" y="197" type="line"/>
+      <point x="-660" y="60" type="line"/>
+      <point x="-1120" y="258" type="line"/>
+      <point x="-1120" y="401" type="line"/>
+      <point x="-660" y="600" type="line"/>
+      <point x="-660" y="464" type="line"/>
+      <point x="-936" y="352" type="line" smooth="yes"/>
+      <point x="-975" y="336"/>
+      <point x="-1027" y="337"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-1200" y="0"/>
+</glyph>

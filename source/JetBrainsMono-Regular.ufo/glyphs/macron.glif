@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="170" y="745" type="line"/>
+      <point x="430" y="745" type="line"/>
+      <point x="430" y="670" type="line"/>
+      <point x="170" y="670" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="716" width="-21" />
+      <hstem pos="770" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

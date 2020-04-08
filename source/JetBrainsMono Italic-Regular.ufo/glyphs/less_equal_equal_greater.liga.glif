@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_equal_equal_greater.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="-1458.92" y="625" type="line"/>
+      <point x="-1736.65" y="330" type="line"/>
+      <point x="-1551.38" y="35" type="line"/>
+      <point x="-1454.38" y="35" type="line"/>
+      <point x="-1605.68" y="273" type="line" smooth="yes"/>
+      <point x="-1633.02" y="315"/>
+      <point x="-1646.12" y="327"/>
+      <point x="-1646.12" y="327" type="curve"/>
+      <point x="-1645.65" y="330" type="line"/>
+      <point x="-1645.65" y="330"/>
+      <point x="-1614.11" y="346"/>
+      <point x="-1573.3" y="389" type="curve" smooth="yes"/>
+      <point x="-1349.92" y="625" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1605.99" y="170" type="line"/>
+      <point x="354.008" y="170" type="line"/>
+      <point x="366.68" y="250" type="line"/>
+      <point x="-1593.32" y="250" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1567.98" y="410" type="line"/>
+      <point x="392.024" y="410" type="line"/>
+      <point x="404.696" y="490" type="line"/>
+      <point x="-1555.3" y="490" type="line"/>
+    </contour>
+    <contour>
+      <point x="253.08" y="625" type="line"/>
+      <point x="401.856" y="390" type="line" smooth="yes"/>
+      <point x="432.411" y="343"/>
+      <point x="442.669" y="332"/>
+      <point x="442.669" y="332" type="curve"/>
+      <point x="442.194" y="329" type="line"/>
+      <point x="442.194" y="329"/>
+      <point x="416.134" y="316"/>
+      <point x="375.482" y="274" type="curve" smooth="yes"/>
+      <point x="148.624" y="35" type="line"/>
+      <point x="257.624" y="35" type="line"/>
+      <point x="534.352" y="330" type="line"/>
+      <point x="350.08" y="625" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-1800" y="0"/>
+</glyph>

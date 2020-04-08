@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash_slash_slash.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="slash" xOffset="-1080"/>
+    <component base="slash" xOffset="-600"/>
+    <component base="slash" xOffset="-120"/>
+  </outline>
+</glyph>

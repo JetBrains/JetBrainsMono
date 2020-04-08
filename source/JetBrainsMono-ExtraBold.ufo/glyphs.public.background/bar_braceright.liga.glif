@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_braceright.liga" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-335" y="570" type="line"/>
+      <point x="-185" y="570" type="line"/>
+      <point x="-185" y="129" type="line"/>
+      <point x="-335" y="129" type="line"/>
+    </contour>
+    <contour>
+      <point x="-335" y="820" type="line"/>
+      <point x="79" y="820" type="line" smooth="yes"/>
+      <point x="188" y="820"/>
+      <point x="259" y="747"/>
+      <point x="259" y="635" type="curve" smooth="yes"/>
+      <point x="259" y="490" type="line" smooth="yes"/>
+      <point x="259" y="448"/>
+      <point x="287" y="420"/>
+      <point x="329" y="420" type="curve" smooth="yes"/>
+      <point x="444" y="420" type="line"/>
+      <point x="444" y="280" type="line"/>
+      <point x="329" y="280" type="line" smooth="yes"/>
+      <point x="287" y="280"/>
+      <point x="259" y="252"/>
+      <point x="259" y="210" type="curve" smooth="yes"/>
+      <point x="259" y="59" type="line" smooth="yes"/>
+      <point x="259" y="-51"/>
+      <point x="189" y="-121"/>
+      <point x="79" y="-121" type="curve" smooth="yes"/>
+      <point x="-334" y="-121" type="line"/>
+      <point x="-334" y="19" type="line"/>
+      <point x="49" y="19" type="line" smooth="yes"/>
+      <point x="87" y="19"/>
+      <point x="109" y="36"/>
+      <point x="109" y="79" type="curve" smooth="yes"/>
+      <point x="109" y="230" type="line" smooth="yes"/>
+      <point x="109" y="305"/>
+      <point x="167" y="343"/>
+      <point x="244" y="346" type="curve"/>
+      <point x="244" y="351" type="line"/>
+      <point x="166" y="354"/>
+      <point x="109" y="395"/>
+      <point x="109" y="470" type="curve" smooth="yes"/>
+      <point x="109" y="620" type="line" smooth="yes"/>
+      <point x="109" y="656"/>
+      <point x="85" y="680"/>
+      <point x="49" y="680" type="curve" smooth="yes"/>
+      <point x="-335" y="680" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-288" y="0"/>
+</glyph>

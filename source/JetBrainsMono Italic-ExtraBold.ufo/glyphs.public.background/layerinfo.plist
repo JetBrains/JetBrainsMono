@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>lib</key>
+  <dict>
+    <key>com.fontlab.layer.name</key>
+    <string>public.background</string>
+    <key>com.fontlab.layer.opacity</key>
+    <integer>1</integer>
+    <key>com.fontlab.layer.visible</key>
+    <true/>
+    <key>com.fontlab.layer.locked</key>
+    <false/>
+    <key>com.fontlab.layer.service</key>
+    <true/>
+    <key>com.fontlab.layer.wireframe</key>
+    <true/>
+  </dict>
+</dict>
+</plist>

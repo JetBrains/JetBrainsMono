@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="universal" format="2">
+  <advance width="600"/>
+  <unicode hex="2200"/>
+  <outline>
+    <contour>
+      <point x="348" y="0" type="line" name="at01"/>
+      <point x="148" y="0" type="line"/>
+      <point x="74.048" y="720" type="line" name="ab01"/>
+      <point x="226.048" y="720" type="line"/>
+      <point x="237.912" y="555" type="line" name="dv01"/>
+      <point x="438.912" y="555" type="line"/>
+      <point x="503.048" y="720" type="line" name="ab02"/>
+      <point x="654.048" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="393.379" y="438" type="line"/>
+      <point x="247.379" y="438" type="line" name="dv02"/>
+      <point x="264.838" y="201" type="line" smooth="yes"/>
+      <point x="267.502" y="161"/>
+      <point x="263.84" y="100"/>
+      <point x="263.84" y="100" type="curve"/>
+      <point x="269.84" y="100" type="line"/>
+      <point x="269.84" y="100"/>
+      <point x="286.502" y="161"/>
+      <point x="301.838" y="201" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="at01">
+      <hstem pos="21" width="-21" />
+      <hstem pos="438" width="117" />
+      <hstem pos="720" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

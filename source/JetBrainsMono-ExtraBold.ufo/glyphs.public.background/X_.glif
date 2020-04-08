@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="19" y="0" type="line"/>
+      <point x="216" y="372" type="line"/>
+      <point x="33" y="720" type="line"/>
+      <point x="196" y="720" type="line"/>
+      <point x="274" y="564" type="line" smooth="yes"/>
+      <point x="295" y="523"/>
+      <point x="299" y="502"/>
+      <point x="299" y="502" type="curve"/>
+      <point x="304" y="502" type="line"/>
+      <point x="304" y="502"/>
+      <point x="308" y="523"/>
+      <point x="327" y="561" type="curve" smooth="yes"/>
+      <point x="408" y="720" type="line"/>
+      <point x="567" y="720" type="line"/>
+      <point x="384" y="372" type="line"/>
+      <point x="580" y="0" type="line"/>
+      <point x="417" y="0" type="line"/>
+      <point x="327" y="178" type="line" smooth="yes"/>
+      <point x="306" y="220"/>
+      <point x="301" y="242"/>
+      <point x="301" y="242" type="curve"/>
+      <point x="296" y="242" type="line"/>
+      <point x="296" y="242"/>
+      <point x="291" y="220"/>
+      <point x="270" y="179" type="curve" smooth="yes"/>
+      <point x="179" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

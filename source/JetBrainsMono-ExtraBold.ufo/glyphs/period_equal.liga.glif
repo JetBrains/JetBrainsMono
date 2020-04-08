@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_equal.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="bullet" xOffset="-600" yOffset="-35"/>
+    <component base="equal"/>
+  </outline>
+</glyph>

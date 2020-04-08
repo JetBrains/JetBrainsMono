@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon_colon_colon.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="colon" xOffset="-1040"/>
+    <component base="colon" xOffset="-600"/>
+    <component base="colon" xOffset="-160"/>
+  </outline>
+</glyph>

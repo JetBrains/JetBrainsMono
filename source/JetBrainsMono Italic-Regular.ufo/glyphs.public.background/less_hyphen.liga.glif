@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_hyphen.liga" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-258.92" y="625" type="line"/>
+      <point x="-536.648" y="330" type="line"/>
+      <point x="-351.376" y="35" type="line"/>
+      <point x="-254.376" y="35" type="line"/>
+      <point x="-405.677" y="273" type="line" smooth="yes"/>
+      <point x="-433.024" y="315"/>
+      <point x="-446.123" y="327"/>
+      <point x="-446.123" y="327" type="curve"/>
+      <point x="-445.648" y="330" type="line"/>
+      <point x="-445.648" y="330"/>
+      <point x="-414.114" y="346"/>
+      <point x="-373.302" y="389" type="curve" smooth="yes"/>
+      <point x="-149.92" y="625" type="line"/>
+    </contour>
+    <contour>
+      <point x="-455.312" y="370" type="line"/>
+      <point x="500.688" y="370" type="line"/>
+      <point x="488.016" y="290" type="line"/>
+      <point x="-467.984" y="290" type="line"/>
+    </contour>
+  </outline>
+</glyph>

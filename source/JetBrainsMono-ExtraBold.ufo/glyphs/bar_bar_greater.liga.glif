@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_bar_greater.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="bar_greater.liga" xOffset="-60"/>
+    <contour>
+      <point x="-840" y="750" type="line"/>
+      <point x="-690" y="750" type="line"/>
+      <point x="-690" y="-85" type="line"/>
+      <point x="-840" y="-85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

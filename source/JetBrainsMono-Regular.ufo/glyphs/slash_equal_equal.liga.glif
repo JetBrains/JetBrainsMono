@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash_equal_equal.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="slash" xOffset="-1200"/>
+    <contour>
+      <point x="-940" y="250" type="line"/>
+      <point x="490" y="250" type="line"/>
+      <point x="490" y="170" type="line"/>
+      <point x="-940" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="-860" y="490" type="line"/>
+      <point x="490" y="490" type="line"/>
+      <point x="490" y="410" type="line"/>
+      <point x="-860" y="410" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-1906" y="0"/>
+  <guideline angle="90" x="-710" y="0"/>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-89" width="-21" />
+      <hstem pos="830" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

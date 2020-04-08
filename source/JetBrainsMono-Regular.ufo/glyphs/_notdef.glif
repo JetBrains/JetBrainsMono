@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name=".notdef" format="2">
+  <advance width="600" height="975"/>
+  <outline>
+    <contour>
+      <point x="90" y="0" type="line"/>
+      <point x="90" y="720" type="line"/>
+      <point x="510" y="720" type="line"/>
+      <point x="510" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="50" type="line"/>
+      <point x="460" y="50" type="line"/>
+      <point x="460" y="611" type="line"/>
+    </contour>
+    <contour>
+      <point x="440" y="670" type="line"/>
+      <point x="140" y="670" type="line"/>
+      <point x="140" y="109" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="0" width="50" />
+      <hstem pos="670" width="50" />
+      <vstem pos="90" width="50" />
+      <vstem pos="460" width="50" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

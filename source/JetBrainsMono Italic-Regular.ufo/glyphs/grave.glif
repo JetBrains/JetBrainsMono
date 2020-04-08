@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="249.344" y="785" type="line"/>
+      <point x="354.344" y="785" type="line"/>
+      <point x="442.168" y="645" type="line"/>
+      <point x="357.168" y="645" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

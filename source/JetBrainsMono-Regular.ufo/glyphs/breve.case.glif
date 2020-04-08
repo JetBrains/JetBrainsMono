@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve.case" format="2">
+  <advance width="600" height="975"/>
+  <outline>
+    <contour>
+      <point x="299" y="856" type="curve" smooth="yes"/>
+      <point x="356.6" y="856"/>
+      <point x="395" y="885.6"/>
+      <point x="395" y="930" type="curve" name="av01"/>
+      <point x="465" y="930" type="line"/>
+      <point x="465" y="849"/>
+      <point x="399" y="795"/>
+      <point x="300" y="795" type="curve" smooth="yes" name="av03"/>
+      <point x="201" y="795"/>
+      <point x="135" y="849"/>
+      <point x="135" y="930" type="curve" name="av02"/>
+      <point x="205" y="930" type="line"/>
+      <point x="205" y="885.6"/>
+      <point x="242.6" y="856"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="826" width="-21" />
+      <hstem pos="940" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni040F" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="040F"/>
+  <outline>
+    <contour>
+      <point x="255" y="0" type="line" name="ab01"/>
+      <point x="255" y="-125" type="line" name="sv03"/>
+      <point x="345" y="-125" type="line"/>
+      <point x="345" y="0" type="line" name="ab02"/>
+      <point x="510" y="0" type="line"/>
+      <point x="510" y="720" type="line" name="at01"/>
+      <point x="420" y="720" type="line" name="sh02"/>
+      <point x="420" y="82" type="line" name="sv01"/>
+      <point x="180" y="82" type="line" name="sv02"/>
+      <point x="180" y="720" type="line" name="at02"/>
+      <point x="90" y="720" type="line" name="sh01"/>
+      <point x="90" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="caps"/>
+    <ttc code="alignt" point="at02" zone="caps"/>
+    <ttc code="alignb" point="ab01" zone="base"/>
+    <ttc code="alignb" point="ab02" zone="base"/>
+    <ttc code="singlev" point1="ab02" point2="sv01" stem="Y"/>
+    <ttc code="singlev" point1="sv01" point2="sv02"/>
+    <ttc code="singlev" point1="sv02" point2="sv03" round="true"/>
+    <ttc code="alignh" point="lsb" align="round"/>
+    <ttc code="singleh" point1="sh01" point2="ab01" round="true"/>
+    <ttc code="mdeltah" point="ab01" delta="8" ppm1="21" ppm2="21"/>
+    <ttc code="mdeltah" point="ab01" delta="8" ppm1="15" ppm2="15"/>
+    <ttc code="mdeltah" point="ab01" delta="8" ppm1="9" ppm2="9"/>
+    <ttc code="singleh" point1="ab01" point2="ab02" round="true"/>
+    <ttc code="singleh" point1="ab01" point2="sh02" round="true"/>
+    <ttc code="mdeltah" point="sh02" delta="8" ppm1="21" ppm2="21"/>
+    <ttc code="mdeltah" point="sh02" delta="8" ppm1="15" ppm2="15"/>
+    <ttc code="mdeltah" point="sh02" delta="8" ppm1="9" ppm2="9"/>
+    <ttc code="singleh" point1="sh02" point2="at01" round="true"/>
+    <ttc code="singleh" point1="sh01" point2="at02" round="true"/>
+    <ttc code="singleh" point1="at01" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="ab01">
+      <hstem pos="-125" width="207" />
+      <hstem pos="0" width="82" />
+      <hstem pos="720" width="-20" />
+      <vstem3 stem3List="90,90,255,90,420,90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

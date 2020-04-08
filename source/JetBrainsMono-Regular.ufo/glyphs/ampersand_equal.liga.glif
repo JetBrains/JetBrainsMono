@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ampersand_equal.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="45" y="250" type="line"/>
+      <point x="520" y="250" type="line"/>
+      <point x="520" y="170" type="line"/>
+      <point x="45" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="-325" y="425" type="line"/>
+      <point x="-325" y="370" type="line"/>
+      <point x="-339" y="370" type="line" smooth="yes"/>
+      <point x="-393" y="370"/>
+      <point x="-425" y="337"/>
+      <point x="-425" y="280" type="curve" smooth="yes"/>
+      <point x="-425" y="155" type="line" smooth="yes"/>
+      <point x="-425" y="101"/>
+      <point x="-392" y="70"/>
+      <point x="-335" y="70" type="curve" smooth="yes"/>
+      <point x="-292" y="70"/>
+      <point x="-247" y="102"/>
+      <point x="-214" y="155" type="curve" smooth="yes"/>
+      <point x="-5" y="490" type="line"/>
+      <point x="520" y="490" type="line"/>
+      <point x="520" y="410" type="line"/>
+      <point x="37" y="410" type="line"/>
+      <point x="-135" y="132" type="line" smooth="yes"/>
+      <point x="-192" y="39"/>
+      <point x="-264" y="-10"/>
+      <point x="-340" y="-10" type="curve" smooth="yes"/>
+      <point x="-449" y="-10"/>
+      <point x="-515" y="52"/>
+      <point x="-515" y="155" type="curve" smooth="yes"/>
+      <point x="-515" y="280" type="line" smooth="yes"/>
+      <point x="-515" y="371"/>
+      <point x="-450" y="425"/>
+      <point x="-340" y="425" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-470" y="565" type="curve" smooth="yes"/>
+      <point x="-470" y="662"/>
+      <point x="-399" y="730"/>
+      <point x="-290" y="730" type="curve" smooth="yes"/>
+      <point x="-177" y="730"/>
+      <point x="-101" y="661"/>
+      <point x="-101" y="565" type="curve"/>
+      <point x="-191" y="565" type="line"/>
+      <point x="-191" y="614"/>
+      <point x="-231" y="652"/>
+      <point x="-290" y="652" type="curve" smooth="yes"/>
+      <point x="-344" y="652"/>
+      <point x="-380" y="614"/>
+      <point x="-380" y="565" type="curve" smooth="yes"/>
+      <point x="-380" y="539"/>
+      <point x="-370" y="509"/>
+      <point x="-346" y="476" type="curve" smooth="yes"/>
+      <point x="-4" y="0" type="line"/>
+      <point x="-103" y="0" type="line"/>
+      <point x="-416" y="432" type="line" smooth="yes"/>
+      <point x="-453" y="483"/>
+      <point x="-470" y="528"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="11" width="-21" />
+      <hstem pos="730" width="-20" />
+      <vstem pos="-515" width="90" />
+      <vstem pos="-470" width="90" />
+      <vstem pos="-191" width="90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

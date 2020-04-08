@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0259" format="2">
+  <advance width="600"/>
+  <unicode hex="0259"/>
+  <outline>
+    <contour>
+      <point x="406.104" y="310" type="line" name="dv01"/>
+      <point x="47.104" y="310" type="line"/>
+      <point x="31.264" y="210" type="line" smooth="yes" name="sh03"/>
+      <point x="10.5136" y="79"/>
+      <point x="97.416" y="-10"/>
+      <point x="246.416" y="-10" type="curve" smooth="yes" name="at01"/>
+      <point x="398.416" y="-10"/>
+      <point x="512.197" y="77"/>
+      <point x="533.106" y="209" type="curve" smooth="yes" name="sh01"/>
+      <point x="553.856" y="340" type="line" smooth="yes"/>
+      <point x="574.765" y="472"/>
+      <point x="487.704" y="560"/>
+      <point x="336.704" y="560" type="curve" smooth="yes" name="ab01"/>
+      <point x="214.704" y="560"/>
+      <point x="106.566" y="496"/>
+      <point x="66.36" y="400" type="curve" name="sv01"/>
+      <point x="213.36" y="400" type="line" name="sh04"/>
+      <point x="229.795" y="428"/>
+      <point x="269.488" y="445"/>
+      <point x="318.488" y="445" type="curve" smooth="yes" name="sv02"/>
+      <point x="385.488" y="445"/>
+      <point x="421.152" y="405"/>
+      <point x="410.856" y="340" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="391.848" y="220" type="line" name="dv02"/>
+      <point x="390.106" y="209" type="line" smooth="yes" name="sh02"/>
+      <point x="380.126" y="146"/>
+      <point x="331.632" y="105"/>
+      <point x="264.632" y="105" type="curve" smooth="yes" name="sv03"/>
+      <point x="197.632" y="105"/>
+      <point x="163.968" y="145"/>
+      <point x="174.264" y="210" type="curve" smooth="yes" name="ah01"/>
+      <point x="177.432" y="230" type="line" name="iv01"/>
+      <point x="165.848" y="220" type="line" name="ih01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  </dict>
+  </lib>
+</glyph>

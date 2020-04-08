@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <contour>
+      <point x="340" y="645" type="line"/>
+      <point x="259" y="645" type="line"/>
+      <point x="140" y="785" type="line"/>
+      <point x="222" y="785" type="line"/>
+      <point x="243" y="760.034" type="line" smooth="yes"/>
+      <point x="263.908" y="735.178"/>
+      <point x="295" y="695"/>
+      <point x="295" y="695" type="curve"/>
+      <point x="307" y="695" type="line"/>
+      <point x="307" y="695"/>
+      <point x="336.56" y="735.125"/>
+      <point x="357" y="760.334" type="curve" smooth="yes"/>
+      <point x="377" y="785" type="line"/>
+      <point x="460" y="785" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="671" width="-21" />
+      <hstem pos="795" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

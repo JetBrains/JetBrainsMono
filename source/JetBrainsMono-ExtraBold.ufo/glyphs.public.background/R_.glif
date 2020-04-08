@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="R" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="214" y="0" type="line"/>
+      <point x="65" y="0" type="line"/>
+      <point x="65" y="720" type="line"/>
+      <point x="305" y="720" type="line" smooth="yes"/>
+      <point x="461" y="720"/>
+      <point x="560" y="635"/>
+      <point x="560" y="500" type="curve" smooth="yes"/>
+      <point x="560" y="366"/>
+      <point x="460" y="280"/>
+      <point x="305" y="280" type="curve" smooth="yes"/>
+      <point x="214" y="280" type="line"/>
+    </contour>
+    <contour>
+      <point x="305" y="395" type="line" smooth="yes"/>
+      <point x="370" y="395"/>
+      <point x="410" y="433"/>
+      <point x="410" y="493" type="curve" smooth="yes"/>
+      <point x="410" y="555"/>
+      <point x="369" y="595"/>
+      <point x="305" y="595" type="curve" smooth="yes"/>
+      <point x="214" y="595" type="line"/>
+      <point x="214" y="395" type="line"/>
+    </contour>
+    <contour>
+      <point x="269" y="323" type="line"/>
+      <point x="423" y="323" type="line"/>
+      <point x="570" y="0" type="line"/>
+      <point x="410" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

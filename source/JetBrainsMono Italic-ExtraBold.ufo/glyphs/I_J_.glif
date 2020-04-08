@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="IJ" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="0132"/>
+  <outline>
+    <contour>
+      <point x="259.048" y="720" type="line"/>
+      <point x="145" y="0" type="line"/>
+      <point x="-5" y="0" type="line"/>
+      <point x="109.048" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="274.642" y="124" type="line" smooth="yes"/>
+      <point x="338.642" y="124"/>
+      <point x="380.027" y="158"/>
+      <point x="389.531" y="218" type="curve" smooth="yes"/>
+      <point x="446.872" y="580" type="line"/>
+      <point x="306.872" y="580" type="line"/>
+      <point x="329.048" y="720" type="line"/>
+      <point x="619.048" y="720" type="line"/>
+      <point x="539.531" y="218" type="line" smooth="yes"/>
+      <point x="516.88" y="75"/>
+      <point x="414.05" y="-6"/>
+      <point x="254.05" y="-6" type="curve" smooth="yes"/>
+      <point x="204.05" y="-6" type="line"/>
+      <point x="224.642" y="124" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

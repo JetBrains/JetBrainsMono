@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0157" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="0157"/>
+  <outline>
+    <component base="r"/>
+    <component base="commaaccent"/>
+  </outline>
+  <guideline angle="0" x="0" y="410"/>
+  <guideline angle="0" x="0" y="350"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

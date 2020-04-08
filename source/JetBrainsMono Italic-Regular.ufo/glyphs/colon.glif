@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="003A"/>
+  <outline>
+    <contour>
+      <point x="243.874" y="479" type="curve" smooth="yes"/>
+      <point x="251.318" y="526"/>
+      <point x="289.704" y="560"/>
+      <point x="338.704" y="560" type="curve" smooth="yes"/>
+      <point x="387.704" y="560"/>
+      <point x="415.318" y="526"/>
+      <point x="407.874" y="479" type="curve" smooth="yes"/>
+      <point x="400.112" y="430"/>
+      <point x="361.043" y="398"/>
+      <point x="313.043" y="398" type="curve" smooth="yes"/>
+      <point x="264.043" y="398"/>
+      <point x="236.27" y="431"/>
+    </contour>
+    <contour>
+      <point x="179.246" y="71" type="curve" smooth="yes"/>
+      <point x="186.691" y="118"/>
+      <point x="225.077" y="152"/>
+      <point x="274.077" y="152" type="curve" smooth="yes"/>
+      <point x="323.077" y="152"/>
+      <point x="350.691" y="118"/>
+      <point x="343.246" y="71" type="curve" smooth="yes"/>
+      <point x="335.485" y="22"/>
+      <point x="296.416" y="-10"/>
+      <point x="248.416" y="-10" type="curve" smooth="yes"/>
+      <point x="199.416" y="-10"/>
+      <point x="171.643" y="23"/>
+    </contour>
+  </outline>
+</glyph>

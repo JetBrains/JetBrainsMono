@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_underscore_parenleft.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="305" y="214" type="line" smooth="yes"/>
+      <point x="305" y="94"/>
+      <point x="373" y="4"/>
+      <point x="485" y="-23" type="curve"/>
+      <point x="485" y="-165" type="line"/>
+      <point x="273" y="-108"/>
+      <point x="155" y="21"/>
+      <point x="155" y="214" type="curve" smooth="yes"/>
+      <point x="155" y="455" type="line" smooth="yes"/>
+      <point x="155" y="645"/>
+      <point x="278" y="789"/>
+      <point x="485" y="845" type="curve"/>
+      <point x="485" y="695" type="line"/>
+      <point x="372" y="667"/>
+      <point x="305" y="578"/>
+      <point x="305" y="455" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-1083" y="270" type="line"/>
+      <point x="-1052" y="450" type="line"/>
+      <point x="-1146" y="450" type="line"/>
+      <point x="-1146" y="550" type="line"/>
+      <point x="-1035" y="550" type="line"/>
+      <point x="-1005" y="720" type="line"/>
+      <point x="-900" y="720" type="line"/>
+      <point x="-930" y="550" type="line"/>
+      <point x="-805" y="550" type="line"/>
+      <point x="-775" y="720" type="line"/>
+      <point x="-670" y="720" type="line"/>
+      <point x="-700" y="550" type="line"/>
+      <point x="-620" y="550" type="line"/>
+      <point x="-620" y="450" type="line"/>
+      <point x="-717" y="450" type="line"/>
+      <point x="-748" y="270" type="line"/>
+      <point x="-655" y="270" type="line"/>
+      <point x="-655" y="170" type="line"/>
+      <point x="-766" y="170" type="line"/>
+      <point x="-800" y="-25" type="line"/>
+      <point x="486" y="-25" type="line"/>
+      <point x="486" y="-165" type="line"/>
+      <point x="-929" y="-165" type="line"/>
+      <point x="-871" y="170" type="line"/>
+      <point x="-995" y="170" type="line"/>
+      <point x="-1025" y="0" type="line"/>
+      <point x="-1130" y="0" type="line"/>
+      <point x="-1100" y="170" type="line"/>
+      <point x="-1180" y="170" type="line"/>
+      <point x="-1180" y="270" type="line"/>
+    </contour>
+    <contour>
+      <point x="-853" y="270" type="line"/>
+      <point x="-822" y="450" type="line"/>
+      <point x="-947" y="450" type="line"/>
+      <point x="-978" y="270" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-1674" y="0"/>
+</glyph>

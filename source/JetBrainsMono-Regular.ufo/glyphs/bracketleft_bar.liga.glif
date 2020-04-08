@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft_bar.liga" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="bar_bracketright.liga" xScale="-1"/>
+  </outline>
+  <guideline angle="90" x="-600" y="0"/>
+</glyph>

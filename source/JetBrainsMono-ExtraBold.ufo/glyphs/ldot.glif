@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldot" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="0140"/>
+  <outline>
+    <component base="l" xOffset="-20"/>
+    <component base="periodcentered" xOffset="170"/>
+  </outline>
+  <guideline angle="0" x="0" y="730"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

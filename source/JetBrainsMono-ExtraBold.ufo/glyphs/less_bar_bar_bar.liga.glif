@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_bar_bar_bar.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="less_bar.liga" xOffset="-1050"/>
+    <contour>
+      <point x="15" y="750" type="line"/>
+      <point x="165" y="750" type="line"/>
+      <point x="165" y="-85" type="line"/>
+      <point x="15" y="-85" type="line"/>
+    </contour>
+    <contour>
+      <point x="-415" y="750" type="line"/>
+      <point x="-265" y="750" type="line"/>
+      <point x="-265" y="-85" type="line"/>
+      <point x="-415" y="-85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

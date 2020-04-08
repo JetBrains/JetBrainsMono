@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="02C6"/>
+  <outline>
+    <contour>
+      <point x="260" y="785" type="line"/>
+      <point x="341" y="785" type="line"/>
+      <point x="460" y="645" type="line"/>
+      <point x="378" y="645" type="line"/>
+      <point x="357" y="669.966" type="line" smooth="yes"/>
+      <point x="336.092" y="694.822"/>
+      <point x="306" y="735"/>
+      <point x="306" y="735" type="curve"/>
+      <point x="294" y="735" type="line"/>
+      <point x="294" y="735"/>
+      <point x="263.44" y="694.875"/>
+      <point x="243" y="669.666" type="curve" smooth="yes"/>
+      <point x="223" y="645" type="line"/>
+      <point x="140" y="645" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="671" width="-21" />
+      <hstem pos="795" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

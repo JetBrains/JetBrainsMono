@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="0066"/>
+  <outline>
+    <contour>
+      <point x="535" y="720" type="line" name="at01"/>
+      <point x="535" y="638" type="line" name="sv01"/>
+      <point x="374" y="638" type="line" smooth="yes"/>
+      <point x="333" y="638"/>
+      <point x="310" y="618"/>
+      <point x="310" y="580" type="curve" smooth="yes" name="sh01"/>
+      <point x="310" y="495" type="line" name="mv02"/>
+      <point x="535" y="495" type="line" name="dv02"/>
+      <point x="535" y="413" type="line" name="dv01"/>
+      <point x="310" y="413" type="line"/>
+      <point x="310" y="0" type="line" name="ab01"/>
+      <point x="220" y="0" type="line" name="dh01"/>
+      <point x="220" y="413" type="line" name="sv02"/>
+      <point x="60" y="413" type="line" name="mv01"/>
+      <point x="60" y="495" type="line" name="sv03"/>
+      <point x="220" y="495" type="line" name="sh02"/>
+      <point x="220" y="580" type="line" smooth="yes"/>
+      <point x="220" y="667"/>
+      <point x="278" y="720"/>
+      <point x="374" y="720" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="caps"/>
+    <ttc code="alignb" point="ab01" zone="base"/>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="Y"/>
+    <ttc code="singlev" point1="at01" point2="sv01" stem="Y"/>
+    <ttc code="mdeltav" point="dv02" delta="-8" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltav" point="dv01" delta="-7" ppm1="9" ppm2="9"/>
+    <ttc code="singlev" point1="dv01" point2="sv02"/>
+    <ttc code="singlev" point1="dv02" point2="sv03"/>
+    <ttc code="doubleh" point1="dh01" point2="ab01" round="true"/>
+    <ttc code="singleh" point1="ab01" point2="sh01"/>
+    <ttc code="singleh" point1="dh01" point2="sh02"/>
+    <ttc code="singleh" point1="ab01" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="at01">
+      <hstem pos="21" width="-21" />
+      <hstem pos="413" width="82" />
+      <hstem pos="638" width="82" />
+      <vstem pos="220" width="90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
