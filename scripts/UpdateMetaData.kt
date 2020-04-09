@@ -182,7 +182,7 @@ data class NameRecord(val nameID: Int,
                       val value: String);
 
 data class PANOSE(val bFamilyType: Int = 2,
-                  val bSerifStyle: Int = 1,
+                  val bSerifStyle: Int = 11,
                   val bWeight: Int,
                   val bProportion: Int = 9,
                   val bContrast: Int,
