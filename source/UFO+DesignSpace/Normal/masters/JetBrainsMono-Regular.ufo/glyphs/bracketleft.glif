@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="005B"/>
+  <outline>
+    <contour>
+      <point x="210" y="830" type="line" name="dh01"/>
+      <point x="455" y="830" type="line" name="dv04"/>
+      <point x="455" y="750" type="line" name="dv03"/>
+      <point x="300" y="750" type="line" name="dh02"/>
+      <point x="300" y="-30" type="line"/>
+      <point x="455" y="-30" type="line" name="dv02"/>
+      <point x="455" y="-110" type="line" name="dv01"/>
+      <point x="210" y="-110" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="doublev" point1="dv01" point2="dv02" stem="Y"/>
+    <ttc code="doublev" point1="dv03" point2="dv04" stem="Y"/>
+    <ttc code="doubleh" point1="dh01" point2="dh02" round="true"/>
+    <ttc code="singleh" point1="dh01" point2="dv04" round="true"/>
+    <ttc code="singleh" point1="dv04" point2="dv02"/>
+    <ttc code="singleh" point1="dh02" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="dh01">
+      <hstem pos="-110" width="80" />
+      <hstem pos="750" width="80" />
+      <vstem pos="210" width="90" />
+      <vstem pos="210" width="245" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

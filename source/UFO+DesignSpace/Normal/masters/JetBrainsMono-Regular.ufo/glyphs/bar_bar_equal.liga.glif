@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_bar_equal.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="-430" y="750" type="line"/>
+      <point x="-340" y="750" type="line"/>
+      <point x="-340" y="490" type="line"/>
+      <point x="370" y="490" type="line"/>
+      <point x="370" y="410" type="line"/>
+      <point x="-340" y="410" type="line"/>
+      <point x="-340" y="250" type="line"/>
+      <point x="370" y="250" type="line"/>
+      <point x="370" y="170" type="line"/>
+      <point x="-340" y="170" type="line"/>
+      <point x="-340" y="-85" type="line"/>
+      <point x="-430" y="-85" type="line"/>
+    </contour>
+    <contour>
+      <point x="-860" y="750" type="line"/>
+      <point x="-770" y="750" type="line"/>
+      <point x="-770" y="-85" type="line"/>
+      <point x="-860" y="-85" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-1200" y="0"/>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-64" width="-21" />
+      <hstem pos="750" width="-20" />
+      <vstem pos="-860" width="90" />
+      <vstem pos="-430" width="90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

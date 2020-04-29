@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1EBD" format="2">
+  <advance width="600"/>
+  <unicode hex="1EBD"/>
+  <outline>
+    <component base="e"/>
+    <component base="tilde"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="-10" width="115" />
+      <hstem pos="445" width="115" />
+      <vstem pos="48" width="143" />
+      <vstem pos="407" width="143" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

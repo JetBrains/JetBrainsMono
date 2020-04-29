@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_bracketleft.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="bracketleft"/>
+    <contour>
+      <point x="-206.32" y="200" type="line"/>
+      <point x="-275" y="0" type="line"/>
+      <point x="-345" y="0" type="line"/>
+      <point x="-276.32" y="200" type="line"/>
+      <point x="-436.32" y="200" type="line"/>
+      <point x="-505" y="0" type="line"/>
+      <point x="-575" y="0" type="line"/>
+      <point x="-506.32" y="200" type="line"/>
+      <point x="-591.32" y="200" type="line"/>
+      <point x="-581.024" y="265" type="line"/>
+      <point x="-484.024" y="265" type="line"/>
+      <point x="-417.928" y="455" type="line"/>
+      <point x="-516.928" y="455" type="line"/>
+      <point x="-506.632" y="520" type="line"/>
+      <point x="-395.632" y="520" type="line"/>
+      <point x="-326.952" y="720" type="line"/>
+      <point x="-256.952" y="720" type="line"/>
+      <point x="-325.632" y="520" type="line"/>
+      <point x="-165.632" y="520" type="line"/>
+      <point x="-96.952" y="720" type="line"/>
+      <point x="-26.952" y="720" type="line"/>
+      <point x="-95.632" y="520" type="line"/>
+      <point x="299.368" y="520" type="line"/>
+      <point x="289.072" y="455" type="line"/>
+      <point x="-117.928" y="455" type="line"/>
+      <point x="-184.024" y="265" type="line"/>
+      <point x="253.976" y="265" type="line"/>
+      <point x="243.68" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="-254.024" y="265" type="line"/>
+      <point x="-187.928" y="455" type="line"/>
+      <point x="-347.928" y="455" type="line"/>
+      <point x="-414.024" y="265" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-686" y="0"/>
+</glyph>

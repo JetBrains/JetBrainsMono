@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="0126"/>
+  <outline>
+    <component base="H"/>
+    <contour>
+      <point x="45" y="600" type="line"/>
+      <point x="555" y="600" type="line"/>
+      <point x="555" y="520" type="line"/>
+      <point x="45" y="520" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="21" width="-21" />
+      <hstem pos="334" width="82" />
+      <hstem pos="720" width="-20" />
+      <vstem pos="90" width="90" />
+      <vstem pos="420" width="90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon_greater.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="greater" xOffset="-100"/>
+    <component base="colon" xOffset="-600" yOffset="55"/>
+  </outline>
+  <guideline angle="90" x="-600" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,0</string>
+  </dict>
+  </lib>
+</glyph>

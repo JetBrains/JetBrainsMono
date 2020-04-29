@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notequal" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="2260"/>
+  <outline>
+    <component base="equal"/>
+    <contour>
+      <point x="410" y="665" type="line"/>
+      <point x="500" y="665" type="line"/>
+      <point x="190" y="0" type="line"/>
+      <point x="100" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="170" width="80" />
+      <hstem pos="410" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

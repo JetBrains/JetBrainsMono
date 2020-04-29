@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2237" format="2">
+  <advance width="600"/>
+  <unicode hex="2237"/>
+  <outline>
+    <contour>
+      <point x="77.9536" y="429" type="curve" smooth="yes" name="dh01.1"/>
+      <point x="85.5568" y="477"/>
+      <point x="124.784" y="510"/>
+      <point x="172.784" y="510" type="curve" smooth="yes" name="at01.1"/>
+      <point x="220.784" y="510"/>
+      <point x="249.557" y="477"/>
+      <point x="241.954" y="429" type="curve" smooth="yes" name="dh02.1"/>
+      <point x="234.35" y="381"/>
+      <point x="195.123" y="348"/>
+      <point x="147.123" y="348" type="curve" smooth="yes" name="sv01.1"/>
+      <point x="99.1232" y="348"/>
+      <point x="70.3504" y="381"/>
+    </contour>
+    <contour>
+      <point x="21.2464" y="71" type="curve" smooth="yes" name="sh01.1"/>
+      <point x="28.8496" y="119"/>
+      <point x="68.0768" y="152"/>
+      <point x="116.077" y="152" type="curve" smooth="yes" name="sv02.1"/>
+      <point x="164.077" y="152"/>
+      <point x="192.85" y="119"/>
+      <point x="185.246" y="71" type="curve" smooth="yes" name="sh02.1"/>
+      <point x="177.643" y="23"/>
+      <point x="138.416" y="-10"/>
+      <point x="90.416" y="-10" type="curve" smooth="yes" name="ab01.1"/>
+      <point x="42.416" y="-10"/>
+      <point x="13.6432" y="23"/>
+    </contour>
+    <contour>
+      <point x="413.954" y="429" type="curve" smooth="yes" name="dh01"/>
+      <point x="421.557" y="477"/>
+      <point x="460.784" y="510"/>
+      <point x="508.784" y="510" type="curve" smooth="yes" name="at01"/>
+      <point x="556.784" y="510"/>
+      <point x="585.557" y="477"/>
+      <point x="577.954" y="429" type="curve" smooth="yes" name="dh02"/>
+      <point x="570.35" y="381"/>
+      <point x="531.123" y="348"/>
+      <point x="483.123" y="348" type="curve" smooth="yes" name="sv01"/>
+      <point x="435.123" y="348"/>
+      <point x="406.35" y="381"/>
+    </contour>
+    <contour>
+      <point x="357.246" y="71" type="curve" smooth="yes" name="sh01"/>
+      <point x="364.85" y="119"/>
+      <point x="404.077" y="152"/>
+      <point x="452.077" y="152" type="curve" smooth="yes" name="sv02"/>
+      <point x="500.077" y="152"/>
+      <point x="528.85" y="119"/>
+      <point x="521.246" y="71" type="curve" smooth="yes" name="sh02"/>
+      <point x="513.643" y="23"/>
+      <point x="474.416" y="-10"/>
+      <point x="426.416" y="-10" type="curve" smooth="yes" name="ab01"/>
+      <point x="378.416" y="-10"/>
+      <point x="349.643" y="23"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="dh01.1">
+      <hstem pos="-10" width="162" />
+      <hstem pos="348" width="162" />
+      <vstem pos="117.9536" width="164" />
+      <vstem pos="453.9536" width="164" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

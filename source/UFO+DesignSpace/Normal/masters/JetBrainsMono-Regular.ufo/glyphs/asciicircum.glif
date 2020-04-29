@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciicircum" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="005E"/>
+  <outline>
+    <contour>
+      <point x="305" y="660" type="curve"/>
+      <point x="299" y="660" type="line"/>
+      <point x="299" y="660"/>
+      <point x="293" y="625"/>
+      <point x="278" y="590" type="curve" smooth="yes"/>
+      <point x="163" y="330" type="line" name="av01"/>
+      <point x="80" y="330" type="line"/>
+      <point x="259" y="720" type="line" name="at01"/>
+      <point x="343" y="720" type="line"/>
+      <point x="520" y="330" type="line" name="av02"/>
+      <point x="438" y="330" type="line"/>
+      <point x="325" y="590" type="line" smooth="yes"/>
+      <point x="310" y="625"/>
+      <point x="305" y="660"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignv" point="av01" align="round"/>
+    <ttc code="alignv" point="av02" align="round"/>
+    <ttc code="alignt" point="at01" zone="caps"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="351" width="-21" />
+      <hstem pos="720" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohungarumlaut" format="2">
+  <advance width="600"/>
+  <unicode hex="0150"/>
+  <outline>
+    <component base="O"/>
+    <component base="hungarumlaut.case"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="-10" width="80" />
+      <hstem pos="650" width="80" />
+      <vstem pos="80" width="90" />
+      <vstem pos="430" width="90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

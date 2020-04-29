@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_bracketright.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="-255" y="830" type="line"/>
+      <point x="-165" y="830" type="line"/>
+      <point x="-314" y="-110" type="line"/>
+      <point x="-404" y="-110" type="line"/>
+    </contour>
+    <contour>
+      <point x="395" y="830" type="line"/>
+      <point x="246" y="-110" type="line"/>
+      <point x="-139" y="-110" type="line"/>
+      <point x="-126" y="-30" type="line"/>
+      <point x="169" y="-30" type="line"/>
+      <point x="292" y="750" type="line"/>
+      <point x="-3" y="750" type="line"/>
+      <point x="10" y="830" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-600" y="0"/>
+</glyph>

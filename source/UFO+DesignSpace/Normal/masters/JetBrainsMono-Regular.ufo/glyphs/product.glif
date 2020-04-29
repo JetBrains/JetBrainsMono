@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="product" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="220F"/>
+  <outline>
+    <contour>
+      <point x="40" y="720" type="line" name="at01"/>
+      <point x="40" y="638" type="line"/>
+      <point x="100" y="638" type="line"/>
+      <point x="100" y="-170" type="line" name="ab01"/>
+      <point x="190" y="-170" type="line"/>
+      <point x="190" y="638" type="line" name="sv01"/>
+      <point x="410" y="638" type="line" name="ah01"/>
+      <point x="410" y="-170" type="line" name="ab02"/>
+      <point x="500" y="-170" type="line"/>
+      <point x="500" y="638" type="line"/>
+      <point x="560" y="638" type="line"/>
+      <point x="560" y="720" type="line" name="sh01"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,0</string>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="caps"/>
+    <ttc code="alignb" point="ab01" zone="base"/>
+    <ttc code="alignb" point="ab02" zone="base"/>
+    <ttc code="singlev" point1="at01" point2="sv01" stem="Y"/>
+    <ttc code="alignh" point="ah01" align="round"/>
+    <ttc code="singleh" point1="at01" point2="sv01" round="true"/>
+    <ttc code="singleh" point1="ah01" point2="sh01" round="true"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="at01">
+      <hstem pos="21" width="-21" />
+      <hstem pos="638" width="82" />
+      <vstem pos="90" width="90" />
+      <vstem pos="420" width="90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

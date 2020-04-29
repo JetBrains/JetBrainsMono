@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_question.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="period" xOffset="-600"/>
+    <component base="question" xOffset="-100"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,0</string>
+  </dict>
+  </lib>
+</glyph>

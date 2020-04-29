@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="odieresis" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="00F6"/>
+  <outline>
+    <component base="o"/>
+    <component base="dieresis"/>
+  </outline>
+  <guideline angle="0" x="0" y="245"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,0</string>
+  </dict>
+  </lib>
+</glyph>

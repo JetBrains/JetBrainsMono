@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="W" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="0057"/>
+  <outline>
+    <contour>
+      <point x="78" y="0" type="line"/>
+      <point x="235" y="0" type="line" name="ab02"/>
+      <point x="289" y="475" type="line" smooth="yes"/>
+      <point x="294" y="522"/>
+      <point x="294" y="630"/>
+      <point x="294" y="630" type="curve"/>
+      <point x="308" y="630" type="line"/>
+      <point x="308" y="630"/>
+      <point x="307" y="522"/>
+      <point x="312" y="475" type="curve" smooth="yes"/>
+      <point x="361" y="0" type="line"/>
+      <point x="517" y="0" type="line" name="ab01"/>
+      <point x="590" y="720" type="line"/>
+      <point x="466" y="720" type="line" name="at02"/>
+      <point x="432" y="242" type="line" smooth="yes"/>
+      <point x="429" y="202"/>
+      <point x="431" y="100"/>
+      <point x="431" y="100" type="curve"/>
+      <point x="418" y="100" type="line"/>
+      <point x="418" y="100"/>
+      <point x="414" y="202"/>
+      <point x="410" y="242" type="curve" smooth="yes"/>
+      <point x="358" y="720" type="line" name="at01"/>
+      <point x="244" y="720" type="line"/>
+      <point x="190" y="242" type="line" smooth="yes"/>
+      <point x="185" y="202"/>
+      <point x="184" y="100"/>
+      <point x="184" y="100" type="curve"/>
+      <point x="171" y="100" type="line"/>
+      <point x="171" y="100"/>
+      <point x="173" y="202"/>
+      <point x="170" y="242" type="curve" smooth="yes"/>
+      <point x="133" y="720" type="line"/>
+      <point x="10" y="720" type="line" name="at03"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="caps"/>
+    <ttc code="alignt" point="at02" zone="caps"/>
+    <ttc code="alignt" point="at03" zone="caps"/>
+    <ttc code="alignb" point="ab01" zone="base"/>
+    <ttc code="alignb" point="ab02" zone="base"/>
+  </ttProgram>
+  </data>
+  </dict>
+  </lib>
+</glyph>

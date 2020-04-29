@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_colon.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="colon" yOffset="55"/>
+    <component base="greater" xOffset="-460"/>
+  </outline>
+  <guideline angle="90" x="-1094" y="0"/>
+</glyph>

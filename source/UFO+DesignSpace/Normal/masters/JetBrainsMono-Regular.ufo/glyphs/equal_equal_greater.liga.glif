@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal_equal_greater.liga" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-1100" y="490" type="line"/>
+      <point x="310" y="490" type="line"/>
+      <point x="203" y="625" type="line"/>
+      <point x="309" y="625" type="line"/>
+      <point x="540" y="330" type="line"/>
+      <point x="308" y="35" type="line"/>
+      <point x="203" y="35" type="line"/>
+      <point x="310" y="170" type="line"/>
+      <point x="-1100" y="170" type="line"/>
+      <point x="-1100" y="250" type="line"/>
+      <point x="374" y="250" type="line"/>
+      <point x="393" y="274" type="line" smooth="yes"/>
+      <point x="427" y="316"/>
+      <point x="446" y="328"/>
+      <point x="446" y="328" type="curve"/>
+      <point x="446" y="331" type="line"/>
+      <point x="446" y="331"/>
+      <point x="427" y="343"/>
+      <point x="389" y="390" type="curve"/>
+      <point x="373" y="410" type="line"/>
+      <point x="-1100" y="410" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="35" width="215" />
+      <hstem pos="170" width="80" />
+      <hstem pos="410" width="80" />
+      <hstem pos="410" width="215" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflextilde.case" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="225.232" y="980" type="line"/>
+      <point x="229.192" y="1005" type="line" smooth="yes"/>
+      <point x="240.122" y="1074"/>
+      <point x="291.408" y="1120"/>
+      <point x="357.408" y="1120" type="curve" smooth="yes"/>
+      <point x="442.408" y="1120"/>
+      <point x="443.062" y="1061"/>
+      <point x="483.062" y="1061" type="curve" smooth="yes"/>
+      <point x="501.062" y="1061"/>
+      <point x="514.805" y="1072"/>
+      <point x="517.498" y="1089" type="curve" smooth="yes"/>
+      <point x="521.458" y="1114" type="line"/>
+      <point x="606.458" y="1114" type="line"/>
+      <point x="602.814" y="1091" type="line" smooth="yes"/>
+      <point x="591.885" y="1022"/>
+      <point x="540.598" y="976"/>
+      <point x="474.598" y="976" type="curve" smooth="yes"/>
+      <point x="389.598" y="976"/>
+      <point x="388.944" y="1035"/>
+      <point x="348.944" y="1035" type="curve" smooth="yes"/>
+      <point x="330.853" y="1035"/>
+      <point x="316.869" y="1021.9"/>
+      <point x="313.717" y="1002" type="curve" smooth="yes"/>
+      <point x="310.232" y="980" type="line"/>
+    </contour>
+    <contour>
+      <point x="328.104" y="935" type="line"/>
+      <point x="468.104" y="935" type="line"/>
+      <point x="571.72" y="800" type="line"/>
+      <point x="448.72" y="800" type="line"/>
+      <point x="390.016" y="865" type="line"/>
+      <point x="381.016" y="865" type="line"/>
+      <point x="305.72" y="800" type="line"/>
+      <point x="181.72" y="800" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

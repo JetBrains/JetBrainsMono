@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="004C"/>
+  <outline>
+    <contour>
+      <point x="95" y="0" type="line" name="dh01"/>
+      <point x="540" y="0" type="line" name="ab01"/>
+      <point x="540" y="140" type="line"/>
+      <point x="245" y="140" type="line" name="sv01"/>
+      <point x="245" y="720" type="line" name="at01"/>
+      <point x="95" y="720" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="caps"/>
+    <ttc code="alignb" point="ab01" zone="base"/>
+    <ttc code="singlev" point1="ab01" point2="sv01" stem="Y"/>
+    <ttc code="doubleh" point1="dh01" point2="sv01" stem="X"/>
+    <ttc code="singleh" point1="sv01" point2="rsb" round="true"/>
+  </ttProgram>
+  </data>
+  </dict>
+  </lib>
+</glyph>

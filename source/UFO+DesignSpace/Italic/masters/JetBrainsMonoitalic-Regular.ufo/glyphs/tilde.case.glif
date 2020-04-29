@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde.case" format="2">
+  <advance width="600" height="975"/>
+  <outline>
+    <contour>
+      <point x="471.814" y="850" type="curve" smooth="yes"/>
+      <point x="426.814" y="850"/>
+      <point x="427.902" y="920"/>
+      <point x="347.902" y="920" type="curve" smooth="yes"/>
+      <point x="293.902" y="920"/>
+      <point x="252.358" y="885"/>
+      <point x="242.854" y="825" type="curve" smooth="yes"/>
+      <point x="238.102" y="795" type="line"/>
+      <point x="303.102" y="795" type="line"/>
+      <point x="307.854" y="825" type="line" smooth="yes"/>
+      <point x="311.655" y="849"/>
+      <point x="325.398" y="860"/>
+      <point x="343.398" y="860" type="curve" smooth="yes"/>
+      <point x="388.398" y="860"/>
+      <point x="387.31" y="790"/>
+      <point x="467.31" y="790" type="curve" smooth="yes"/>
+      <point x="521.31" y="790"/>
+      <point x="562.854" y="825"/>
+      <point x="572.358" y="885" type="curve" smooth="yes"/>
+      <point x="577.11" y="915" type="line"/>
+      <point x="512.11" y="915" type="line"/>
+      <point x="507.358" y="885" type="line" smooth="yes"/>
+      <point x="503.556" y="861"/>
+      <point x="489.814" y="850"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

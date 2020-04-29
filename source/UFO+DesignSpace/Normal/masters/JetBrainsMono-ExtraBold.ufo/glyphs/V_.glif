@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="0056"/>
+  <outline>
+    <contour>
+      <point x="198" y="0" type="line"/>
+      <point x="398" y="0" type="line" name="ab01"/>
+      <point x="590" y="720" type="line"/>
+      <point x="439" y="720" type="line" name="at01"/>
+      <point x="320" y="201" type="line" smooth="yes"/>
+      <point x="311" y="161"/>
+      <point x="304" y="100"/>
+      <point x="304" y="100" type="curve"/>
+      <point x="298" y="100" type="line"/>
+      <point x="298" y="100"/>
+      <point x="292" y="161"/>
+      <point x="283" y="201" type="curve" smooth="yes"/>
+      <point x="162" y="720" type="line"/>
+      <point x="10" y="720" type="line" name="at02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="caps"/>
+    <ttc code="alignt" point="at02" zone="caps"/>
+    <ttc code="alignb" point="ab01" zone="base"/>
+  </ttProgram>
+  </data>
+  </dict>
+  </lib>
+</glyph>

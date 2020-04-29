@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_colon.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="numbersign" xOffset="-600"/>
+    <contour>
+      <point x="220.528" y="496" type="curve" smooth="yes"/>
+      <point x="230.666" y="560"/>
+      <point x="279.318" y="602"/>
+      <point x="342.318" y="602" type="curve" smooth="yes"/>
+      <point x="406.318" y="602"/>
+      <point x="440.666" y="560"/>
+      <point x="430.528" y="496" type="curve" smooth="yes"/>
+      <point x="420.707" y="434"/>
+      <point x="373.054" y="392"/>
+      <point x="309.054" y="392" type="curve" smooth="yes"/>
+      <point x="246.054" y="392"/>
+      <point x="210.707" y="434"/>
+    </contour>
+    <contour>
+      <point x="176.968" y="221" type="curve" smooth="yes"/>
+      <point x="187.106" y="285"/>
+      <point x="235.758" y="327"/>
+      <point x="298.758" y="327" type="curve" smooth="yes"/>
+      <point x="362.758" y="327"/>
+      <point x="397.106" y="285"/>
+      <point x="386.968" y="221" type="curve" smooth="yes"/>
+      <point x="377.147" y="159"/>
+      <point x="329.494" y="117"/>
+      <point x="265.494" y="117" type="curve" smooth="yes"/>
+      <point x="202.494" y="117"/>
+      <point x="167.147" y="159"/>
+    </contour>
+  </outline>
+</glyph>

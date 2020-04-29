@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="question_equal.liga" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="question" xOffset="-560"/>
+    <contour>
+      <point x="-92" y="285" type="curve"/>
+      <point x="450" y="285" type="line"/>
+      <point x="450" y="205" type="line"/>
+      <point x="-140" y="205" type="line"/>
+      <point x="-140" y="241" type="line"/>
+      <point x="-114" y="254"/>
+      <point x="-98" y="269"/>
+    </contour>
+    <contour>
+      <point x="20" y="525" type="line"/>
+      <point x="450" y="525" type="line"/>
+      <point x="450" y="445" type="line"/>
+      <point x="20" y="445" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-5" width="120" />
+      <hstem pos="205" width="180" />
+      <hstem pos="310" width="75" />
+      <hstem pos="635" width="85" />
+      <vstem pos="-380" width="150" />
+      <vstem pos="-349" width="90" />
+      <vstem pos="-160" width="90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

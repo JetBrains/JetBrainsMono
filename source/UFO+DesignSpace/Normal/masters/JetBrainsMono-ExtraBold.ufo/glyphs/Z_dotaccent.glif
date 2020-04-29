@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zdotaccent" format="2">
+  <advance width="600"/>
+  <unicode hex="017B"/>
+  <outline>
+    <component base="Z"/>
+    <component base="dotaccent.case" xOffset="10"/>
+  </outline>
+  <guideline angle="0" x="0" y="672"/>
+  <guideline angle="0" x="0" y="32"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1ED3" format="2">
+  <advance width="600"/>
+  <unicode hex="1ED3"/>
+  <outline>
+    <component base="o"/>
+    <component base="circumflexgrave"/>
+  </outline>
+  <guideline angle="90" x="122" y="0"/>
+  <guideline angle="90" x="474" y="0"/>
+  <guideline angle="0" x="0" y="245"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="671" width="-21" />
+      <hstem pos="796" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

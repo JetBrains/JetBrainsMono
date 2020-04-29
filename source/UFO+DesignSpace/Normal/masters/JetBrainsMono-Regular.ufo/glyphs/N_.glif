@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="N" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="004E"/>
+  <outline>
+    <contour>
+      <point x="85" y="0" type="line" name="sh01"/>
+      <point x="171" y="0" type="line" name="ab02"/>
+      <point x="171" y="492" type="line" smooth="yes"/>
+      <point x="171" y="567"/>
+      <point x="164" y="621"/>
+      <point x="164" y="621" type="curve" name="sh03"/>
+      <point x="172" y="621" type="line" name="sh02"/>
+      <point x="172" y="621"/>
+      <point x="190" y="543"/>
+      <point x="213" y="484" type="curve" smooth="yes" name="mh02"/>
+      <point x="401" y="0" type="line"/>
+      <point x="515" y="0" type="line" name="ab01"/>
+      <point x="515" y="720" type="line" name="at01"/>
+      <point x="429" y="720" type="line"/>
+      <point x="429" y="230" type="line" smooth="yes" name="ah01"/>
+      <point x="429" y="160"/>
+      <point x="439" y="100"/>
+      <point x="438" y="100" type="curve" name="mh03"/>
+      <point x="430" y="100" type="line" name="sh04"/>
+      <point x="430" y="100"/>
+      <point x="409" y="189"/>
+      <point x="390" y="237" type="curve" smooth="yes" name="mh01"/>
+      <point x="199" y="720" type="line"/>
+      <point x="85" y="720" type="line" name="at02"/>
+    </contour>
+  </outline>
+</glyph>

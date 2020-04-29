@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevegrave.case" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="370.68" y="850" type="curve" smooth="yes"/>
+      <point x="431.988" y="850"/>
+      <point x="474.673" y="875.209"/>
+      <point x="481.61" y="919" type="curve"/>
+      <point x="551.61" y="919" type="line" name="av02.1"/>
+      <point x="539.254" y="841"/>
+      <point x="460.018" y="789"/>
+      <point x="361.018" y="789" type="curve" smooth="yes" name="av03"/>
+      <point x="262.018" y="789"/>
+      <point x="199.254" y="841"/>
+      <point x="211.61" y="919" type="curve"/>
+      <point x="281.61" y="919" type="line" name="av01.1"/>
+      <point x="274.717" y="875.489"/>
+      <point x="308.98" y="850"/>
+    </contour>
+    <contour>
+      <point x="253.984" y="1035" type="line" name="av01"/>
+      <point x="345.984" y="1035" type="line"/>
+      <point x="441.026" y="909" type="line" name="av02"/>
+      <point x="354.026" y="909" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

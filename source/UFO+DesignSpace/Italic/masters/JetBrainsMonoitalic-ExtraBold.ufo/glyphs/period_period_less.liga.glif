@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_period_less.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="period" xOffset="-1130"/>
+    <component base="period" xOffset="-690"/>
+    <component base="less" xOffset="-190"/>
+  </outline>
+</glyph>

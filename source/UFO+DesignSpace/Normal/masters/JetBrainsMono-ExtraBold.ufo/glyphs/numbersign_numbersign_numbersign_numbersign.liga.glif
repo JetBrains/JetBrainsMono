@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_numbersign_numbersign_numbersign.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="165" y="720" type="line"/>
+      <point x="270" y="720" type="line"/>
+      <point x="145" y="0" type="line"/>
+      <point x="40" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="395" y="720" type="line"/>
+      <point x="500" y="720" type="line"/>
+      <point x="375" y="0" type="line"/>
+      <point x="270" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1575" y="720" type="line"/>
+      <point x="-1470" y="720" type="line"/>
+      <point x="-1595" y="0" type="line"/>
+      <point x="-1700" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1345" y="720" type="line"/>
+      <point x="-1240" y="720" type="line"/>
+      <point x="-1365" y="0" type="line"/>
+      <point x="-1470" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1716" y="550" type="line"/>
+      <point x="550" y="550" type="line"/>
+      <point x="550" y="450" type="line"/>
+      <point x="-1716" y="450" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1750" y="270" type="line"/>
+      <point x="515" y="270" type="line"/>
+      <point x="515" y="170" type="line"/>
+      <point x="-1750" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="-415" y="720" type="line"/>
+      <point x="-310" y="720" type="line"/>
+      <point x="-435" y="0" type="line"/>
+      <point x="-540" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-185" y="720" type="line"/>
+      <point x="-80" y="720" type="line"/>
+      <point x="-205" y="0" type="line"/>
+      <point x="-310" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-995" y="720" type="line"/>
+      <point x="-890" y="720" type="line"/>
+      <point x="-1015" y="0" type="line"/>
+      <point x="-1120" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-765" y="720" type="line"/>
+      <point x="-660" y="720" type="line"/>
+      <point x="-785" y="0" type="line"/>
+      <point x="-890" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

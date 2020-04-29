@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash_slash_equal.liga" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="slash" xOffset="-654"/>
+    <component base="slash" xOffset="-1105"/>
+    <contour>
+      <point x="-410" y="250" type="line"/>
+      <point x="470" y="250" type="line"/>
+      <point x="470" y="170" type="line"/>
+      <point x="-410" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="-330" y="490" type="line"/>
+      <point x="470" y="490" type="line"/>
+      <point x="470" y="410" type="line"/>
+      <point x="-330" y="410" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-1200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-89" width="-21" />
+      <hstem pos="170" width="80" />
+      <hstem pos="410" width="80" />
+      <hstem pos="830" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen_hyphen.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="-500" y="290" type="line"/>
+      <point x="-45" y="290" type="line"/>
+      <point x="-45" y="370" type="line"/>
+      <point x="-500" y="370" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="290" type="line"/>
+      <point x="500" y="290" type="line"/>
+      <point x="500" y="370" type="line"/>
+      <point x="45" y="370" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="290" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

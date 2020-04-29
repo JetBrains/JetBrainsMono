@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlaut.case" format="2">
+  <advance width="600" height="975"/>
+  <outline>
+    <contour>
+      <point x="165" y="800" type="line" name="av02"/>
+      <point x="245" y="800" type="line"/>
+      <point x="360" y="935" type="line" name="av01"/>
+      <point x="270" y="935" type="line"/>
+    </contour>
+    <contour>
+      <point x="340" y="800" type="line" name="av02"/>
+      <point x="420" y="800" type="line"/>
+      <point x="535" y="935" type="line" name="av01"/>
+      <point x="445" y="935" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="av02">
+      <hstem pos="821" width="-21" />
+      <hstem pos="946" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

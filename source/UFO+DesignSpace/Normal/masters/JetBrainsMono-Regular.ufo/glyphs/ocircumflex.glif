@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ocircumflex" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="00F4"/>
+  <outline>
+    <component base="o"/>
+    <component base="circumflex"/>
+  </outline>
+  <guideline angle="90" x="122" y="0"/>
+  <guideline angle="90" x="474" y="0"/>
+  <guideline angle="0" x="0" y="245"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

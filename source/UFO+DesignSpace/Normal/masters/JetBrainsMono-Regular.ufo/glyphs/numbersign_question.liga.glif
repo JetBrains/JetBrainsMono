@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_question.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="275" y="115" type="curve" smooth="yes"/>
+      <point x="295" y="115" type="line" smooth="yes"/>
+      <point x="334" y="115"/>
+      <point x="360" y="90"/>
+      <point x="360" y="54" type="curve" smooth="yes"/>
+      <point x="360" y="18"/>
+      <point x="334" y="-5"/>
+      <point x="295" y="-5" type="curve" smooth="yes"/>
+      <point x="275" y="-5" type="line" smooth="yes"/>
+      <point x="236" y="-5"/>
+      <point x="210" y="17"/>
+      <point x="210" y="53.5" type="curve" smooth="yes"/>
+      <point x="210" y="90"/>
+      <point x="236" y="115"/>
+    </contour>
+    <contour>
+      <point x="130" y="515" type="curve" smooth="yes"/>
+      <point x="130" y="455" type="line"/>
+      <point x="40" y="455" type="line"/>
+      <point x="40" y="515" type="line" smooth="yes"/>
+      <point x="40" y="642"/>
+      <point x="128" y="720"/>
+      <point x="270" y="720" type="curve" smooth="yes"/>
+      <point x="290" y="720" type="line" smooth="yes"/>
+      <point x="432" y="720"/>
+      <point x="520" y="639"/>
+      <point x="520" y="510" type="curve" smooth="yes"/>
+      <point x="520" y="397"/>
+      <point x="443" y="313"/>
+      <point x="331" y="305" type="curve"/>
+      <point x="331" y="205" type="line"/>
+      <point x="241" y="205" type="line"/>
+      <point x="241" y="380" type="line"/>
+      <point x="291" y="380" type="line" smooth="yes"/>
+      <point x="376" y="380"/>
+      <point x="428" y="430"/>
+      <point x="428" y="510" type="curve" smooth="yes"/>
+      <point x="428" y="590"/>
+      <point x="375" y="640"/>
+      <point x="290" y="640" type="curve" smooth="yes"/>
+      <point x="270" y="640" type="line" smooth="yes"/>
+      <point x="184" y="640"/>
+      <point x="130" y="592"/>
+    </contour>
+    <contour>
+      <point x="-180" y="200" type="line"/>
+      <point x="-217" y="0" type="line"/>
+      <point x="-287" y="0" type="line"/>
+      <point x="-250" y="200" type="line"/>
+      <point x="-410" y="200" type="line"/>
+      <point x="-447" y="0" type="line"/>
+      <point x="-517" y="0" type="line"/>
+      <point x="-480" y="200" type="line"/>
+      <point x="-565" y="200" type="line"/>
+      <point x="-565" y="265" type="line"/>
+      <point x="-468" y="265" type="line"/>
+      <point x="-432" y="455" type="line"/>
+      <point x="-531" y="455" type="line"/>
+      <point x="-531" y="520" type="line"/>
+      <point x="-420" y="520" type="line"/>
+      <point x="-383" y="720" type="line"/>
+      <point x="-313" y="720" type="line"/>
+      <point x="-350" y="520" type="line"/>
+      <point x="-190" y="520" type="line"/>
+      <point x="-153" y="720" type="line"/>
+      <point x="-83" y="720" type="line"/>
+      <point x="-120" y="520" type="line"/>
+      <point x="121" y="520" type="line"/>
+      <point x="121" y="455" type="line"/>
+      <point x="-132" y="455" type="line"/>
+      <point x="-168" y="265" type="line"/>
+      <point x="-70" y="265" type="line"/>
+      <point x="-70" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="-238" y="265" type="line"/>
+      <point x="-202" y="455" type="line"/>
+      <point x="-362" y="455" type="line"/>
+      <point x="-398" y="265" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-5" width="120" />
+      <hstem pos="200" width="180" />
+      <hstem pos="305" width="75" />
+      <hstem pos="455" width="65" />
+      <hstem pos="640" width="80" />
+      <vstem pos="40" width="90" />
+      <vstem pos="210" width="150" />
+      <vstem pos="241" width="90" />
+      <vstem pos="428" width="92" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

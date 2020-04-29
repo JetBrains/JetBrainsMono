@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oacute" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="00F3"/>
+  <outline>
+    <component base="o"/>
+    <component base="acute" xOffset="35"/>
+  </outline>
+  <guideline angle="0" x="0" y="245"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

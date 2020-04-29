@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="W" format="2">
+  <advance width="600" height="975"/>
+  <unicode hex="0057"/>
+  <outline>
+    <contour>
+      <point x="408.048" y="720" type="line" name="at01"/>
+      <point x="390.73" y="194" type="line" smooth="yes"/>
+      <point x="388.384" y="135"/>
+      <point x="380.712" y="55"/>
+      <point x="380.712" y="55" type="curve" name="mh03"/>
+      <point x="394.712" y="55" type="line" name="mh04"/>
+      <point x="394.712" y="55"/>
+      <point x="412.226" y="134"/>
+      <point x="426.73" y="194" type="curve" smooth="yes"/>
+      <point x="556.048" y="720" type="line" name="at02"/>
+      <point x="638.048" y="720" type="line"/>
+      <point x="452" y="0" type="line" name="ab01"/>
+      <point x="324" y="0" type="line"/>
+      <point x="345.794" y="529" type="line" smooth="yes"/>
+      <point x="348.99" y="606"/>
+      <point x="360.861" y="662"/>
+      <point x="361.861" y="662" type="curve"/>
+      <point x="344.861" y="662" type="line"/>
+      <point x="344.861" y="662"/>
+      <point x="338.99" y="606"/>
+      <point x="317.794" y="529" type="curve" smooth="yes"/>
+      <point x="173" y="0" type="line" name="ab02"/>
+      <point x="45" y="0" type="line"/>
+      <point x="89.048" y="720" type="line" name="at03"/>
+      <point x="174.048" y="720" type="line"/>
+      <point x="137.73" y="194" type="line" smooth="yes"/>
+      <point x="133.226" y="134"/>
+      <point x="122.712" y="55"/>
+      <point x="122.712" y="55" type="curve" name="mh02"/>
+      <point x="135.712" y="55" type="line" name="mh01"/>
+      <point x="135.712" y="55"/>
+      <point x="151.226" y="134"/>
+      <point x="168.73" y="194" type="curve" smooth="yes"/>
+      <point x="320.048" y="720" type="line" name="mh05"/>
+    </contour>
+  </outline>
+</glyph>

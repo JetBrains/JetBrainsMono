@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexhookabove" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="507.592" y="755" type="line"/>
+      <point x="565.623" y="812.783" type="line" smooth="yes"/>
+      <point x="579.083" y="826.186"/>
+      <point x="584.03" y="833.521"/>
+      <point x="585.392" y="842.12" type="curve" smooth="yes"/>
+      <point x="587.379" y="854.665"/>
+      <point x="580.01" y="859"/>
+      <point x="561.066" y="859" type="curve" smooth="yes"/>
+      <point x="481.066" y="859" type="line"/>
+      <point x="494.53" y="944" type="line"/>
+      <point x="599.53" y="944" type="line" smooth="yes"/>
+      <point x="662.993" y="944"/>
+      <point x="699.153" y="910.058"/>
+      <point x="690.934" y="858.17" type="curve" smooth="yes"/>
+      <point x="687.361" y="835.614"/>
+      <point x="676.042" y="813.705"/>
+      <point x="658.944" y="796.533" type="curve" smooth="yes"/>
+      <point x="617.592" y="755" type="line"/>
+    </contour>
+    <contour>
+      <point x="304.344" y="785" type="line"/>
+      <point x="444.344" y="785" type="line"/>
+      <point x="557.168" y="645" type="line"/>
+      <point x="422.168" y="645" type="line"/>
+      <point x="366.256" y="715" type="line"/>
+      <point x="357.256" y="715" type="line"/>
+      <point x="283.168" y="645" type="line"/>
+      <point x="147.168" y="645" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

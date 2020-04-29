@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="napostrophe" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="0149"/>
+  <outline>
+    <component base="n"/>
+    <contour>
+      <point x="225" y="790" type="line"/>
+      <point x="121" y="645" type="line"/>
+      <point x="-4" y="645" type="line"/>
+      <point x="80" y="790" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

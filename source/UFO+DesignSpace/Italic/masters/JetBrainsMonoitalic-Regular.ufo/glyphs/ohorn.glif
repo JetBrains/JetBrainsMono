@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohorn" format="2">
+  <advance width="600"/>
+  <unicode hex="01A1"/>
+  <outline>
+    <contour>
+      <point x="152.472" y="205" type="curve" smooth="yes" name="sh02"/>
+      <point x="174.648" y="345" type="line" smooth="yes"/>
+      <point x="187.954" y="429"/>
+      <point x="246.032" y="480"/>
+      <point x="326.032" y="480" type="curve" smooth="yes" name="sv01"/>
+      <point x="406.032" y="480"/>
+      <point x="447.954" y="429"/>
+      <point x="434.648" y="345" type="curve" smooth="yes" name="ah01"/>
+      <point x="412.472" y="205" type="line" smooth="yes" name="mv01"/>
+      <point x="399.166" y="121"/>
+      <point x="341.088" y="70"/>
+      <point x="261.088" y="70" type="curve" smooth="yes" name="sv02"/>
+      <point x="180.088" y="70"/>
+      <point x="139.166" y="121"/>
+    </contour>
+    <contour>
+      <point x="62.472" y="205" type="line" smooth="yes" name="sh01"/>
+      <point x="41.5632" y="73"/>
+      <point x="113.416" y="-10"/>
+      <point x="248.416" y="-10" type="curve" smooth="yes" name="ab01"/>
+      <point x="385.416" y="-10"/>
+      <point x="481.405" y="72"/>
+      <point x="502.472" y="205" type="curve" smooth="yes"/>
+      <point x="524.806" y="346" type="line" smooth="yes" name="sh03"/>
+      <point x="545.874" y="479"/>
+      <point x="474.704" y="560"/>
+      <point x="338.704" y="560" type="curve" smooth="yes" name="at01"/>
+      <point x="203.704" y="560"/>
+      <point x="105.557" y="477"/>
+      <point x="84.648" y="345" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="530.044" y="660" type="line"/>
+      <point x="515.63" y="569" type="line" smooth="yes"/>
+      <point x="511.27" y="541.48"/>
+      <point x="491.174" y="524"/>
+      <point x="463.502" y="524" type="curve" smooth="yes"/>
+      <point x="427.869" y="524" type="line"/>
+      <point x="417.573" y="459" type="line"/>
+      <point x="458.777" y="459" type="line" smooth="yes"/>
+      <point x="527.434" y="459"/>
+      <point x="579.858" y="501"/>
+      <point x="589.838" y="564" type="curve" smooth="yes"/>
+      <point x="605.044" y="660" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="sh02">
+      <hstem pos="-10" width="80" />
+      <hstem pos="480" width="80" />
+      <vstem pos="80" width="90" />
+      <vstem pos="430" width="90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

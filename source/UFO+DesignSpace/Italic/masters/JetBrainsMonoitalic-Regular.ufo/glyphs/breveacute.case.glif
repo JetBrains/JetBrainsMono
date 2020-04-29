@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breveacute.case" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="380.68" y="850" type="curve" smooth="yes"/>
+      <point x="442.38" y="850"/>
+      <point x="484.717" y="875.489"/>
+      <point x="491.61" y="919" type="curve" name="av01.1"/>
+      <point x="561.61" y="919" type="line"/>
+      <point x="549.254" y="841"/>
+      <point x="470.018" y="789"/>
+      <point x="371.018" y="789" type="curve" smooth="yes" name="av03"/>
+      <point x="272.018" y="789"/>
+      <point x="209.254" y="841"/>
+      <point x="221.61" y="919" type="curve" name="av02.1"/>
+      <point x="291.61" y="919" type="line"/>
+      <point x="284.673" y="875.209"/>
+      <point x="319.372" y="850"/>
+    </contour>
+    <contour>
+      <point x="559.984" y="1035" type="line" name="av01"/>
+      <point x="420.026" y="909" type="line"/>
+      <point x="325.026" y="909" type="line" name="av02"/>
+      <point x="459.984" y="1035" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="796" width="-21" />
+      <hstem pos="910" width="-20" />
+      <hstem pos="916" width="-21" />
+      <hstem pos="1041" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

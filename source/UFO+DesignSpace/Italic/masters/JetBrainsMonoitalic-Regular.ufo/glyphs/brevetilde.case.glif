@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevetilde.case" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="379.997" y="852" type="curve" smooth="yes"/>
+      <point x="440.267" y="852"/>
+      <point x="480.204" y="878.563"/>
+      <point x="487.56" y="925" type="curve" name="av01.1"/>
+      <point x="552.56" y="925" type="line"/>
+      <point x="540.205" y="847"/>
+      <point x="467.968" y="795"/>
+      <point x="371.968" y="795" type="curve" smooth="yes" name="av03"/>
+      <point x="275.968" y="795"/>
+      <point x="220.205" y="847"/>
+      <point x="232.56" y="925" type="curve" name="av02.1"/>
+      <point x="297.56" y="925" type="line"/>
+      <point x="290.297" y="879.145"/>
+      <point x="320.951" y="852"/>
+    </contour>
+    <contour>
+      <point x="470.232" y="1005" type="curve" smooth="yes"/>
+      <point x="489.732" y="1005"/>
+      <point x="501.895" y="1015.5"/>
+      <point x="504.984" y="1035" type="curve" smooth="yes"/>
+      <point x="508.944" y="1060" type="line"/>
+      <point x="573.944" y="1060" type="line"/>
+      <point x="570.776" y="1040" type="line" smooth="yes"/>
+      <point x="562.412" y="987.2"/>
+      <point x="519.237" y="952"/>
+      <point x="462.837" y="952" type="curve" smooth="yes"/>
+      <point x="378.837" y="952"/>
+      <point x="386.816" y="1015"/>
+      <point x="341.816" y="1015" type="curve" smooth="yes"/>
+      <point x="322.316" y="1015"/>
+      <point x="310.153" y="1004.5"/>
+      <point x="307.064" y="985" type="curve" smooth="yes"/>
+      <point x="303.104" y="960" type="line"/>
+      <point x="238.104" y="960" type="line"/>
+      <point x="241.272" y="980" type="line" smooth="yes"/>
+      <point x="249.636" y="1032.8"/>
+      <point x="292.811" y="1068"/>
+      <point x="349.211" y="1068" type="curve" smooth="yes"/>
+      <point x="434.211" y="1068"/>
+      <point x="425.232" y="1005"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

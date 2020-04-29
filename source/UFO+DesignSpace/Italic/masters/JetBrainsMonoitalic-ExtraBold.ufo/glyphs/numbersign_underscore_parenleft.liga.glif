@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_underscore_parenleft.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="-948.952" y="720" type="line"/>
+      <point x="-841.952" y="720" type="line"/>
+      <point x="-898.88" y="550" type="line"/>
+      <point x="-775.88" y="550" type="line"/>
+      <point x="-718.952" y="720" type="line"/>
+      <point x="-611.952" y="720" type="line"/>
+      <point x="-668.88" y="550" type="line"/>
+      <point x="-589.88" y="550" type="line"/>
+      <point x="-605.72" y="450" type="line"/>
+      <point x="-701.72" y="450" type="line"/>
+      <point x="-761.232" y="270" type="line"/>
+      <point x="-669.232" y="270" type="line"/>
+      <point x="-685.072" y="170" type="line"/>
+      <point x="-794.072" y="170" type="line"/>
+      <point x="-860.594" y="-29" type="line"/>
+      <point x="178.406" y="-29" type="line"/>
+      <point x="133.544" y="35"/>
+      <point x="118.058" y="114"/>
+      <point x="135.947" y="208" type="curve" smooth="yes"/>
+      <point x="183.072" y="455" type="line" smooth="yes"/>
+      <point x="219.168" y="645"/>
+      <point x="364.978" y="789"/>
+      <point x="581.848" y="845" type="curve"/>
+      <point x="556.088" y="695" type="line"/>
+      <point x="437.653" y="667"/>
+      <point x="356.555" y="578"/>
+      <point x="333.072" y="455" type="curve" smooth="yes"/>
+      <point x="285.947" y="208" type="line" smooth="yes"/>
+      <point x="263.098" y="89"/>
+      <point x="316.683" y="-2"/>
+      <point x="425.406" y="-29" type="curve"/>
+      <point x="403.23" y="-169" type="line"/>
+      <point x="-1014.77" y="-169" type="line"/>
+      <point x="-901.072" y="170" type="line"/>
+      <point x="-1024.07" y="170" type="line"/>
+      <point x="-1081" y="0" type="line"/>
+      <point x="-1188" y="0" type="line"/>
+      <point x="-1131.07" y="170" type="line"/>
+      <point x="-1210.07" y="170" type="line"/>
+      <point x="-1194.23" y="270" type="line"/>
+      <point x="-1098.23" y="270" type="line"/>
+      <point x="-1038.72" y="450" type="line"/>
+      <point x="-1131.72" y="450" type="line"/>
+      <point x="-1115.88" y="550" type="line"/>
+      <point x="-1005.88" y="550" type="line"/>
+    </contour>
+    <contour>
+      <point x="-931.72" y="450" type="line"/>
+      <point x="-991.232" y="270" type="line"/>
+      <point x="-868.232" y="270" type="line"/>
+      <point x="-808.72" y="450" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-1200" y="0"/>
+</glyph>

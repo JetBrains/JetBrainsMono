@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_greater_equal.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="-904" y="328" type="curve"/>
+      <point x="-904" y="331" type="line"/>
+      <point x="-904" y="331"/>
+      <point x="-943" y="363"/>
+      <point x="-981" y="414" type="curve" smooth="yes"/>
+      <point x="-1137" y="625" type="line"/>
+      <point x="-960" y="625" type="line"/>
+      <point x="-740" y="330" type="line"/>
+      <point x="-961" y="35" type="line"/>
+      <point x="-1137" y="35" type="line"/>
+      <point x="-980" y="245" type="line" smooth="yes"/>
+      <point x="-943" y="295"/>
+      <point x="-904" y="328"/>
+    </contour>
+    <contour>
+      <point x="-534" y="328" type="curve"/>
+      <point x="-534" y="331" type="line"/>
+      <point x="-534" y="331"/>
+      <point x="-573" y="363"/>
+      <point x="-611" y="414" type="curve" smooth="yes"/>
+      <point x="-767" y="625" type="line"/>
+      <point x="-590" y="625" type="line"/>
+      <point x="-370" y="330" type="line"/>
+      <point x="-591" y="35" type="line"/>
+      <point x="-767" y="35" type="line"/>
+      <point x="-610" y="245" type="line" smooth="yes"/>
+      <point x="-573" y="295"/>
+      <point x="-534" y="328"/>
+    </contour>
+    <contour>
+      <point x="-560" y="385" type="line"/>
+      <point x="-560" y="525" type="line"/>
+      <point x="500" y="525" type="line"/>
+      <point x="500" y="385" type="line"/>
+    </contour>
+    <contour>
+      <point x="-560" y="275" type="line"/>
+      <point x="500" y="275" type="line"/>
+      <point x="500" y="135" type="line"/>
+      <point x="-560" y="135" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-2495" y="0"/>
+</glyph>

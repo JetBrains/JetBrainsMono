@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aeacute" format="2">
+  <advance width="600"/>
+  <unicode hex="01FD"/>
+  <outline>
+    <component base="ae"/>
+    <component base="acute" xOffset="35"/>
+  </outline>
+  <guideline angle="90" x="303" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="-10" width="77" />
+      <hstem pos="-10" width="135" />
+      <hstem pos="255" width="70" />
+      <hstem pos="425" width="135" />
+      <hstem pos="483" width="77" />
+      <vstem pos="35" width="90" />
+      <vstem pos="262" width="81" />
+      <vstem pos="480" width="85" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

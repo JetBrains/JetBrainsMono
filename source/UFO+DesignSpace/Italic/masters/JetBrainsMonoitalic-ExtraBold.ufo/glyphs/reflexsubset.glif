@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reflexsubset" format="2">
+  <advance width="600"/>
+  <unicode hex="2286"/>
+  <outline>
+    <component base="propersubset" yOffset="90"/>
+    <contour>
+      <point x="-23.0234" y="0" type="line"/>
+      <point x="512" y="0" type="line"/>
+      <point x="534.176" y="140" type="line"/>
+      <point x="-0.847438" y="140" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,0</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Itilde" format="2">
+  <advance width="600"/>
+  <unicode hex="0128"/>
+  <outline>
+    <component base="I"/>
+    <component base="tilde.case"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.801,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="0" width="79" />
+      <hstem pos="641" width="79" />
+      <vstem pos="254" width="92" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

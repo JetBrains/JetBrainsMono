@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1ED8" format="2">
+  <advance width="600"/>
+  <unicode hex="1ED8"/>
+  <outline>
+    <component base="uni1ECC"/>
+    <component base="circumflex.case"/>
+  </outline>
+  <guideline angle="0" x="0" y="286"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  </dict>
+  </lib>
+</glyph>

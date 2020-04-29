@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.case" format="2">
+  <advance width="600" height="975"/>
+  <outline>
+    <contour>
+      <point x="341" y="800" type="line"/>
+      <point x="259" y="800" type="line"/>
+      <point x="117" y="935" type="line"/>
+      <point x="211" y="935" type="line"/>
+      <point x="294" y="862" type="line"/>
+      <point x="304" y="862" type="line"/>
+      <point x="387" y="935" type="line"/>
+      <point x="483" y="935" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.805,1,0.6,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="821" width="-21" />
+      <hstem pos="945" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

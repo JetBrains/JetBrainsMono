@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1EB6" format="2">
+  <advance width="639"/>
+  <unicode hex="1EB6"/>
+  <outline>
+    <component base="A"/>
+    <component base="breve.case"/>
+    <component base="dotbelowcomb" xOffset="29.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_numbersign.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <contour>
+      <point x="165" y="720" type="line"/>
+      <point x="270" y="720" type="line"/>
+      <point x="145" y="0" type="line"/>
+      <point x="40" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="395" y="720" type="line"/>
+      <point x="500" y="720" type="line"/>
+      <point x="375" y="0" type="line"/>
+      <point x="270" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-516" y="550" type="line"/>
+      <point x="550" y="550" type="line"/>
+      <point x="550" y="450" type="line"/>
+      <point x="-516" y="450" type="line"/>
+    </contour>
+    <contour>
+      <point x="-550" y="270" type="line"/>
+      <point x="515" y="270" type="line"/>
+      <point x="515" y="170" type="line"/>
+      <point x="-550" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="-375" y="720" type="line"/>
+      <point x="-270" y="720" type="line"/>
+      <point x="-395" y="0" type="line"/>
+      <point x="-500" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-145" y="720" type="line"/>
+      <point x="-40" y="720" type="line"/>
+      <point x="-165" y="0" type="line"/>
+      <point x="-270" y="0" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-550" y="0"/>
+  <guideline angle="90" x="-516" y="0"/>
+</glyph>

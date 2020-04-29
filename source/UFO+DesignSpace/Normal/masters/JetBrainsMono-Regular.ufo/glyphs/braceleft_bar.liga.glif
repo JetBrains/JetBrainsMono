@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="braceleft_bar.liga" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="bar_braceright.liga" xScale="-1"/>
+  </outline>
+</glyph>

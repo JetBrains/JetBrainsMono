@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="0058"/>
+  <outline>
+    <contour>
+      <point x="20" y="0" type="line" name="ab01"/>
+      <point x="181" y="0" type="line"/>
+      <point x="271" y="179" type="line" smooth="yes"/>
+      <point x="292" y="220"/>
+      <point x="296" y="242"/>
+      <point x="296" y="242" type="curve"/>
+      <point x="301" y="242" type="line"/>
+      <point x="301" y="242"/>
+      <point x="305" y="220"/>
+      <point x="326" y="178" type="curve" smooth="yes"/>
+      <point x="415" y="0" type="line"/>
+      <point x="580" y="0" type="line" name="ab02"/>
+      <point x="384" y="372" type="line"/>
+      <point x="567" y="720" type="line"/>
+      <point x="406" y="720" type="line" name="at02"/>
+      <point x="326" y="561" type="line" smooth="yes"/>
+      <point x="307" y="523"/>
+      <point x="304" y="502"/>
+      <point x="304" y="502" type="curve"/>
+      <point x="299" y="502" type="line"/>
+      <point x="299" y="502"/>
+      <point x="295" y="523"/>
+      <point x="275" y="564" type="curve" smooth="yes"/>
+      <point x="198" y="720" type="line"/>
+      <point x="33" y="720" type="line" name="at01"/>
+      <point x="216" y="372" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="at01" zone="caps"/>
+    <ttc code="alignt" point="at02" zone="caps"/>
+    <ttc code="alignb" point="ab01" zone="base"/>
+    <ttc code="alignb" point="ab02" zone="base"/>
+  </ttProgram>
+  </data>
+  </dict>
+  </lib>
+</glyph>

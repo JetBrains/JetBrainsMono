@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevehookabove" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="319.592" y="755" type="line"/>
+      <point x="380" y="823" type="line" smooth="yes"/>
+      <point x="387.998" y="832.004"/>
+      <point x="391.953" y="840.242"/>
+      <point x="392" y="848" type="curve" smooth="yes"/>
+      <point x="392.067" y="859.041"/>
+      <point x="384.006" y="865"/>
+      <point x="369" y="865" type="curve" smooth="yes"/>
+      <point x="313.016" y="865" type="line"/>
+      <point x="322.52" y="925" type="line"/>
+      <point x="377.52" y="925" type="line" smooth="yes"/>
+      <point x="438.767" y="925"/>
+      <point x="472.24" y="896.062"/>
+      <point x="464.86" y="849.467" type="curve" smooth="yes"/>
+      <point x="462.42" y="834.066"/>
+      <point x="456.004" y="819.802"/>
+      <point x="446.438" y="808.533" type="curve" smooth="yes"/>
+      <point x="401" y="755" type="line"/>
+    </contour>
+    <contour>
+      <point x="359.405" y="697" type="curve" smooth="yes"/>
+      <point x="419.416" y="697"/>
+      <point x="459.74" y="724.366"/>
+      <point x="466.968" y="770" type="curve" name="av01.1"/>
+      <point x="531.968" y="770" type="line"/>
+      <point x="519.613" y="692"/>
+      <point x="447.376" y="640"/>
+      <point x="351.376" y="640" type="curve" smooth="yes" name="av03"/>
+      <point x="255.376" y="640"/>
+      <point x="199.613" y="692"/>
+      <point x="211.968" y="770" type="curve" name="av02.1"/>
+      <point x="276.968" y="770" type="line"/>
+      <point x="269.669" y="723.922"/>
+      <point x="300.071" y="697"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

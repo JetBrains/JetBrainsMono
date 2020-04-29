@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal_equal.liga" format="2">
+  <advance width="600" height="975"/>
+  <outline>
+    <contour>
+      <point x="-520" y="170" type="line"/>
+      <point x="-520" y="250" type="line"/>
+      <point x="520" y="250" type="line"/>
+      <point x="520" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="-520" y="490" type="line"/>
+      <point x="520" y="490" type="line"/>
+      <point x="520" y="410" type="line"/>
+      <point x="-520" y="410" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="170" width="80" />
+      <hstem pos="410" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

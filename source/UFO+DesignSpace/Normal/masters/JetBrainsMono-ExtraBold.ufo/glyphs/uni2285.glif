@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2285" format="2">
+  <advance width="600"/>
+  <unicode hex="2285"/>
+  <outline>
+    <component base="propersuperset"/>
+    <contour>
+      <point x="359.439" y="780" type="line"/>
+      <point x="449.854" y="780" type="line"/>
+      <point x="170.854" y="-60" type="line"/>
+      <point x="80.4388" y="-60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,0</string>
+  </dict>
+  </lib>
+</glyph>

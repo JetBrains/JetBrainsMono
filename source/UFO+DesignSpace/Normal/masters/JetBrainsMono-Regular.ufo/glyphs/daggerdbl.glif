@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="daggerdbl" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="2021"/>
+  <outline>
+    <contour>
+      <point x="255" y="220" type="line"/>
+      <point x="255" y="510" type="line"/>
+      <point x="80" y="510" type="line"/>
+      <point x="80" y="590" type="line"/>
+      <point x="255" y="590" type="line"/>
+      <point x="255" y="830" type="line" name="av01"/>
+      <point x="345" y="830" type="line" name="dh01"/>
+      <point x="345" y="590" type="line"/>
+      <point x="520" y="590" type="line" name="dv02"/>
+      <point x="520" y="510" type="line" name="dv01"/>
+      <point x="345" y="510" type="line"/>
+      <point x="345" y="220" type="line"/>
+      <point x="520" y="220" type="line" name="dv04"/>
+      <point x="520" y="140" type="line" name="dv03"/>
+      <point x="345" y="140" type="line"/>
+      <point x="345" y="-110" type="line" name="av02"/>
+      <point x="255" y="-110" type="line"/>
+      <point x="255" y="140" type="line"/>
+      <point x="80" y="140" type="line"/>
+      <point x="80" y="220" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="210" width="80" />
+      <hstem pos="450" width="80" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1EA1" format="2">
+  <advance width="600"/>
+  <unicode hex="1EA1"/>
+  <outline>
+    <component base="a"/>
+    <component base="dotbelowcomb"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,0</string>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="-10" width="115" />
+      <hstem pos="241" width="90" />
+      <hstem pos="445" width="115" />
+      <vstem pos="40" width="150" />
+      <vstem pos="393" width="143" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pi" format="2">
+  <advance width="600" height="985"/>
+  <unicode hex="03C0"/>
+  <outline>
+    <contour>
+      <point x="475" y="164" type="line" smooth="yes"/>
+      <point x="475" y="109"/>
+      <point x="500" y="79"/>
+      <point x="547" y="79" type="curve" smooth="yes"/>
+      <point x="575" y="79" type="line"/>
+      <point x="575" y="-5" type="line"/>
+      <point x="552" y="-5" type="line" smooth="yes"/>
+      <point x="451" y="-5"/>
+      <point x="385" y="64"/>
+      <point x="385" y="170" type="curve" smooth="yes"/>
+      <point x="385" y="468" type="line"/>
+      <point x="190" y="468" type="line"/>
+      <point x="190" y="0" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="100" y="469" type="line"/>
+      <point x="20" y="469" type="line"/>
+      <point x="20" y="550" type="line"/>
+      <point x="555" y="550" type="line"/>
+      <point x="555" y="472" type="line"/>
+      <point x="475" y="472" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="">
+      <hstem pos="-5" width="84" />
+      <hstem pos="468" width="82" />
+      <vstem pos="100" width="90" />
+      <vstem pos="385" width="90" />
+      <vstem pos="385" width="190" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

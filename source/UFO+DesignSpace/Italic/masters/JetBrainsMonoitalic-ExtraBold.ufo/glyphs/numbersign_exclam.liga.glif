@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_exclam.liga" format="2">
+  <advance width="600" height="985"/>
+  <outline>
+    <component base="numbersign" xOffset="-600"/>
+    <contour>
+      <point x="331.048" y="720" type="line"/>
+      <point x="485.048" y="720" type="line"/>
+      <point x="434.704" y="560" type="line"/>
+      <point x="312.808" y="245" type="line"/>
+      <point x="202.808" y="245" type="line"/>
+      <point x="280.704" y="560" type="line"/>
+    </contour>
+    <contour>
+      <point x="201.384" y="135" type="curve" smooth="yes"/>
+      <point x="231.384" y="135" type="line" smooth="yes"/>
+      <point x="276.384" y="135"/>
+      <point x="296.949" y="107"/>
+      <point x="283.296" y="65" type="curve"/>
+      <point x="268.485" y="22"/>
+      <point x="229.208" y="-5"/>
+      <point x="183.208" y="-5" type="curve" smooth="yes"/>
+      <point x="154.208" y="-5" type="line" smooth="yes"/>
+      <point x="109.208" y="-5"/>
+      <point x="89.6432" y="23"/>
+      <point x="102.296" y="65" type="curve"/>
+      <point x="116.949" y="107"/>
+      <point x="156.384" y="135"/>
+    </contour>
+  </outline>
+</glyph>
