@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_numbersign.liga" format="2">
+	<advance width="600"/>
+	<guideline x="-550"/>
+	<guideline x="-516"/>
+	<outline>
+		<contour>
+			<point x="-487" y="0" type="line"/>
+			<point x="-417" y="0" type="line"/>
+			<point x="-380" y="200" type="line"/>
+			<point x="-220" y="200" type="line"/>
+			<point x="-257" y="0" type="line"/>
+			<point x="-187" y="0" type="line"/>
+			<point x="-150" y="200" type="line"/>
+			<point x="90" y="200" type="line"/>
+			<point x="53" y="0" type="line"/>
+			<point x="123" y="0" type="line"/>
+			<point x="160" y="200" type="line"/>
+			<point x="320" y="200" type="line"/>
+			<point x="283" y="0" type="line"/>
+			<point x="353" y="0" type="line"/>
+			<point x="390" y="200" type="line"/>
+			<point x="500" y="200" type="line"/>
+			<point x="500" y="265" type="line"/>
+			<point x="402" y="265" type="line"/>
+			<point x="438" y="465" type="line"/>
+			<point x="535" y="465" type="line"/>
+			<point x="535" y="530" type="line"/>
+			<point x="450" y="530" type="line"/>
+			<point x="487" y="730" type="line"/>
+			<point x="417" y="730" type="line"/>
+			<point x="380" y="530" type="line"/>
+			<point x="220" y="530" type="line"/>
+			<point x="257" y="730" type="line"/>
+			<point x="187" y="730" type="line"/>
+			<point x="150" y="530" type="line"/>
+			<point x="-90" y="530" type="line"/>
+			<point x="-53" y="730" type="line"/>
+			<point x="-123" y="730" type="line"/>
+			<point x="-160" y="530" type="line"/>
+			<point x="-320" y="530" type="line"/>
+			<point x="-283" y="730" type="line"/>
+			<point x="-353" y="730" type="line"/>
+			<point x="-390" y="530" type="line"/>
+			<point x="-500" y="530" type="line"/>
+			<point x="-500" y="465" type="line"/>
+			<point x="-402" y="465" type="line"/>
+			<point x="-438" y="265" type="line"/>
+			<point x="-535" y="265" type="line"/>
+			<point x="-535" y="200" type="line"/>
+			<point x="-450" y="200" type="line"/>
+		</contour>
+		<contour>
+			<point x="-368" y="265" type="line"/>
+			<point x="-332" y="465" type="line"/>
+			<point x="-172" y="465" type="line"/>
+			<point x="-208" y="265" type="line"/>
+		</contour>
+		<contour>
+			<point x="-138" y="265" type="line"/>
+			<point x="-102" y="465" type="line"/>
+			<point x="138" y="465" type="line"/>
+			<point x="102" y="265" type="line"/>
+		</contour>
+		<contour>
+			<point x="172" y="265" type="line"/>
+			<point x="208" y="465" type="line"/>
+			<point x="368" y="465" type="line"/>
+			<point x="332" y="265" type="line"/>
+		</contour>
+	</outline>
+</glyph>

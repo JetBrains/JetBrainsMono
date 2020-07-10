@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="numbersign_equal.liga" format="2">
-  <advance width="600" height="985"/>
-  <outline>
-    <component base="numbersign" xOffset="-600"/>
-    <component base="equal" yOffset="30"/>
-  </outline>
-</glyph>

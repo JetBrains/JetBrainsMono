@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="napostrophe" format="2">
+	<advance width="600"/>
+	<unicode hex="0149"/>
+	<outline>
+		<contour>
+			<point x="113" y="645" type="line"/>
+			<point x="163" y="645" type="line"/>
+			<point x="291" y="791" type="line"/>
+			<point x="226" y="791" type="line"/>
+		</contour>
+		<component base="n"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>n</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.6,1,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

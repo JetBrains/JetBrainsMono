@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zacute" format="2">
+	<advance width="600"/>
+	<unicode hex="0179"/>
+	<guideline y="672"/>
+	<guideline y="32"/>
+	<outline>
+		<component base="Z"/>
+		<component base="acute.case" xOffset="35"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Z</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>acute.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

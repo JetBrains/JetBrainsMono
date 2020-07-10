@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0146" format="2">
+	<advance width="600"/>
+	<unicode hex="0146"/>
+	<guideline x="-88" y="390" angle="0"/>
+	<guideline x="-88" y="313" angle="0"/>
+	<outline>
+		<component base="n"/>
+		<component base="uni0326" xOffset="600"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>n</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>uni0326</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

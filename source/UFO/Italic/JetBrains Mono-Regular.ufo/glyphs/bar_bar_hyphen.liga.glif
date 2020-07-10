@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_bar_hyphen.liga" format="2">
+	<advance width="600"/>
+	<guideline x="-1288"/>
+	<outline>
+		<contour>
+			<point x="-487" y="-85" type="line"/>
+			<point x="-397" y="-85" type="line"/>
+			<point x="-338" y="290" type="line"/>
+			<point x="372" y="290" type="line"/>
+			<point x="385" y="370" type="line"/>
+			<point x="-325" y="370" type="line"/>
+			<point x="-265" y="750" type="line"/>
+			<point x="-355" y="750" type="line"/>
+		</contour>
+		<contour>
+			<point x="-917" y="-85" type="line"/>
+			<point x="-827" y="-85" type="line"/>
+			<point x="-695" y="750" type="line"/>
+			<point x="-785" y="750" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.6,1,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

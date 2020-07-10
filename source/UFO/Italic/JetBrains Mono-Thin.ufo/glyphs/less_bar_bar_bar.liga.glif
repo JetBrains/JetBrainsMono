@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_bar_bar_bar.liga" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="8" y="-85" type="line"/>
+			<point x="58" y="-85" type="line"/>
+			<point x="190" y="750" type="line"/>
+			<point x="140" y="750" type="line"/>
+		</contour>
+		<contour>
+			<point x="-422" y="-85" type="line"/>
+			<point x="-372" y="-85" type="line"/>
+			<point x="-240" y="750" type="line"/>
+			<point x="-290" y="750" type="line"/>
+		</contour>
+		<component base="less_bar.liga" xOffset="-1050"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>less_bar.liga</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.6,1,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

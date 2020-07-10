@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="greater_bracketright.liga" format="2">
-  <advance width="600" height="985"/>
-  <outline>
-    <component base="greater" xOffset="-475" yOffset="15"/>
-    <component base="bracketright" xOffset="-25"/>
-  </outline>
-</glyph>

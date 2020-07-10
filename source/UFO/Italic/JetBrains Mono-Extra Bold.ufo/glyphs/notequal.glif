@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notequal" format="2">
+	<advance width="600"/>
+	<unicode hex="2260"/>
+	<outline>
+		<component base="equal"/>
+		<component base="uni0338" xOffset="600"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>equal</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>uni0338</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.6,1,1,1</string>
+		</dict>
+	</lib>
+</glyph>

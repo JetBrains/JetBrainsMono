@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_colon.liga" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="326" y="440" type="curve" smooth="yes"/>
+			<point x="369" y="440"/>
+			<point x="405" y="469"/>
+			<point x="412" y="510" type="curve" smooth="yes"/>
+			<point x="418" y="551"/>
+			<point x="391" y="580"/>
+			<point x="348" y="580" type="curve" smooth="yes"/>
+			<point x="304" y="580"/>
+			<point x="267" y="551"/>
+			<point x="261" y="510" type="curve" smooth="yes"/>
+			<point x="254" y="469"/>
+			<point x="282" y="440"/>
+		</contour>
+		<contour>
+			<point x="278" y="140" type="curve" smooth="yes"/>
+			<point x="322" y="140"/>
+			<point x="358" y="169"/>
+			<point x="364" y="210" type="curve" smooth="yes"/>
+			<point x="371" y="251"/>
+			<point x="344" y="280"/>
+			<point x="300" y="280" type="curve" smooth="yes"/>
+			<point x="256" y="280"/>
+			<point x="220" y="251"/>
+			<point x="213" y="210" type="curve" smooth="yes"/>
+			<point x="207" y="169"/>
+			<point x="234" y="140"/>
+		</contour>
+		<component base="numbersign" xOffset="-600"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>numbersign</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.6,1,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1EDE" format="2">
+	<advance width="600"/>
+	<unicode hex="1EDE"/>
+	<guideline y="286"/>
+	<outline>
+		<component base="Ohorn"/>
+		<component base="hookabovecomb.case" xOffset="600"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Ohorn</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>hookabovecomb.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

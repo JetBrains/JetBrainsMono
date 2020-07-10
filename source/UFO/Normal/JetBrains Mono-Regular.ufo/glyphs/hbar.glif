@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hbar" format="2">
+	<advance width="600"/>
+	<unicode hex="0127"/>
+	<guideline y="730"/>
+	<outline>
+		<component base="uni045B"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>uni045B</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threequarters" format="2">
+	<advance width="600"/>
+	<unicode hex="00BE"/>
+	<outline>
+		<contour>
+			<point x="459" y="0" type="line"/>
+			<point x="549" y="0" type="line"/>
+			<point x="549" y="205" type="line"/>
+			<point x="459" y="205" type="line"/>
+			<point x="459" y="130" type="line"/>
+			<point x="384" y="130" type="line"/>
+			<point x="384" y="146" type="line"/>
+			<point x="519" y="325" type="line"/>
+			<point x="420" y="325" type="line"/>
+			<point x="294" y="160" type="line"/>
+			<point x="294" y="60" type="line"/>
+			<point x="459" y="60" type="line"/>
+		</contour>
+		<contour>
+			<point x="155" y="400" type="curve" smooth="yes"/>
+			<point x="237" y="400"/>
+			<point x="291" y="444"/>
+			<point x="291" y="510" type="curve" smooth="yes"/>
+			<point x="291" y="570"/>
+			<point x="245" y="610"/>
+			<point x="176" y="610" type="curve"/>
+			<point x="176" y="590" type="line"/>
+			<point x="276" y="668" type="line"/>
+			<point x="276" y="730" type="line"/>
+			<point x="41" y="730" type="line"/>
+			<point x="41" y="665" type="line"/>
+			<point x="188" y="665" type="line"/>
+			<point x="126" y="616" type="line"/>
+			<point x="126" y="550" type="line"/>
+			<point x="156" y="550" type="line" smooth="yes"/>
+			<point x="183" y="550"/>
+			<point x="201" y="534"/>
+			<point x="201" y="510" type="curve" smooth="yes"/>
+			<point x="201" y="486"/>
+			<point x="183" y="470"/>
+			<point x="155" y="470" type="curve" smooth="yes"/>
+			<point x="126" y="470"/>
+			<point x="107" y="484"/>
+			<point x="107" y="505" type="curve"/>
+			<point x="17" y="505" type="line"/>
+			<point x="17" y="442"/>
+			<point x="72" y="400"/>
+		</contour>
+		<component base="fraction"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>fraction</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.99,0.62,0.11,1</string>
+		</dict>
+	</lib>
+</glyph>

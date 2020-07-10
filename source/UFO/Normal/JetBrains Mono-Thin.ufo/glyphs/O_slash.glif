@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash" format="2">
+	<advance width="600"/>
+	<unicode hex="00D8"/>
+	<note>
+		Make a bit lighter. Maybe decompose?
+	</note>
+	<outline>
+		<contour>
+			<point x="49" y="-40" type="line"/>
+			<point x="97" y="-40" type="line"/>
+			<point x="551" y="750" type="line"/>
+			<point x="503" y="750" type="line"/>
+		</contour>
+		<component base="O"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>O</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.99,0.62,0.11,1</string>
+		</dict>
+	</lib>
+</glyph>

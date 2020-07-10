@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0407" format="2">
+	<advance width="600"/>
+	<unicode hex="0407"/>
+	<outline>
+		<component base="uni0406"/>
+		<component base="dieresis.case"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>uni0406</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dieresis.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

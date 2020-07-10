@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_equal.liga" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="80" y="475" type="line"/>
+			<point x="520" y="475" type="line"/>
+			<point x="520" y="520" type="line"/>
+			<point x="80" y="520" type="line"/>
+		</contour>
+		<contour>
+			<point x="80" y="210" type="line"/>
+			<point x="520" y="210" type="line"/>
+			<point x="520" y="255" type="line"/>
+			<point x="80" y="255" type="line"/>
+		</contour>
+		<component base="numbersign" xOffset="-600"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>numbersign</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

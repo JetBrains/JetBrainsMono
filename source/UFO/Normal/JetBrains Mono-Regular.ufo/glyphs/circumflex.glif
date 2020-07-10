@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex" format="2">
+	<advance width="600"/>
+	<unicode hex="02C6"/>
+	<note>
+		Remove flat connection
+	</note>
+	<outline>
+		<contour>
+			<point x="117" y="645" type="line"/>
+			<point x="219" y="645" type="line"/>
+			<point x="297" y="720" type="line"/>
+			<point x="303" y="720" type="line"/>
+			<point x="378" y="645" type="line"/>
+			<point x="483" y="645" type="line"/>
+			<point x="342" y="785" type="line"/>
+			<point x="260" y="785" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.99,0.62,0.11,1</string>
+		</dict>
+	</lib>
+</glyph>

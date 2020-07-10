@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1EB7" format="2">
+	<advance width="600"/>
+	<unicode hex="1EB7"/>
+	<outline>
+		<component base="uni1EA1"/>
+		<component base="breve"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>uni1EA1</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>breve</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

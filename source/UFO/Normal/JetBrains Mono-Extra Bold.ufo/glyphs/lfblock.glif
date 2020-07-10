@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lfblock" format="2">
+	<advance width="600"/>
+	<unicode hex="258C"/>
+	<guideline x="337" y="-310" angle="0"/>
+	<outline>
+		<contour>
+			<point x="-20" y="-310" type="line"/>
+			<point x="300" y="-310" type="line"/>
+			<point x="300" y="1010" type="line"/>
+			<point x="-20" y="1010" type="line"/>
+		</contour>
+	</outline>
+</glyph>

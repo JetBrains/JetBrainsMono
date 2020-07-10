@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexhookabove" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="208" y="645" type="line"/>
+			<point x="253" y="645" type="line"/>
+			<point x="374" y="754" type="line"/>
+			<point x="377" y="754" type="line"/>
+			<point x="463" y="645" type="line"/>
+			<point x="508" y="645" type="line"/>
+			<point x="410" y="785" type="line"/>
+			<point x="350" y="785" type="line"/>
+		</contour>
+		<contour>
+			<point x="561" y="815" type="curve" smooth="yes"/>
+			<point x="499" y="755" type="line"/>
+			<point x="544" y="755" type="line"/>
+			<point x="588" y="797" type="line" smooth="yes"/>
+			<point x="607" y="815"/>
+			<point x="620" y="837"/>
+			<point x="624" y="858" type="curve" smooth="yes"/>
+			<point x="629" y="896"/>
+			<point x="603" y="920"/>
+			<point x="556" y="920" type="curve" smooth="yes"/>
+			<point x="497" y="920" type="line"/>
+			<point x="492" y="885" type="line"/>
+			<point x="551" y="885" type="line" smooth="yes"/>
+			<point x="576" y="885"/>
+			<point x="590" y="874"/>
+			<point x="588" y="856" type="curve" smooth="yes"/>
+			<point x="585" y="844"/>
+			<point x="576" y="830"/>
+		</contour>
+	</outline>
+</glyph>

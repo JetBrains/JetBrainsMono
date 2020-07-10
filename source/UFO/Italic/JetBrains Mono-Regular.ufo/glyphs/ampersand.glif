@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ampersand" format="2">
+	<advance width="600"/>
+	<unicode hex="0026"/>
+	<outline>
+		<contour>
+			<point x="178" y="431" type="curve" smooth="yes"/>
+			<point x="423" y="0" type="line"/>
+			<point x="522" y="0" type="line"/>
+			<point x="255" y="470" type="line" smooth="yes"/>
+			<point x="236" y="504"/>
+			<point x="228" y="546"/>
+			<point x="233" y="579" type="curve" smooth="yes"/>
+			<point x="241" y="630"/>
+			<point x="281" y="662"/>
+			<point x="336" y="662" type="curve" smooth="yes"/>
+			<point x="397" y="662"/>
+			<point x="429" y="627"/>
+			<point x="420" y="569" type="curve"/>
+			<point x="510" y="569" type="line"/>
+			<point x="527" y="674"/>
+			<point x="464" y="740"/>
+			<point x="348" y="740" type="curve" smooth="yes"/>
+			<point x="240" y="740"/>
+			<point x="158" y="677"/>
+			<point x="143" y="581" type="curve" smooth="yes"/>
+			<point x="135" y="533"/>
+			<point x="146" y="487"/>
+		</contour>
+		<contour>
+			<point x="184" y="-10" type="curve" smooth="yes"/>
+			<point x="263" y="-10"/>
+			<point x="344" y="41"/>
+			<point x="410" y="132" type="curve"/>
+			<point x="575" y="360" type="line"/>
+			<point x="481" y="360" type="line"/>
+			<point x="335" y="155" type="line" smooth="yes"/>
+			<point x="297" y="102"/>
+			<point x="247" y="70"/>
+			<point x="202" y="70" type="curve" smooth="yes"/>
+			<point x="145" y="70"/>
+			<point x="117" y="101"/>
+			<point x="126" y="155" type="curve" smooth="yes"/>
+			<point x="145" y="280" type="line" smooth="yes"/>
+			<point x="154" y="332"/>
+			<point x="188" y="360"/>
+			<point x="244" y="360" type="curve" smooth="yes"/>
+			<point x="258" y="360" type="line"/>
+			<point x="269" y="430" type="line"/>
+			<point x="254" y="430" type="line" smooth="yes"/>
+			<point x="144" y="430"/>
+			<point x="70" y="371"/>
+			<point x="55" y="280" type="curve" smooth="yes"/>
+			<point x="36" y="155" type="line" smooth="yes"/>
+			<point x="19" y="52"/>
+			<point x="75" y="-10"/>
+		</contour>
+	</outline>
+</glyph>

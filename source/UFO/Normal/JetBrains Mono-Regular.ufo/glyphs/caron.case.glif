@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.case" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="259" y="805" type="line"/>
+			<point x="341" y="805" type="line"/>
+			<point x="483" y="945" type="line"/>
+			<point x="387" y="945" type="line"/>
+			<point x="304" y="867" type="line"/>
+			<point x="294" y="867" type="line"/>
+			<point x="211" y="945" type="line"/>
+			<point x="117" y="945" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.2,0.88,1</string>
+		</dict>
+	</lib>
+</glyph>

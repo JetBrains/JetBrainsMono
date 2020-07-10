@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2088" format="2">
+	<advance width="600"/>
+	<unicode hex="2088"/>
+	<outline>
+		<component base="uni2078" xOffset="-83" yOffset="-525"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>eight</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>eight</string>
+		</dict>
+	</lib>
+</glyph>

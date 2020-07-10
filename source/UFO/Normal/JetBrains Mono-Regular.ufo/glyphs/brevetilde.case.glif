@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevetilde.case" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="300" y="795" type="curve" smooth="yes"/>
+			<point x="396" y="795"/>
+			<point x="460" y="847"/>
+			<point x="460" y="925" type="curve"/>
+			<point x="395" y="925" type="line"/>
+			<point x="395" y="879"/>
+			<point x="359" y="852"/>
+			<point x="299" y="852" type="curve" smooth="yes"/>
+			<point x="240" y="852"/>
+			<point x="205" y="879"/>
+			<point x="205" y="925" type="curve"/>
+			<point x="140" y="925" type="line"/>
+			<point x="140" y="847"/>
+			<point x="204" y="795"/>
+		</contour>
+		<contour>
+			<point x="366" y="952" type="curve" smooth="yes"/>
+			<point x="422" y="952"/>
+			<point x="460" y="987"/>
+			<point x="460" y="1040" type="curve" smooth="yes"/>
+			<point x="460" y="1060" type="line"/>
+			<point x="395" y="1060" type="line"/>
+			<point x="395" y="1035" type="line" smooth="yes"/>
+			<point x="395" y="1016"/>
+			<point x="385" y="1005"/>
+			<point x="365" y="1005" type="curve" smooth="yes"/>
+			<point x="320" y="1005"/>
+			<point x="319" y="1068"/>
+			<point x="234" y="1068" type="curve" smooth="yes"/>
+			<point x="178" y="1068"/>
+			<point x="140" y="1033"/>
+			<point x="140" y="980" type="curve" smooth="yes"/>
+			<point x="140" y="960" type="line"/>
+			<point x="205" y="960" type="line"/>
+			<point x="205" y="985" type="line" smooth="yes"/>
+			<point x="205" y="1005"/>
+			<point x="216" y="1015"/>
+			<point x="235" y="1015" type="curve" smooth="yes"/>
+			<point x="280" y="1015"/>
+			<point x="282" y="952"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_braceright.liga" format="2">
+	<advance width="600"/>
+	<guideline x="-688"/>
+	<guideline x="-88" y="830" angle="0"/>
+	<guideline x="-88" y="-110" angle="0"/>
+	<outline>
+		<contour>
+			<point x="-116" y="-110" type="line"/>
+			<point x="-1" y="-110" type="line" smooth="yes"/>
+			<point x="117" y="-110"/>
+			<point x="199" y="-49"/>
+			<point x="210" y="56" type="curve" smooth="yes"/>
+			<point x="226" y="220" type="line" smooth="yes"/>
+			<point x="233" y="291"/>
+			<point x="256" y="320"/>
+			<point x="342" y="320" type="curve" smooth="yes"/>
+			<point x="452" y="320" type="line"/>
+			<point x="464" y="400" type="line"/>
+			<point x="354" y="400" type="line" smooth="yes"/>
+			<point x="267" y="400"/>
+			<point x="255" y="429"/>
+			<point x="270" y="500" type="curve" smooth="yes"/>
+			<point x="306" y="664" type="line" smooth="yes"/>
+			<point x="329" y="769"/>
+			<point x="265" y="830"/>
+			<point x="147" y="830" type="curve" smooth="yes"/>
+			<point x="32" y="830" type="line"/>
+			<point x="20" y="750" type="line"/>
+			<point x="135" y="750" type="line" smooth="yes"/>
+			<point x="198" y="750"/>
+			<point x="228" y="721"/>
+			<point x="216" y="664" type="curve" smooth="yes"/>
+			<point x="180" y="500" type="line" smooth="yes"/>
+			<point x="161" y="413"/>
+			<point x="203" y="358"/>
+			<point x="288" y="358" type="curve"/>
+			<point x="288" y="363" type="line"/>
+			<point x="204" y="363"/>
+			<point x="144" y="306"/>
+			<point x="136" y="220" type="curve" smooth="yes"/>
+			<point x="120" y="56" type="line" smooth="yes"/>
+			<point x="114" y="-1"/>
+			<point x="74" y="-30"/>
+			<point x="11" y="-30" type="curve" smooth="yes"/>
+			<point x="-104" y="-30" type="line"/>
+		</contour>
+		<component base="bar" xOffset="-580"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>bar</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

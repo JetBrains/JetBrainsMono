@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_asciitilde_greater.liga" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="-400" y="215" type="curve" smooth="yes"/>
+			<point x="-280" y="215"/>
+			<point x="-256" y="335"/>
+			<point x="-206" y="335" type="curve" smooth="yes"/>
+			<point x="-156" y="335"/>
+			<point x="-160" y="215"/>
+			<point x="-25" y="215" type="curve" smooth="yes"/>
+			<point x="62" y="215"/>
+			<point x="129" y="269"/>
+			<point x="141" y="350" type="curve" smooth="yes"/>
+			<point x="149" y="400" type="line"/>
+			<point x="29" y="400" type="line"/>
+			<point x="24" y="364" type="line" smooth="yes"/>
+			<point x="20" y="341"/>
+			<point x="1" y="325"/>
+			<point x="-23" y="325" type="curve" smooth="yes"/>
+			<point x="-83" y="325"/>
+			<point x="-69" y="445"/>
+			<point x="-189" y="445" type="curve" smooth="yes"/>
+			<point x="-309" y="445"/>
+			<point x="-333" y="325"/>
+			<point x="-383" y="325" type="curve" smooth="yes"/>
+			<point x="-433" y="325"/>
+			<point x="-419" y="445"/>
+			<point x="-559" y="445" type="curve" smooth="yes"/>
+			<point x="-647" y="445"/>
+			<point x="-712" y="392"/>
+			<point x="-725" y="310" type="curve" smooth="yes"/>
+			<point x="-733" y="260" type="line"/>
+			<point x="-613" y="260" type="line"/>
+			<point x="-607" y="296" type="line" smooth="yes"/>
+			<point x="-603" y="319"/>
+			<point x="-585" y="335"/>
+			<point x="-562" y="335" type="curve" smooth="yes"/>
+			<point x="-506" y="335"/>
+			<point x="-520" y="215"/>
+		</contour>
+		<component base="less" xOffset="-1185"/>
+		<component base="greater" xOffset="-15"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>less</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>greater</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.6,1,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

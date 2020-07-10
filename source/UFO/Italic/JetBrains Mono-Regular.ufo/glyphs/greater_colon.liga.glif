@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_colon.liga" format="2">
+	<advance width="600"/>
+	<guideline x="-688"/>
+	<outline>
+		<component base="greater" xOffset="-460"/>
+		<component base="colon" yOffset="55"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>greater</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>colon</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

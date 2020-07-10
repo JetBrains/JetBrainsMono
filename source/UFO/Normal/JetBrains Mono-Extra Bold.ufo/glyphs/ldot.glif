@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldot" format="2">
+	<advance width="600"/>
+	<unicode hex="0140"/>
+	<guideline y="730"/>
+	<outline>
+		<component base="l" xOffset="-20"/>
+		<component base="periodcentered" xOffset="185"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>l</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>periodcentered</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

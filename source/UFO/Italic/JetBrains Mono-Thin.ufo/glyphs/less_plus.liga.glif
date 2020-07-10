@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_plus.liga" format="2">
+	<advance width="600"/>
+	<guideline x="-688"/>
+	<guideline x="-188"/>
+	<outline>
+		<contour>
+			<point x="186" y="60" type="line"/>
+			<point x="236" y="60" type="line"/>
+			<point x="275" y="310" type="line"/>
+			<point x="515" y="310" type="line"/>
+			<point x="522" y="355" type="line"/>
+			<point x="282" y="355" type="line"/>
+			<point x="322" y="605" type="line"/>
+			<point x="272" y="605" type="line"/>
+			<point x="232" y="355" type="line"/>
+			<point x="-8" y="355" type="line"/>
+			<point x="-15" y="310" type="line"/>
+			<point x="225" y="310" type="line"/>
+		</contour>
+		<component base="less" xOffset="-610"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>less</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.6,1,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

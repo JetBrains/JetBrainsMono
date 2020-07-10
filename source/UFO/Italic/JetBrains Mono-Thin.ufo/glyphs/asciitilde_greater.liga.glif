@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciitilde_greater.liga" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="407" y="273" type="curve" smooth="yes"/>
+			<point x="173" y="35" type="line"/>
+			<point x="232" y="35" type="line"/>
+			<point x="523" y="331" type="line"/>
+			<point x="326" y="625" type="line"/>
+			<point x="266" y="625" type="line"/>
+			<point x="423" y="389" type="line" smooth="yes"/>
+			<point x="453" y="343"/>
+			<point x="465" y="330"/>
+			<point x="465" y="330" type="curve"/>
+			<point x="465" y="330"/>
+			<point x="449" y="316"/>
+		</contour>
+		<contour>
+			<point x="-406" y="240" type="curve" smooth="yes"/>
+			<point x="-286" y="240"/>
+			<point x="-258" y="383"/>
+			<point x="-173" y="383" type="curve" smooth="yes"/>
+			<point x="-88" y="383"/>
+			<point x="-101" y="240"/>
+			<point x="14" y="240" type="curve" smooth="yes"/>
+			<point x="129" y="240"/>
+			<point x="157" y="383"/>
+			<point x="247" y="383" type="curve" smooth="yes"/>
+			<point x="337" y="383"/>
+			<point x="308" y="268"/>
+			<point x="418" y="268" type="curve" smooth="yes"/>
+			<point x="453" y="268" type="line"/>
+			<point x="460" y="308" type="line"/>
+			<point x="425" y="308" type="line" smooth="yes"/>
+			<point x="356" y="308"/>
+			<point x="363" y="425"/>
+			<point x="253" y="425" type="curve" smooth="yes"/>
+			<point x="133" y="425"/>
+			<point x="106" y="282"/>
+			<point x="21" y="282" type="curve" smooth="yes"/>
+			<point x="-64" y="282"/>
+			<point x="-52" y="425"/>
+			<point x="-167" y="425" type="curve" smooth="yes"/>
+			<point x="-282" y="425"/>
+			<point x="-310" y="282"/>
+			<point x="-399" y="282" type="curve" smooth="yes"/>
+			<point x="-440" y="282"/>
+			<point x="-460" y="308"/>
+			<point x="-454" y="350" type="curve" smooth="yes"/>
+			<point x="-446" y="400" type="line"/>
+			<point x="-491" y="400" type="line"/>
+			<point x="-499" y="350" type="line" smooth="yes"/>
+			<point x="-509" y="283"/>
+			<point x="-473" y="240"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_equal.liga" format="2">
+	<advance width="600"/>
+	<guideline x="-600"/>
+	<outline>
+		<contour>
+			<point x="-305" y="150" type="line"/>
+			<point x="305" y="375" type="line"/>
+			<point x="305" y="475" type="line"/>
+			<point x="-305" y="700" type="line"/>
+			<point x="-305" y="612" type="line"/>
+			<point x="185" y="441" type="line" smooth="yes"/>
+			<point x="217" y="430"/>
+			<point x="240" y="428"/>
+			<point x="240" y="428" type="curve"/>
+			<point x="240" y="421" type="line"/>
+			<point x="240" y="421"/>
+			<point x="217" y="419"/>
+			<point x="185" y="408" type="curve" smooth="yes"/>
+			<point x="-305" y="240" type="line"/>
+		</contour>
+		<contour>
+			<point x="-305" y="-74" type="line"/>
+			<point x="305" y="151" type="line"/>
+			<point x="305" y="241" type="line"/>
+			<point x="-305" y="16" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.99,0.62,0.11,1</string>
+		</dict>
+	</lib>
+</glyph>

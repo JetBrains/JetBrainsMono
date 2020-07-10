@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2087" format="2">
+	<advance width="600"/>
+	<unicode hex="2087"/>
+	<outline>
+		<component base="uni2077" xOffset="-82" yOffset="-515"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>seven</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>seven</string>
+		</dict>
+	</lib>
+</glyph>

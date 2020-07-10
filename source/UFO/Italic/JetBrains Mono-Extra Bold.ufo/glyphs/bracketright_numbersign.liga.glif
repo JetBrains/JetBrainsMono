@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright_numbersign.liga" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="26" y="0" type="line"/>
+			<point x="131" y="0" type="line"/>
+			<point x="187" y="170" type="line"/>
+			<point x="312" y="170" type="line"/>
+			<point x="256" y="0" type="line"/>
+			<point x="361" y="0" type="line"/>
+			<point x="417" y="170" type="line"/>
+			<point x="533" y="170" type="line"/>
+			<point x="549" y="270" type="line"/>
+			<point x="450" y="270" type="line"/>
+			<point x="513" y="460" type="line"/>
+			<point x="609" y="460" type="line"/>
+			<point x="625" y="560" type="line"/>
+			<point x="546" y="560" type="line"/>
+			<point x="602" y="730" type="line"/>
+			<point x="497" y="730" type="line"/>
+			<point x="441" y="560" type="line"/>
+			<point x="316" y="560" type="line"/>
+			<point x="372" y="730" type="line"/>
+			<point x="267" y="730" type="line"/>
+			<point x="211" y="560" type="line"/>
+			<point x="-197" y="560" type="line"/>
+			<point x="-213" y="460" type="line"/>
+			<point x="178" y="460" type="line"/>
+			<point x="115" y="270" type="line"/>
+			<point x="-243" y="270" type="line"/>
+			<point x="-259" y="170" type="line"/>
+			<point x="82" y="170" type="line"/>
+		</contour>
+		<contour>
+			<point x="220" y="270" type="line"/>
+			<point x="283" y="460" type="line"/>
+			<point x="408" y="460" type="line"/>
+			<point x="345" y="270" type="line"/>
+		</contour>
+		<component base="bracketright" xOffset="-600"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>bracketright</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

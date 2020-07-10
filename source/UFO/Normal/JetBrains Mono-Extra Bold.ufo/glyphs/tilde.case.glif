@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde.case" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="370" y="800" type="curve" smooth="yes"/>
+			<point x="436" y="800"/>
+			<point x="480" y="846"/>
+			<point x="480" y="915" type="curve" smooth="yes"/>
+			<point x="480" y="950" type="line"/>
+			<point x="395" y="950" type="line"/>
+			<point x="395" y="913" type="line" smooth="yes"/>
+			<point x="395" y="896"/>
+			<point x="383" y="885"/>
+			<point x="365" y="885" type="curve" smooth="yes"/>
+			<point x="325" y="885"/>
+			<point x="315" y="955"/>
+			<point x="230" y="955" type="curve" smooth="yes"/>
+			<point x="164" y="955"/>
+			<point x="120" y="909"/>
+			<point x="120" y="840" type="curve" smooth="yes"/>
+			<point x="120" y="805" type="line"/>
+			<point x="205" y="805" type="line"/>
+			<point x="205" y="837" type="line" smooth="yes"/>
+			<point x="205" y="857"/>
+			<point x="217" y="870"/>
+			<point x="235" y="870" type="curve" smooth="yes"/>
+			<point x="275" y="870"/>
+			<point x="285" y="800"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.2,0.88,1</string>
+		</dict>
+	</lib>
+</glyph>

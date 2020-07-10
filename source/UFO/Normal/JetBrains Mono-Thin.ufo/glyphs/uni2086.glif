@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2086" format="2">
+	<advance width="600"/>
+	<unicode hex="2086"/>
+	<outline>
+		<component base="uni2076" yOffset="-515"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>six</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>six</string>
+		</dict>
+	</lib>
+</glyph>

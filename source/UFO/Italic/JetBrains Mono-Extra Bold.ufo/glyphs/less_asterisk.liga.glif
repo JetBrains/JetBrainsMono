@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_asterisk.liga" format="2">
+	<advance width="600"/>
+	<guideline x="-688" y="-20" angle="90"/>
+	<outline>
+		<contour>
+			<point x="123" y="52" type="line"/>
+			<point x="187" y="127" type="line" smooth="yes"/>
+			<point x="228" y="175"/>
+			<point x="265" y="257"/>
+			<point x="282" y="299" type="curve"/>
+			<point x="288" y="299" type="line"/>
+			<point x="293" y="257"/>
+			<point x="304" y="174"/>
+			<point x="329" y="127" type="curve" smooth="yes"/>
+			<point x="369" y="52" type="line"/>
+			<point x="487" y="126" type="line"/>
+			<point x="448" y="202" type="line"/>
+			<point x="422" y="248"/>
+			<point x="363" y="297"/>
+			<point x="331" y="322" type="curve"/>
+			<point x="334" y="326" type="line"/>
+			<point x="379" y="326"/>
+			<point x="459" y="330"/>
+			<point x="514" y="348" type="curve" smooth="yes"/>
+			<point x="601" y="377" type="line"/>
+			<point x="575" y="499" type="line"/>
+			<point x="488" y="470" type="line" smooth="yes"/>
+			<point x="434" y="452"/>
+			<point x="362" y="401"/>
+			<point x="323" y="372" type="curve"/>
+			<point x="319" y="375" type="line"/>
+			<point x="341" y="416"/>
+			<point x="382" y="497"/>
+			<point x="391" y="555" type="curve" smooth="yes"/>
+			<point x="404" y="640" type="line"/>
+			<point x="274" y="640" type="line"/>
+			<point x="261" y="555" type="line" smooth="yes"/>
+			<point x="252" y="497"/>
+			<point x="267" y="416"/>
+			<point x="275" y="375" type="curve"/>
+			<point x="270" y="371" type="line"/>
+			<point x="240" y="400"/>
+			<point x="185" y="452"/>
+			<point x="135" y="470" type="curve" smooth="yes"/>
+			<point x="58" y="499" type="line"/>
+			<point x="-5" y="377" type="line"/>
+			<point x="71" y="348" type="line" smooth="yes"/>
+			<point x="120" y="329"/>
+			<point x="201" y="326"/>
+			<point x="246" y="326" type="curve"/>
+			<point x="247" y="323" type="line"/>
+			<point x="206" y="298"/>
+			<point x="131" y="248"/>
+			<point x="92" y="201" type="curve" smooth="yes"/>
+			<point x="29" y="126" type="line"/>
+		</contour>
+		<component base="less" xOffset="-615"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>less</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.6,1,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

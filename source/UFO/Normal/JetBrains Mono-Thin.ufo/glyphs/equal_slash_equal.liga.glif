@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal_slash_equal.liga" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="-565" y="0" type="line"/>
+			<point x="-505" y="0" type="line"/>
+			<point x="-75" y="665" type="line"/>
+			<point x="-135" y="665" type="line"/>
+		</contour>
+		<contour>
+			<point x="-1140" y="190" type="line"/>
+			<point x="500" y="190" type="line"/>
+			<point x="500" y="240" type="line"/>
+			<point x="-1140" y="240" type="line"/>
+		</contour>
+		<contour>
+			<point x="-1140" y="420" type="line"/>
+			<point x="500" y="420" type="line"/>
+			<point x="500" y="470" type="line"/>
+			<point x="-1140" y="470" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.99,0.62,0.11,1</string>
+		</dict>
+	</lib>
+</glyph>

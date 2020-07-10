@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_asterisk_greater.liga" format="2">
+	<advance width="600"/>
+	<guideline x="-773"/>
+	<guideline x="-3"/>
+	<guideline x="-1288"/>
+	<outline>
+		<contour>
+			<point x="-473" y="64" type="line"/>
+			<point x="-382" y="172" type="line" smooth="yes"/>
+			<point x="-351" y="209"/>
+			<point x="-319" y="264"/>
+			<point x="-301" y="300" type="curve"/>
+			<point x="-293" y="300" type="line"/>
+			<point x="-287" y="264"/>
+			<point x="-273" y="208"/>
+			<point x="-254" y="172" type="curve" smooth="yes"/>
+			<point x="-196" y="64" type="line"/>
+			<point x="-116" y="114" type="line"/>
+			<point x="-174" y="222" type="line" smooth="yes"/>
+			<point x="-193" y="258"/>
+			<point x="-231" y="297"/>
+			<point x="-257" y="322" type="curve"/>
+			<point x="-252" y="331" type="line"/>
+			<point x="-213" y="334"/>
+			<point x="-155" y="341"/>
+			<point x="-112" y="355" type="curve" smooth="yes"/>
+			<point x="14" y="397" type="line"/>
+			<point x="-3" y="480" type="line"/>
+			<point x="-129" y="438" type="line" smooth="yes"/>
+			<point x="-173" y="423"/>
+			<point x="-228" y="390"/>
+			<point x="-263" y="368" type="curve"/>
+			<point x="-267" y="371" type="line"/>
+			<point x="-250" y="408"/>
+			<point x="-226" y="469"/>
+			<point x="-218" y="515" type="curve" smooth="yes"/>
+			<point x="-199" y="640" type="line"/>
+			<point x="-287" y="640" type="line"/>
+			<point x="-306" y="515" type="line" smooth="yes"/>
+			<point x="-314" y="469"/>
+			<point x="-308" y="408"/>
+			<point x="-304" y="371" type="curve"/>
+			<point x="-310" y="367" type="line"/>
+			<point x="-337" y="390"/>
+			<point x="-382" y="423"/>
+			<point x="-422" y="438" type="curve" smooth="yes"/>
+			<point x="-534" y="480" type="line"/>
+			<point x="-577" y="397" type="line"/>
+			<point x="-465" y="355" type="line" smooth="yes"/>
+			<point x="-426" y="341"/>
+			<point x="-369" y="333"/>
+			<point x="-332" y="330" type="curve"/>
+			<point x="-330" y="323" type="line"/>
+			<point x="-364" y="299"/>
+			<point x="-415" y="259"/>
+			<point x="-446" y="222" type="curve" smooth="yes"/>
+			<point x="-537" y="114" type="line"/>
+		</contour>
+		<component base="less" xOffset="-1185"/>
+		<component base="greater" xOffset="-15"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>less</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>greater</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.6,1,0.6,1</string>
+		</dict>
+	</lib>
+</glyph>

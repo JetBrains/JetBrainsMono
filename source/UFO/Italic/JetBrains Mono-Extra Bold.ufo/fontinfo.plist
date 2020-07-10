@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>970</integer>
+	<key>capHeight</key>
+	<integer>730</integer>
+	<key>copyright</key>
+	<string>© 2000-2020 JetBrains s.r.o. Developed with drive and IntelliJ IDEA.</string>
+	<key>descender</key>
+	<integer>-270</integer>
+	<key>familyName</key>
+	<string>JetBrains Mono</string>
+	<key>guidelines</key>
+	<array>
+		<dict>
+			<key>y</key>
+			<integer>255</integer>
+		</dict>
+		<dict>
+			<key>y</key>
+			<integer>830</integer>
+		</dict>
+		<dict>
+			<key>y</key>
+			<integer>3125</integer>
+		</dict>
+	</array>
+	<key>italicAngle</key>
+	<real>-9.0</real>
+	<key>openTypeHeadCreated</key>
+	<string>2020/07/09 12:49:48</string>
+	<key>openTypeHheaAscender</key>
+	<integer>970</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-270</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNameDesigner</key>
+	<string>Philipp Nurullin, Konstantin Bulenkov</string>
+	<key>openTypeNameLicense</key>
+	<string>Licensed under the Apache License, Version 2.0</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>http://www.apache.org/licenses/LICENSE-2.0</string>
+	<key>openTypeNameManufacturer</key>
+	<string>JetBrains</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>https://www.jetbrains.com</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Extra Bold Italic</string>
+	<key>openTypeNameVersion</key>
+	<string>2.000</string>
+	<key>openTypeOS2StrikeoutPosition</key>
+	<integer>320</integer>
+	<key>openTypeOS2Type</key>
+	<array>
+		<integer>3</integer>
+	</array>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>970</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-270</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2VendorID</key>
+	<string>JB</string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>800</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>4</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>1085</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>270</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer>-10</integer>
+		<integer>0</integer>
+		<integer>550</integer>
+		<integer>560</integer>
+		<integer>730</integer>
+		<integer>740</integer>
+		<integer>830</integer>
+		<integer>840</integer>
+	</array>
+	<key>postscriptFamilyBlues</key>
+	<array>
+		<integer>-10</integer>
+		<integer>0</integer>
+		<integer>550</integer>
+		<integer>560</integer>
+		<integer>730</integer>
+		<integer>740</integer>
+		<integer>830</integer>
+		<integer>840</integer>
+	</array>
+	<key>postscriptFamilyOtherBlues</key>
+	<array>
+		<integer>-190</integer>
+		<integer>-180</integer>
+		<integer>-120</integer>
+		<integer>-110</integer>
+	</array>
+	<key>postscriptFontName</key>
+	<string>JetBrainsMono-ExtraBoldItalic</string>
+	<key>postscriptOtherBlues</key>
+	<array>
+		<integer>-190</integer>
+		<integer>-180</integer>
+		<integer>-120</integer>
+		<integer>-110</integer>
+	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+		<integer>140</integer>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+		<integer>150</integer>
+		<integer>120</integer>
+	</array>
+	<key>styleMapFamilyName</key>
+	<string>JetBrains Mono Extra Bold</string>
+	<key>styleMapStyleName</key>
+	<string>italic</string>
+	<key>styleName</key>
+	<string>Extra Bold Italic</string>
+	<key>trademark</key>
+	<string>JetBrains Mono is a trademark of JetBrains s.r.o.</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>2</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>550</integer>
+</dict>
+</plist>

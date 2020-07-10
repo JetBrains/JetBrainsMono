@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emacron" format="2">
+	<advance width="600"/>
+	<unicode hex="0113"/>
+	<guideline x="115"/>
+	<guideline x="486"/>
+	<outline>
+		<component base="e"/>
+		<component base="macron"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>macron</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>
