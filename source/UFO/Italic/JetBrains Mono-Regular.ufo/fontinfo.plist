@@ -76,7 +76,7 @@
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
 	<integer>1085</integer>
 	<key>openTypeOS2WinDescent</key>

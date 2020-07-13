@@ -20,7 +20,7 @@ value = "JetBrains Mono is a trademark of JetBrains s.r.o.";
 },
 {
 name = versionString;
-value = "2.000";
+value = "2.001";
 },
 {
 name = vendorID;
@@ -64,7 +64,7 @@ name = "Variable Font Origin";
 value = "CCC0BD40-BA8C-414E-B576-CF0B94E6C996";
 }
 );
-date = "2020-07-09 09:49:25 +0000";
+date = "2020-07-13 08:07:31 +0000";
 designer = "Philipp Nurullin, Konstantin Bulenkov";
 familyName = "JetBrains Mono";
 featurePrefixes = (
@@ -121129,5 +121129,5 @@ tH = 45;
 };
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }

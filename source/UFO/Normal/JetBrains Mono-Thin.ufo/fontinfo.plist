@@ -40,7 +40,7 @@
 		</dict>
 	</array>
 	<key>openTypeHeadCreated</key>
-	<string>2020/07/09 12:49:25</string>
+	<string>2020/07/13 11:07:31</string>
 	<key>openTypeHheaAscender</key>
 	<integer>970</integer>
 	<key>openTypeHheaDescender</key>
@@ -60,7 +60,7 @@
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>ExtraLight</string>
 	<key>openTypeNameVersion</key>
-	<string>2.000</string>
+	<string>2.001</string>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>320</integer>
 	<key>openTypeOS2Type</key>
@@ -142,7 +142,7 @@
 	<key>versionMajor</key>
 	<integer>2</integer>
 	<key>versionMinor</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>xHeight</key>
 	<integer>550</integer>
 </dict>
