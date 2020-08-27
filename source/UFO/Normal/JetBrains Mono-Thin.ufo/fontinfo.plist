@@ -38,9 +38,17 @@
 			<key>y</key>
 			<integer>-190</integer>
 		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>x</key>
+			<integer>308</integer>
+			<key>y</key>
+			<integer>695</integer>
+		</dict>
 	</array>
 	<key>openTypeHeadCreated</key>
-	<string>2020/07/13 11:07:31</string>
+	<string>2020/08/26 12:25:38</string>
 	<key>openTypeHheaAscender</key>
 	<integer>970</integer>
 	<key>openTypeHheaDescender</key>
@@ -50,17 +58,17 @@
 	<key>openTypeNameDesigner</key>
 	<string>Philipp Nurullin, Konstantin Bulenkov</string>
 	<key>openTypeNameLicense</key>
-	<string>Licensed under the Apache License, Version 2.0</string>
+	<string>Licensed under the SIL Open Font License, Version 1.1.</string>
 	<key>openTypeNameLicenseURL</key>
-	<string>http://www.apache.org/licenses/LICENSE-2.0</string>
+	<string>https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=OFL</string>
 	<key>openTypeNameManufacturer</key>
 	<string>JetBrains</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>https://www.jetbrains.com</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>ExtraLight</string>
+	<string>Extra Light</string>
 	<key>openTypeNameVersion</key>
-	<string>2.001</string>
+	<string>2.002</string>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>320</integer>
 	<key>openTypeOS2Type</key>
@@ -130,11 +138,11 @@
 		<integer>50</integer>
 	</array>
 	<key>styleMapFamilyName</key>
-	<string>JetBrains Mono ExtraLight</string>
+	<string>JetBrains Mono Extra Light</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
-	<string>ExtraLight</string>
+	<string>Extra Light</string>
 	<key>trademark</key>
 	<string>JetBrains Mono is a trademark of JetBrains s.r.o.</string>
 	<key>unitsPerEm</key>
@@ -142,7 +150,7 @@
 	<key>versionMajor</key>
 	<integer>2</integer>
 	<key>versionMinor</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>xHeight</key>
 	<integer>550</integer>
 </dict>

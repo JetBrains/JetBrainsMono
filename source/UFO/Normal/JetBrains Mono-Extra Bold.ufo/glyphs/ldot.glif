@@ -5,7 +5,7 @@
 	<guideline y="730"/>
 	<outline>
 		<component base="l" xOffset="-20"/>
-		<component base="periodcentered" xOffset="185"/>
+		<component base="periodcentered" xOffset="205"/>
 	</outline>
 	<lib>
 		<dict>

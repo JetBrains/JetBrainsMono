@@ -9,7 +9,7 @@
 			<point x="575" y="140" type="line"/>
 			<point x="40" y="140" type="line"/>
 		</contour>
-		<component base="propersubset" yOffset="90"/>
+		<component base="propersubset" yOffset="80"/>
 	</outline>
 	<lib>
 		<dict>

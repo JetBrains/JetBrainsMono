@@ -712,14 +712,22 @@
 	<string>kgreenlandic.glif</string>
 	<key>l</key>
 	<string>l.glif</string>
+	<key>l.ss01</key>
+	<string>l.ss01.glif</string>
 	<key>lacute</key>
 	<string>lacute.glif</string>
+	<key>lacute.ss01</key>
+	<string>lacute.ss01.glif</string>
 	<key>lambda</key>
 	<string>lambda.glif</string>
 	<key>lcaron</key>
 	<string>lcaron.glif</string>
+	<key>lcaron.ss01</key>
+	<string>lcaron.ss01.glif</string>
 	<key>ldot</key>
 	<string>ldot.glif</string>
+	<key>ldot.ss01</key>
+	<string>ldot.ss01.glif</string>
 	<key>less</key>
 	<string>less.glif</string>
 	<key>less_asciitilde.liga</key>
@@ -806,6 +814,8 @@
 	<string>lozenge.glif</string>
 	<key>lslash</key>
 	<string>lslash.glif</string>
+	<key>lslash.ss01</key>
+	<string>lslash.ss01.glif</string>
 	<key>ltshade</key>
 	<string>ltshade.glif</string>
 	<key>m</key>
@@ -1124,6 +1134,8 @@
 	<string>uni013B_.glif</string>
 	<key>uni013C</key>
 	<string>uni013C_.glif</string>
+	<key>uni013C.ss01</key>
+	<string>uni013C_.ss01.glif</string>
 	<key>uni0145</key>
 	<string>uni0145.glif</string>
 	<key>uni0146</key>
@@ -1966,8 +1978,6 @@
 	<string>uni27E_9.glif</string>
 	<key>uni2B58</key>
 	<string>uni2B_58.glif</string>
-	<key>uniE000</key>
-	<string>uniE_000.glif</string>
 	<key>uniE0A0</key>
 	<string>uniE_0A_0.glif</string>
 	<key>uniE0A1</key>

@@ -3,8 +3,8 @@
 	<advance width="600"/>
 	<unicode hex="2284"/>
 	<outline>
-		<component base="propersubset"/>
 		<component base="uni0338" xOffset="600"/>
+		<component base="propersubset"/>
 	</outline>
 	<lib>
 		<dict>
@@ -16,7 +16,7 @@
 					<key>index</key>
 					<integer>0</integer>
 					<key>name</key>
-					<string>propersubset</string>
+					<string>uni0338</string>
 				</dict>
 				<dict>
 					<key>alignment</key>
@@ -24,7 +24,7 @@
 					<key>index</key>
 					<integer>1</integer>
 					<key>name</key>
-					<string>uni0338</string>
+					<string>propersubset</string>
 				</dict>
 			</array>
 		</dict>

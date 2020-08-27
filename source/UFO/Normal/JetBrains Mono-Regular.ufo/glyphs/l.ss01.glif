@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l.ss01" format="2">
+	<advance width="600"/>
+	<anchor x="296" y="730" name="top"/>
+	<outline>
+		<contour>
+			<point x="80" y="0" type="line"/>
+			<point x="550" y="0" type="line"/>
+			<point x="550" y="82" type="line"/>
+			<point x="365" y="82" type="line"/>
+			<point x="365" y="730" type="line"/>
+			<point x="105" y="730" type="line"/>
+			<point x="105" y="648" type="line"/>
+			<point x="275" y="648" type="line"/>
+			<point x="275" y="82" type="line"/>
+			<point x="80" y="82" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+			<key>public.markColor</key>
+			<string>0.75,0.75,0.75,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -2,6 +2,7 @@
 <glyph name="caron" format="2">
 	<advance width="600"/>
 	<unicode hex="02C7"/>
+	<anchor x="300" y="565" name="_top"/>
 	<note>
 		Remove flat connection
 	</note>
@@ -20,7 +21,7 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.99,0.62,0.11,1</string>
+			<string>0.97,0.9,0,1</string>
 		</dict>
 	</lib>
 </glyph>

@@ -2,6 +2,7 @@
 <glyph name="idieresis" format="2">
 	<advance width="600"/>
 	<unicode hex="00EF"/>
+	<guideline x="275" y="700" angle="0"/>
 	<outline>
 		<component base="dotlessi"/>
 		<component base="dieresis"/>

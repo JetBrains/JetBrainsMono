@@ -30,7 +30,7 @@
 	<key>italicAngle</key>
 	<real>-9.0</real>
 	<key>openTypeHeadCreated</key>
-	<string>2020/07/09 12:49:48</string>
+	<string>2020/08/26 11:00:50</string>
 	<key>openTypeHheaAscender</key>
 	<integer>970</integer>
 	<key>openTypeHheaDescender</key>
@@ -40,9 +40,9 @@
 	<key>openTypeNameDesigner</key>
 	<string>Philipp Nurullin, Konstantin Bulenkov</string>
 	<key>openTypeNameLicense</key>
-	<string>Licensed under the Apache License, Version 2.0</string>
+	<string>Licensed under the SIL Open Font License, Version 1.1.</string>
 	<key>openTypeNameLicenseURL</key>
-	<string>http://www.apache.org/licenses/LICENSE-2.0</string>
+	<string>https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=OFL</string>
 	<key>openTypeNameManufacturer</key>
 	<string>JetBrains</string>
 	<key>openTypeNameManufacturerURL</key>
@@ -50,7 +50,7 @@
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Extra Bold Italic</string>
 	<key>openTypeNameVersion</key>
-	<string>2.000</string>
+	<string>2.002</string>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>320</integer>
 	<key>openTypeOS2Type</key>
@@ -68,7 +68,7 @@
 	<key>openTypeOS2WeightClass</key>
 	<integer>800</integer>
 	<key>openTypeOS2WidthClass</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
 	<integer>1085</integer>
 	<key>openTypeOS2WinDescent</key>
@@ -133,7 +133,7 @@
 	<key>versionMajor</key>
 	<integer>2</integer>
 	<key>versionMinor</key>
-	<integer>0</integer>
+	<integer>2</integer>
 	<key>xHeight</key>
 	<integer>550</integer>
 </dict>

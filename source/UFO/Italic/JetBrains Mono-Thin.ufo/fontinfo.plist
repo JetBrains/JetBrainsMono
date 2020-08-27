@@ -22,7 +22,7 @@
 	<key>italicAngle</key>
 	<real>-9.0</real>
 	<key>openTypeHeadCreated</key>
-	<string>2020/07/09 12:49:48</string>
+	<string>2020/08/26 11:00:50</string>
 	<key>openTypeHheaAscender</key>
 	<integer>970</integer>
 	<key>openTypeHheaDescender</key>
@@ -32,17 +32,17 @@
 	<key>openTypeNameDesigner</key>
 	<string>Philipp Nurullin, Konstantin Bulenkov</string>
 	<key>openTypeNameLicense</key>
-	<string>Licensed under the Apache License, Version 2.0</string>
+	<string>Licensed under the SIL Open Font License, Version 1.1.</string>
 	<key>openTypeNameLicenseURL</key>
-	<string>http://www.apache.org/licenses/LICENSE-2.0</string>
+	<string>https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=OFL</string>
 	<key>openTypeNameManufacturer</key>
 	<string>JetBrains</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>https://www.jetbrains.com</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>ExtraLight Italic</string>
+	<string>Extra Light Italic</string>
 	<key>openTypeNameVersion</key>
-	<string>2.000</string>
+	<string>2.002</string>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>320</integer>
 	<key>openTypeOS2Type</key>
@@ -112,11 +112,11 @@
 		<integer>50</integer>
 	</array>
 	<key>styleMapFamilyName</key>
-	<string>JetBrains Mono ExtraLight</string>
+	<string>JetBrains Mono Extra Light</string>
 	<key>styleMapStyleName</key>
 	<string>italic</string>
 	<key>styleName</key>
-	<string>ExtraLight Italic</string>
+	<string>Extra Light Italic</string>
 	<key>trademark</key>
 	<string>JetBrains Mono is a trademark of JetBrains s.r.o.</string>
 	<key>unitsPerEm</key>
@@ -124,7 +124,7 @@
 	<key>versionMajor</key>
 	<integer>2</integer>
 	<key>versionMinor</key>
-	<integer>0</integer>
+	<integer>2</integer>
 	<key>xHeight</key>
 	<integer>550</integer>
 </dict>
