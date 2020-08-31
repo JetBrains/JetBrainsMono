@@ -99,8 +99,6 @@ Can be found in the *"Source"* folder. To open them you will need FontLab 6 or h
 
 JetBrains Mono typeface is available under the [OFL-1.1 License](https://github.com/JetBrains/JetBrainsMono/blob/master/LICENSE) and can be used free of charge, for both commercial and non-commercial purposes. You do not need to give credit to JetBrains, although we will appreciate it very much if you do.
 
-The source code is available under [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0)
-
 ## Credits
 
 **Type designer**\
