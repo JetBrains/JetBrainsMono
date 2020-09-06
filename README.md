@@ -50,13 +50,13 @@ Open a terminal and run the following:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
 ```
 
-#### Picking the font for your IDE
-3. Restart your IDE.
-4. Go to `Preferences/Settings` → `Editor` → `Font`, and pick JetBrains Mono from the Font dropdown.
+Once JetBrains Mono is installed in your OS, you are ready to configure the editor.  
+### **JetBrains IDEs** 
+* Restart your IDE.
+* Go to `Preferences/Settings` → `Editor` → `Font`, and pick JetBrains Mono from the Font dropdown.
 
 ### **Visual Studio Code** 
 
-* Follow the instructions above to step 3.
 * Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut <kbd>Ctrl</kbd>+<kbd>,</kbd> (<kbd>Cmd</kbd>+<kbd>,</kbd> on Mac).
 * In the *"Font Family"* input box type JetBrains Mono, replacing any content.
 * To enable ligatures turn on the checkbox in *"Font ligatures"*.
