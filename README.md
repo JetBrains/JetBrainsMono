@@ -41,7 +41,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
    - Linux. Open a terminal and run the following:
    
       ```bash
-      unzip <font_file.zip> -d ~/.local/share/fonts && fc-cache -fv
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
       ```
 
 #### Picking the font for your IDE
