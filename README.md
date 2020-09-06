@@ -34,15 +34,21 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
     ```
 
 #### Or manually
+
+_On Mac/Windows_: 
+
 1. [Download font](https://github.com/JetBrains/JetBrainsMono/releases/latest). 
 2. Unzip the archive and install the font:
    - Mac. Select all font files in the folder and double-click them. Click the *"Install Font"* button.
    - Windows. Select all font files in the folder, right-click any of them, then pick *"Install"* from the menu.
-   - Linux. Open a terminal and run the following:
-   
-      ```bash
-      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
-      ```
+
+_On Linux_: 
+
+Open a terminal and run the following:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+```
 
 #### Picking the font for your IDE
 3. Restart your IDE.
