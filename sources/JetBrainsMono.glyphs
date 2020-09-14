@@ -74,9 +74,8 @@ designerURL = "https://www.jetbrains.com";
 familyName = "JetBrains Mono";
 featurePrefixes = (
 {
+automatic = 1;
 code = "languagesystem DFLT dflt;
-languagesystem latn dflt;
-languagesystem cyrl dflt;
 ";
 name = Languagesystems;
 }
@@ -86,13 +85,6 @@ features = (
 automatic = 1;
 code = "feature calt;
 feature zero;
-feature locl;
-feature subs;
-feature sinf;
-feature sups;
-feature frac;
-feature ordn;
-feature case;
 ";
 name = aalt;
 },
@@ -1215,6 +1207,12 @@ sub SPC numbersign' by bracketright_numbersign.liga;
 sub bracketright' numbersign by SPC;
 } bracketright_numbersign.liga;";
 name = calt;
+},
+{
+automatic = 1;
+code = "sub zero by zero.zero;
+";
+name = zero;
 }
 );
 fontMaster = (
@@ -49286,7 +49284,7 @@ width = 600;
 unicode = 0039;
 },
 {
-glyphname = zero.alt;
+glyphname = zero.zero;
 layers = (
 {
 layerId = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";

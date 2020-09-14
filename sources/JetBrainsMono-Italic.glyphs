@@ -74,14 +74,20 @@ designerURL = "https://www.jetbrains.com";
 familyName = "JetBrains Mono";
 featurePrefixes = (
 {
+automatic = 1;
 code = "languagesystem DFLT dflt;
-languagesystem latn dflt;
-languagesystem cyrl dflt;
 ";
 name = Languagesystems;
 }
 );
 features = (
+{
+automatic = 1;
+code = "feature calt;
+feature zero;
+";
+name = aalt;
+},
 {
 code = "lookup at_underscore.liga {
 ignore sub at at' underscore;
@@ -1203,7 +1209,9 @@ sub bracketright' numbersign by SPC;
 name = calt;
 },
 {
-code = "sub zero by zero.alt;";
+automatic = 1;
+code = "sub zero by zero.zero;
+";
 name = zero;
 }
 );
@@ -49046,7 +49054,7 @@ width = 600;
 unicode = 0039;
 },
 {
-glyphname = zero.alt;
+glyphname = zero.zero;
 layers = (
 {
 layerId = "681EDAF7-11DB-44DD-9204-6ED8688B749D";
@@ -121340,10 +121348,8 @@ value = (
 );
 }
 );
-interpolationWeight = 320;
 instanceInterpolations = {
-"03C02FE7-7458-4762-A27C-0F6E25AC479F" = 0.73333;
-"76E9374A-352D-4379-9771-A49E7E8AA0DC" = 0.26667;
+"76E9374A-352D-4379-9771-A49E7E8AA0DC" = 1;
 };
 isItalic = 1;
 linkStyle = Thin;
@@ -121368,8 +121374,10 @@ value = (
 );
 }
 );
+interpolationWeight = 220;
 instanceInterpolations = {
-"76E9374A-352D-4379-9771-A49E7E8AA0DC" = 1;
+"03C02FE7-7458-4762-A27C-0F6E25AC479F" = 0.4;
+"76E9374A-352D-4379-9771-A49E7E8AA0DC" = 0.6;
 };
 isItalic = 1;
 linkStyle = ExtraLight;
@@ -121394,10 +121402,10 @@ value = (
 );
 }
 );
-interpolationWeight = 220;
+interpolationWeight = 320;
 instanceInterpolations = {
-"03C02FE7-7458-4762-A27C-0F6E25AC479F" = 0.4;
-"76E9374A-352D-4379-9771-A49E7E8AA0DC" = 0.6;
+"03C02FE7-7458-4762-A27C-0F6E25AC479F" = 0.73333;
+"76E9374A-352D-4379-9771-A49E7E8AA0DC" = 0.26667;
 };
 isItalic = 1;
 linkStyle = Light;
@@ -121509,7 +121517,7 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = "Extra Bold";
-name = "Extra Bold Italic";
+name = "ExtraBold Italic";
 weightClass = ExtraBold;
 }
 );
