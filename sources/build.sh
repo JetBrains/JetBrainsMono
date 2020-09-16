@@ -56,6 +56,13 @@ do
 	mv $font.fix $font
 done
 
+gftools fix-isfixedpitch --fonts $VF_DIR/*.ttf
+for font in $vfs
+do
+	mv $font.fix $font
+done
+
+
 echo ".
 POST-PROCESSING TTF
 ."
@@ -70,6 +77,11 @@ do
 	[ -f $font.fix ] && mv $font.fix $font
 done
 
+gftools fix-isfixedpitch --fonts $TT_DIR/*.ttf
+for font in $ttfs
+do
+	mv $font.fix $font
+done
 
 echo ".
 POST-PROCESSING OTF
@@ -80,6 +92,12 @@ do
 	gftools fix-dsig --autofix $font
 	gftools fix-weightclass $font
 	[ -f $font.fix ] && mv $font.fix $font
+done
+
+gftools fix-isfixedpitch --fonts $OT_DIR/*.otf
+for font in $otfs
+do
+	mv $font.fix $font
 done
 
 
