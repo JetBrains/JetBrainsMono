@@ -1,0 +1,42 @@
+name: Fontbakery CI
+
+on: [push, pull_request]
+
+jobs:
+  static-font-ci-job:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    name: Fontbakery CI
+    steps:
+      - name: Check out JetBrains Mono source repository
+        uses: actions/checkout@v2
+      - name: Set up Python v${{ matrix.python-version }} environment
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Python build dependency cache lookup
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          # Check for requirements file cache hit
+          key: ${{ runner.os }}-pip-${{ hashFiles('${{ steps.config.outputs.dependpath }}') }}
+      - name: Install Python build dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          update-wheel: "true"
+          update-setuptools: "true"
+      # - name: Build fonts
+      #   run: sources/build.sh
+      # - name: Font Bakery GS profile tests (Expert artifacts)
+      #   uses: f-actions/font-bakery@v1
+      #   with:
+      #     version: "latest"
+      #     subcmd: "check-googlefonts"
+      #     args: "-C --loglevel WARN"
+      #     path: **TODO**
+      # - name: OpenType Sanitizer checks
+      #   uses: f-actions/opentype-sanitizer@v1
+      #   with:
+      #     path: **TODO**
