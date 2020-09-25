@@ -21,7 +21,7 @@ import javax.xml.xpath.XPathFactory
  */
 @Suppress("RECEIVER_NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 fun main() {
-    File("./ttf/")
+    File("./fonts/ttf/")
             .listFiles { _, name -> name.endsWith(".ttf") && !name.startsWith("JetBrainsMonoNL") }
             .forEach {
                 val ttx = it.nameWithoutExtension + ".ttx"
@@ -46,7 +46,7 @@ fun generateNoLigaturesFont(file: File, doc: Document) {
     val nlName = file.nameWithoutExtension.replace("JetBrainsMono", "JetBrainsMonoNL")
     val ttx = "$nlName.ttx"
     val ttf = "$nlName.ttf"
-    val dir = File(file.parentFile, "No ligatures")
+    val dir = file.parentFile
     File(dir, ttf).deleteAndLog()
     doc.removeLigas("/ttFont/GlyphOrder", "GlyphID")
     doc.removeLigas("/ttFont/glyf", "TTGlyph")
