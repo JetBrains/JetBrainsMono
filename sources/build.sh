@@ -71,7 +71,7 @@ echo $ttfs
 for font in $ttfs
 do
 	gftools fix-dsig --autofix $font
-	ttfautohint $font $font.fix
+	python -m ttfautohint $font $font.fix
 	[ -f $font.fix ] && mv $font.fix $font
 	gftools fix-hinting $font
 	[ -f $font.fix ] && mv $font.fix $font
@@ -104,20 +104,20 @@ done
 #Build woff and woff2 fonts =================================================
 #Requires webfonttools https://github.com/bramstein/homebrew-webfonttools
 
-echo ".
-BUILD WEBFONTS
-."
-for font in $ttfs
-do
-  woff2_compress $font
-  sfnt2woff-zopfli $font
-done
+#echo ".
+#BUILD WEBFONTS
+#."
+#for font in $ttfs
+#do
+#  woff2_compress $font
+#  sfnt2woff-zopfli $font
+#done
 
-woffs=$(ls $TT_DIR/*.woff*)
-for font in $woffs
-do
-	mv $font $WEB_DIR
-done
+#woffs=$(ls $TT_DIR/*.woff*)
+#for font in $woffs
+#do
+#	mv $font $WEB_DIR
+#done
 
 rm -rf master_ufo/ instance_ufo/
 
