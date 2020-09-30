@@ -27,8 +27,8 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
-      # - name: Build fonts
-      #   run: sources/build.sh
+       - name: Build fonts
+         run: sources/build.sh
       # - name: Font Bakery GS profile tests (Expert artifacts)
       #   uses: f-actions/font-bakery@v1
       #   with:
