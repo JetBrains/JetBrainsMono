@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    name: Fontbakery CI
+    name: Fontbakery CI — variable fonts
     steps:
       - name: Check out JetBrains Mono source repository
         uses: actions/checkout@v2
