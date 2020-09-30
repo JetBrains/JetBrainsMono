@@ -56,11 +56,11 @@ do
 	mv $font.fix $font
 done
 
-gftools fix-isfixedpitch --fonts $VF_DIR/*.ttf
-for font in $vfs
-do
-	mv $font.fix $font
-done
+#gftools fix-isfixedpitch --fonts $VF_DIR/*.ttf
+#for font in $vfs
+#do
+#	mv $font.fix $font
+#done
 
 
 echo ".
