@@ -1,6 +1,12 @@
 name: Fontbakery CI — static fonts
 
-on: [push, pull_request]
+on:
+  push:
+    paths:
+    - 'sources/**'
+  pull_request:
+    paths:
+    - 'sources/**'
 
 jobs:
   static-font-ci-job:
@@ -8,7 +14,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    name: Fontbakery CI
+    name: Fontbakery CI — static fonts
     steps:
       - name: Check out JetBrains Mono source repository
         uses: actions/checkout@v2
