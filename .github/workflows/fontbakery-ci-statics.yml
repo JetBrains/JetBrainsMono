@@ -1,4 +1,4 @@
-name: Fontbakery CI
+name: Fontbakery CI — static fonts
 
 on: [push, pull_request]
 
@@ -27,8 +27,8 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
-      - name: Build fonts
-        run: sources/build.sh
+      - name: Build static fonts
+        run: sources/build-statics.sh
       - name: Font Bakery CI static ttf
         uses: f-actions/font-bakery@v1
         with:
@@ -36,14 +36,3 @@ jobs:
           subcmd: "check-googlefonts"
           args: "-C --loglevel WARN"
           path: "fonts/ttf/*.ttf"
-      - name: Font Bakery CI variable ttf
-        uses: f-actions/font-bakery@v1
-        with:
-          version: "latest"
-          subcmd: "check-googlefonts"
-          args: "-C --loglevel WARN"
-          path: "fonts/variable/*.ttf"
-      # - name: OpenType Sanitizer checks
-      #   uses: f-actions/opentype-sanitizer@v1
-      #   with:
-      #     path: **TODO**
