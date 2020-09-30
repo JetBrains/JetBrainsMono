@@ -77,11 +77,11 @@ do
 	[ -f $font.fix ] && mv $font.fix $font
 done
 
-gftools fix-isfixedpitch --fonts $TT_DIR/*.ttf
-for font in $ttfs
-do
-	mv $font.fix $font
-done
+#gftools fix-isfixedpitch --fonts $TT_DIR/*.ttf
+#for font in $ttfs
+#do
+#	mv $font.fix $font
+#done
 
 echo ".
 POST-PROCESSING OTF
@@ -94,11 +94,11 @@ do
 	[ -f $font.fix ] && mv $font.fix $font
 done
 
-gftools fix-isfixedpitch --fonts $OT_DIR/*.otf
-for font in $otfs
-do
-	mv $font.fix $font
-done
+#gftools fix-isfixedpitch --fonts $OT_DIR/*.otf
+#for font in $otfs
+#do
+#	mv $font.fix $font
+#done
 
 
 #Build woff and woff2 fonts =================================================
