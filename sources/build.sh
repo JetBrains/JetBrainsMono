@@ -3,35 +3,35 @@
 set -e
 
 thisFont="JetBrainsMono"  #must match the name in the font file
-VF_DIR=../fonts/variable
-TT_DIR=../fonts/ttf
-OT_DIR=../fonts/otf
-WEB_DIR=../fonts/web
+VF_DIR=./fonts/variable
+TT_DIR=./fonts/ttf
+OT_DIR=./fonts/otf
+WEB_DIR=./fonts/web
 
 #Generating fonts ==========================================================
 #Requires fontmake https://github.com/googlefonts/fontmake
 
 echo "CLEAN FONTS FOLDERS"
-rm -rf ../fonts
+rm -rf ./fonts
 mkdir -p $VF_DIR $TT_DIR $OT_DIR $WEB_DIR
 
 echo ".
 GENERATING VARIABLE
 ."
-fontmake -g $thisFont.glyphs -o variable --output-path $VF_DIR/$thisFont[wght].ttf
-fontmake -g $thisFont-Italic.glyphs -o variable --output-path $VF_DIR/$thisFont-Italic[wght].ttf
+fontmake -g ./sources/$thisFont.glyphs -o variable --output-path $VF_DIR/$thisFont[wght].ttf
+fontmake -g ./sources/$thisFont-Italic.glyphs -o variable --output-path $VF_DIR/$thisFont-Italic[wght].ttf
 
 echo ".
 GENERATING STATIC TTF
 ."
-fontmake -g $thisFont.glyphs -i -o ttf --output-dir $TT_DIR
-fontmake -g $thisFont-Italic.glyphs -i -o ttf --output-dir $TT_DIR
+fontmake -g ./sources/$thisFont.glyphs -i -o ttf --output-dir $TT_DIR
+fontmake -g ./sources/$thisFont-Italic.glyphs -i -o ttf --output-dir $TT_DIR
 
 echo ".
 GENERATING STATIC OTF
 ."
-fontmake -g $thisFont.glyphs -i -o otf --output-dir $OT_DIR
-fontmake -g $thisFont-Italic.glyphs -i -o otf --output-dir $OT_DIR
+fontmake -g ./sources/$thisFont.glyphs -i -o otf --output-dir $OT_DIR
+fontmake -g ./sources/$thisFont-Italic.glyphs -i -o otf --output-dir $OT_DIR
 
 #Post-processing fonts ======================================================
 #Requires gftools https://github.com/googlefonts/gftools
@@ -119,7 +119,7 @@ done
 #	mv $font $WEB_DIR
 #done
 
-rm -rf master_ufo/ instance_ufo/
+rm -rf ./sources/master_ufo/ ./sources/instance_ufo/
 
 
 echo ".
