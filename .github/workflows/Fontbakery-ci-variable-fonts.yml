@@ -1,6 +1,16 @@
 name: Fontbakery CI — variable fonts
 
-on: [push, pull_request]
+on: 
+  push:
+    branches: 
+    - master
+    paths:
+    - sources/**
+  pull_request:
+    branches: 
+    - master
+    paths:
+    - sources/**
 
 jobs:
   static-font-ci-job:
