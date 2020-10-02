@@ -41,7 +41,7 @@ do
 done
 
 
-rm -rf ./sources/master_ufo/ ./sources/instance_ufo/
+rm -rf ./master_ufo/ ./instance_ufo/
 
 
 echo ".
