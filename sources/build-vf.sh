@@ -1,5 +1,5 @@
 #!/bin/sh
-#source env/bin/activate
+source env/bin/activate
 set -e
 
 thisFont="JetBrainsMono"  #must match the name in the font file
@@ -41,7 +41,7 @@ do
 done
 
 
-rm -rf ./sources/master_ufo/ ./sources/instance_ufo/
+rm -rf ./master_ufo/ ./instance_ufo/
 
 
 echo ".
