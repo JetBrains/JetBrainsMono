@@ -1,5 +1,8 @@
 {
 .appVersion = "1346";
+DisplayStrings = (
+"/brevecomb-cy/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_acutecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case"
+);
 classes = (
 {
 automatic = 1;
@@ -101293,10 +101296,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"515 760 LINE",
-"635 900 LINE",
-"535 900 LINE",
-"420 760 LINE"
+"505 760 LINE",
+"625 900 LINE",
+"525 900 LINE",
+"410 760 LINE"
 );
 },
 {
@@ -101326,10 +101329,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"475 760 LINE",
-"600 900 LINE",
-"540 900 LINE",
-"425 760 LINE"
+"455 760 LINE",
+"580 900 LINE",
+"520 900 LINE",
+"405 760 LINE"
 );
 },
 {
@@ -101397,10 +101400,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"565 760 LINE",
-"440 900 LINE",
-"340 900 LINE",
-"470 760 LINE"
+"545 760 LINE",
+"420 900 LINE",
+"320 900 LINE",
+"450 760 LINE"
 );
 },
 {
@@ -101430,10 +101433,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"545 760 LINE",
-"426 900 LINE",
-"366 900 LINE",
-"495 760 LINE"
+"505 760 LINE",
+"386 900 LINE",
+"326 900 LINE",
+"455 760 LINE"
 );
 },
 {
@@ -102413,10 +102416,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"515 915 LINE",
-"635 1055 LINE",
-"533 1055 LINE",
-"418 915 LINE"
+"505 915 LINE",
+"625 1055 LINE",
+"523 1055 LINE",
+"408 915 LINE"
 );
 },
 {
@@ -102446,10 +102449,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"475 915 LINE",
-"600 1055 LINE",
-"540 1055 LINE",
-"425 915 LINE"
+"455 915 LINE",
+"580 1055 LINE",
+"520 1055 LINE",
+"405 915 LINE"
 );
 },
 {
@@ -102517,10 +102520,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"570 915 LINE",
-"445 1055 LINE",
-"345 1055 LINE",
-"475 915 LINE"
+"550 915 LINE",
+"425 1055 LINE",
+"325 1055 LINE",
+"455 915 LINE"
 );
 },
 {
@@ -102550,10 +102553,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"555 915 LINE",
-"436 1055 LINE",
-"376 1055 LINE",
-"505 915 LINE"
+"505 915 LINE",
+"386 1055 LINE",
+"326 1055 LINE",
+"455 915 LINE"
 );
 },
 {

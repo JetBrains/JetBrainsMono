@@ -1,5 +1,8 @@
 {
 .appVersion = "1346";
+DisplayStrings = (
+"/brevecomb-cy/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_acutecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case"
+);
 classes = (
 {
 automatic = 1;
@@ -1728,6 +1731,11 @@ value = T;
 }
 );
 descender = -270;
+guideLines = (
+{
+position = "{615, 760}";
+}
+);
 horizontalStems = (
 45
 );
@@ -100404,10 +100412,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"592 760 LINE",
-"734 900 LINE",
-"630 900 LINE",
-"493 760 LINE"
+"582 760 LINE",
+"724 900 LINE",
+"620 900 LINE",
+"483 760 LINE"
 );
 },
 {
@@ -100437,10 +100445,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"552 760 LINE",
-"699 900 LINE",
-"635 900 LINE",
-"498 760 LINE"
+"532 760 LINE",
+"679 900 LINE",
+"615 900 LINE",
+"478 760 LINE"
 );
 },
 {
@@ -100475,10 +100483,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"695 755 LINE",
-"597 895 LINE",
-"454 895 LINE",
-"562 755 LINE"
+"675 755 LINE",
+"577 895 LINE",
+"434 895 LINE",
+"542 755 LINE"
 );
 },
 {
@@ -100508,10 +100516,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"642 760 LINE",
-"539 900 LINE",
-"443 900 LINE",
-"551 760 LINE"
+"632 760 LINE",
+"529 900 LINE",
+"433 900 LINE",
+"541 760 LINE"
 );
 },
 {
@@ -100541,10 +100549,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"622 760 LINE",
-"525 900 LINE",
-"469 900 LINE",
-"576 760 LINE"
+"572 760 LINE",
+"475 900 LINE",
+"419 900 LINE",
+"526 760 LINE"
 );
 },
 {
@@ -101595,10 +101603,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"719 910 LINE",
-"621 1050 LINE",
-"478 1050 LINE",
-"586 910 LINE"
+"709 910 LINE",
+"611 1050 LINE",
+"468 1050 LINE",
+"576 910 LINE"
 );
 },
 {
@@ -101628,10 +101636,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"666 915 LINE",
-"563 1055 LINE",
-"467 1055 LINE",
-"575 915 LINE"
+"646 915 LINE",
+"543 1055 LINE",
+"447 1055 LINE",
+"555 915 LINE"
 );
 },
 {
@@ -101661,10 +101669,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"647 915 LINE",
-"550 1055 LINE",
-"494 1055 LINE",
-"601 915 LINE"
+"597 915 LINE",
+"500 1055 LINE",
+"444 1055 LINE",
+"551 915 LINE"
 );
 },
 {
