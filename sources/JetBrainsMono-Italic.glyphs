@@ -1,8 +1,5 @@
 {
 .appVersion = "1346";
-DisplayStrings = (
-"/tau"
-);
 classes = (
 {
 automatic = 1;
@@ -122564,13 +122561,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 }
 );
-kerning = {
-"CCC0BD40-BA8C-414E-B576-CF0B94E6C996" = {
-hyphen_bar.liga = {
-less_asterisk.liga = -1;
-};
-};
-};
 manufacturer = JetBrains;
 manufacturerURL = "https://www.jetbrains.com";
 unitsPerEm = 1000;
