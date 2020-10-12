@@ -102720,7 +102720,6 @@ width = 600;
 );
 },
 {
-export = 0;
 glyphname = circumflexcomb_tildecomb.case;
 layers = (
 {
