@@ -17,7 +17,7 @@ mkdir -p $WEB_DIR
 echo ".
 BUILDDING WEBFONTS
 ."
-ttfs=$(ls $TTF_DIR/*.ttf)
+ttfs=$(ls $TT_DIR/*.ttf)
 for fonts in $ttfs
 do
   woff2_compress $fonts
