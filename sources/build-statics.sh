@@ -1,5 +1,5 @@
 #!/bin/sh
-#source env/bin/activate
+source env/bin/activate
 set -e
 
 thisFont="JetBrainsMono"  #must match the name in the font file
@@ -9,9 +9,11 @@ OT_DIR=./fonts/otf
 #Generating fonts ==========================================================
 #Requires fontmake https://github.com/googlefonts/fontmake
 
-echo "CLEAN FONTS FOLDERS"
-rm -rf ./fonts
-mkdir -p $TT_DIR $OT_DIR $WEB_DIR
+echo ".
+CLEAN FONTS FOLDERS
+."
+rm -rf $TT_DIR $OT_DIR
+mkdir -p $TT_DIR $OT_DIR
 
 echo ".
 GENERATING STATIC TTF
@@ -33,7 +35,6 @@ echo ".
 POST-PROCESSING TTF
 ."
 ttfs=$(ls $TT_DIR/*.ttf)
-echo $ttfs
 for font in $ttfs
 do
 	gftools fix-dsig --autofix $font
