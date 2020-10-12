@@ -40,5 +40,5 @@ jobs:
         with:
           version: "latest"
           subcmd: "check-googlefonts"
-          args: "-C --succinct --loglevel WARN"
+          args: "-C --succinct --loglevel WARN --exclude-checkid com.google.fonts/check/valid_glyphnames"
           path: "fonts/ttf/*.ttf"
