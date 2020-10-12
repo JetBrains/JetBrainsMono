@@ -1,5 +1,5 @@
 {
-.appVersion = "1348";
+.appVersion = "1346";
 classes = (
 {
 automatic = 1;
@@ -62,6 +62,21 @@ Tag = wght;
 {
 name = "Variable Font Origin";
 value = "CCC0BD40-BA8C-414E-B576-CF0B94E6C996";
+},
+{
+name = panose;
+value = (
+2,
+0,
+0,
+9,
+0,
+0,
+0,
+0,
+0,
+0
+);
 },
 {
 name = "Family Alignment Zones";
@@ -1742,6 +1757,7 @@ alignmentZones = (
 );
 ascender = 730;
 capHeight = 730;
+custom = Italic;
 customParameters = (
 {
 name = winAscent;
@@ -102809,7 +102825,7 @@ instanceInterpolations = {
 "EDF5EB54-295C-4C90-9A2F-67CD82979CFF" = 0.26667;
 };
 isItalic = 1;
-linkStyle = Italic;
+linkStyle = Light;
 name = "Light Italic";
 weightClass = Light;
 },
@@ -102840,7 +102856,7 @@ instanceInterpolations = {
 "CCC0BD40-BA8C-414E-B576-CF0B94E6C996" = 1;
 };
 isItalic = 1;
-name = Regular;
+name = Italic;
 },
 {
 customParameters = (

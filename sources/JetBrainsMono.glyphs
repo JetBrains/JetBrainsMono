@@ -1,9 +1,5 @@
 {
-.appVersion = "1348";
-DisplayStrings = (
-"/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb \012/brevecomb_acutecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case",
-"/alpha"
-);
+.appVersion = "1346";
 classes = (
 {
 automatic = 1;
@@ -97,6 +93,21 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = panose;
+value = (
+2,
+0,
+0,
+9,
+0,
+0,
+0,
+0,
+0,
+0
+);
 }
 );
 date = "2020-10-02 09:50:39 +0000";
@@ -102709,6 +102720,7 @@ width = 600;
 );
 },
 {
+export = 0;
 glyphname = circumflexcomb_tildecomb.case;
 layers = (
 {
