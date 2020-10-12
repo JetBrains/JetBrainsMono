@@ -40,5 +40,5 @@ jobs:
         with:
           version: "latest"
           subcmd: "check-googlefonts"
-          args: "-C --succinct --loglevel WARN --exclude-checkid com.google.fonts/check/name/familyname"
+          args: "-C --succinct --loglevel WARN -x familyname -x fullfontname -x typographicfamilyname"
           path: "fonts/ttf/*.ttf"
