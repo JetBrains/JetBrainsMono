@@ -16,7 +16,7 @@ echo ".
 GENERATING VARIABLE
 ."
 fontmake -g ./sources/$thisFont.glyphs -o variable --output-path $VF_DIR/$thisFont[wght].ttf
-#fontmake -g ./sources/$thisFont-Italic.glyphs -o variable --output-path $VF_DIR/$thisFont-Italic[wght].ttf
+fontmake -g ./sources/$thisFont-Italic.glyphs -o variable --output-path $VF_DIR/$thisFont-Italic[wght].ttf
 
 #Post-processing fonts ======================================================
 #Requires gftools https://github.com/googlefonts/gftools
