@@ -9,7 +9,7 @@ VF_DIR=./fonts/variable
 #Requires fontmake https://github.com/googlefonts/fontmake
 
 echo "CLEAN FONTS FOLDERS"
-rm -rf ./fonts
+rm -rf $VF_DIR
 mkdir -p $VF_DIR
 
 echo ".
@@ -33,12 +33,6 @@ do
 	gftools fix-unwanted-tables --tables MVAR $font
 done
 rm $VF_DIR/*gasp*
-
-gftools fix-vf-meta $VF_DIR/$thisFont[wght].ttf $VF_DIR/$thisFont-Italic[wght].ttf
-for font in $vfs
-do
-	mv $font.fix $font
-done
 
 
 rm -rf ./master_ufo/ ./instance_ufo/
