@@ -3,7 +3,7 @@
 source env/bin/activate
 set -e
 
-#requires https://github.com/bramstein/homebrew-webfonttools
+#requires brotli
 
 WEB_DIR=./fonts/webfonts
 TT_DIR=./fonts/ttf
@@ -18,12 +18,14 @@ echo ".
 BUILDDING WEBFONTS
 ."
 ttfs=$(ls $TT_DIR/*.ttf)
-for fonts in $ttfs
+for font in $ttfs
 do
-  woff2_compress $fonts
-  sfnt2woff-zopfli $fonts
+	fonttools ttLib.woff2 compress $font
 done
 
+echo ".
+MOVE WEBFONTS TO OWN DIRECTORY
+."
 webfonts=$(ls $TT_DIR/*.woff*)
 for font in $webfonts
 do
