@@ -7,3 +7,4 @@
 
 JetBrains <>
 Philipp Nurullin <philipp.nurullin@jetbrains.com>
+Konstantin Bulenkov <kb@jetbrains.com>
