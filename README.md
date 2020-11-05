@@ -99,7 +99,7 @@ In the terminal:
 
 ## Source files
 
-Can be found in the *"Source"* folder. To open them you will need FontLab 6 or higher.
+Can be found in the *"Source"* folder. To open them you will need Glyphs.
 
 ## License
 
