@@ -1,3 +1,10 @@
+# 2.210
+— Vertical metrics (win, hhea, typo) made equal to prevent different line-height #334 #286. In some cases it will increase line-height by 1px but in some cases it will decrease by 3px
+— Because of vertical metrics unification Vietnamese diacritics was made more compact in capital letters
+— Added symbols □ △ ▽ ◁ ▷ ▻ ◅ ► ◄ ▪ ▫ ▴ ▾ ◂ ▸ ▵ ◃ ▹ ▿ ∘ ❮ ❯ ❰ ❱◌ ◯ ◎ ✕ ⚠ ⚡ ⌂ ◔ ◧ ◨ ◩ ◪ ◫ ⌄ ⌅ ◕ ⌥ ⌃ ⇧ ⌘ #277
+— Added Bitcoin symbol #292
+— Correction in Greek letters Θ ρ #336
+
 # 2.200
 ## Major changes
 — Added Greek alphabet #58
