@@ -34,6 +34,11 @@ do
 done
 rm $VF_DIR/*gasp*
 
+gftools fix-vf-meta $VF_DIR/$thisFont[wght].ttf $VF_DIR/$thisFont-Italic[wght].ttf
+for font in $vfs
+do
+	mv $font.fix $font
+done
 
 rm -rf ./master_ufo/ ./instance_ufo/
 
