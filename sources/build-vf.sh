@@ -1,5 +1,5 @@
 #!/bin/sh
-#source env/bin/activate
+source env/bin/activate
 set -e
 
 thisFont="JetBrainsMono"  #must match the name in the font file
