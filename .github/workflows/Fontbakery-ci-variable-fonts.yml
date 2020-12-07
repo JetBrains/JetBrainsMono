@@ -44,5 +44,5 @@ jobs:
         with:
           version: "latest"
           subcmd: "check-googlefonts"
-          args: "-C --succinct --loglevel WARN"
+          args: "--succinct --loglevel WARN"
           path: "fonts/variable/*.ttf"
