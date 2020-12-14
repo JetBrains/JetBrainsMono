@@ -22,7 +22,7 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 2. Install it using the `font-jetbrains-mono` cask:
 
    ```console
-   brew cask install font-jetbrains-mono
+   brew install --cask font-jetbrains-mono
    ```
    
 #### Through Chocolatey (Windows only)
