@@ -6,6 +6,18 @@ All notable changes to this project will be documented in this file.
 - Removed `0x0` ligature #346
 - Added `⟵` `⟷` `⟶` #255
 - Corrected vertical placement on BoxDrawing elements
+- Removed `.-` ligature #76
+- Disabled ligatures for lookahead/lookbehind prefixes (regex) #126
+- Added support for combined marks #228
+- Added `∪` #244
+- Added `➜`(U+279C), `✗`(U+2717), and `✓`(U+2713) #246
+- Added `<<~` #291
+- Added `‾` Overline #298
+- Tuned Cyrillic `в` #335
+- Increase height of BoxDraving #382
+- Added `‿` `∁` `∎` `⊸` `⊎` `⨀` `⨆` `∩` `∶` `⊢` `⊤` `⊥` `⊛` `⊖` `⊗` `⊙` `⊕` `◦` `⋆` `ℚ` `ℤ` `slashshortcomb`
+- Corrected placement of bar in `Đ`
+- Polished Digits
 
 ## 2.210 (12.11.2020)
 - Vertical metrics (win, hhea, typo) made equal to prevent different line-height #334 #286. In some cases it will increase line-height by 1px but in some cases it will decrease by 3px
