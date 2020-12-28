@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 2.220 (Unreleased)
+## 2.221 (28.12.2020)
 - Tuned Vietnamese diacritics more, removed errors in `Ẫ`
 - Removed `0x0` ligature #346
 - Added `⟵` `⟷` `⟶` #255
