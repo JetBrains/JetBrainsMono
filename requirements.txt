@@ -35,7 +35,7 @@ glyphslib==5.2.0          # via fontmake, gftools
 idna==2.10                # via requests
 itsdangerous==1.1.0       # via flask
 jinja2==2.11.2            # via flask
-lxml==4.5.2               # via fontbakery, fonttools
+lxml==4.6.2               # via fontbakery, fonttools
 markupsafe==1.1.1         # via jinja2
 opentype-sanitizer==8.1.0  # via fontbakery, gftools
 pillow==8.0.0             # via gftools
@@ -50,7 +50,6 @@ pyparsing==2.4.7          # via vttlib
 python-dateutil==2.8.1    # via strictyaml
 pytz==2020.1              # via fs
 requests==2.24.0          # via fontbakery, gftools, pygithub
-ruamel.yaml.clib==0.2.2   # via ruamel.yaml
 ruamel.yaml==0.16.12      # via strictyaml
 six==1.15.0               # via absl-py, fs, protobuf, python-dateutil
 smmap==3.0.4              # via gitdb
@@ -58,11 +57,9 @@ soupsieve==2.0.1          # via beautifulsoup4
 strictyaml==1.1.0         # via gftools
 tabulate==0.8.7           # via gftools
 ttfautohint-py==0.4.3     # via -r requirements.in, fontbakery
-typing-extensions==3.7.4.3  # via ufolib2
 ufo2ft[cffsubr]==2.16.0   # via fontmake
 ufolib2==0.8.0            # via fontmake, glyphslib, vttlib
 ufolint==1.0.1            # via fontbakery
-unicodedata2==13.0.0.post2  # via fonttools
 unidecode==1.1.1          # via gftools
 urllib3==1.25.10          # via requests
 vttlib==0.9.1.post2       # via gftools
