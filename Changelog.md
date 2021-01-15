@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.222 (Unreleased)
+- Fixed monospace breaking by tuning `⟵` `⟶` `⟷` arrows to fit standart width #387
+- Tuned Greek letters `δ` `ε` `ζ` `μ` `ξ` `ς` `σ` `ω` #336
+- Tuned `m` #375
+
 ## 2.221 (28.12.2020)
 - Tuned Vietnamese diacritics more, removed errors in `Ẫ`
 - Removed `0x0` ligature #346
