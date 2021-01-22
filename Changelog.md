@@ -1,10 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 2.222 (Unreleased)
-- Fixed monospace breaking by tuning `⟵` `⟶` `⟷` arrows to fit standart width #387
+## 2.223 (Unreleased)
+- Added exclusion in `->` ligature to look reasonable in negative arguments for C++ `<1->` #107
+- `/**` brought back #202
+- `*/` `/*` aligned to match `*` vertically #215
+- Added multiline bracket characters `⎛` `⎞` `⎝`  `⎠` `⎜` #290
 - Tuned Greek letters `δ` `ε` `ζ` `μ` `ξ` `ς` `σ` `ω` #336
 - Tuned `m` #375
+- Fixed monospace breaking by tuning `⟵` `⟶` `⟷` arrows to fit standart width #387
+- Fixed Powerline arrows height #395
 
 ## 2.221 (28.12.2020)
 - Tuned Vietnamese diacritics more, removed errors in `Ẫ`
