@@ -1,14 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 2.223 (Unreleased)
-- Added exclusion in `->` ligature to look reasonable in negative arguments for C++ `<1->` #107
+## 2.224 (Unreleased)
+- Added exclusion in `<-` ligature to look reasonable in negative arguments for C++ `<-1>` #107
 - `/**` brought back #202
-- `*/` `/*` aligned to match `*` vertically #215
+- `*/` `/*` aligned to match `*`  #215
 - Added multiline bracket characters `⎛` `⎞` `⎝`  `⎠` `⎜` #290
-- Tuned Greek letters `δ` `ε` `ζ` `μ` `ξ` `ς` `σ` `ω` #336
-- Tuned `m` #375
+- Tuned Greek letters construction and contour polish #336
+- Removed `[||]` ligature to more consistence with `[|`  `|]` #353
+- Added `ϖ` #369
 - Fixed monospace breaking by tuning `⟵` `⟶` `⟷` arrows to fit standart width #387
+- Added exclusion in `[<` `>]` to perform in `[<=5]` expression #388
 - Fixed Powerline arrows height #395
 
 ## 2.221 (28.12.2020)
