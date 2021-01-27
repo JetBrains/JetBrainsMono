@@ -1,5 +1,8 @@
 {
 .appVersion = "1352";
+DisplayStrings = (
+"/uniE0B0"
+);
 classes = (
 {
 automatic = 1;
@@ -110,7 +113,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2021-01-25 09:56:01 +0000";
+date = "2021-01-27 10:04:06 +0000";
 designer = "Philipp Nurullin, Konstantin Bulenkov";
 designerURL = "https://www.jetbrains.com";
 familyName = "JetBrains Mono";
@@ -112605,8 +112608,10 @@ paths = (
 closed = 1;
 nodes = (
 "600 360 LINE",
-"0 1020 LINE",
-"0 -300 LINE"
+"10 1020 LINE",
+"-40 1020 LINE",
+"-40 -300 LINE",
+"10 -300 LINE"
 );
 }
 );
@@ -112619,8 +112624,10 @@ paths = (
 closed = 1;
 nodes = (
 "600 360 LINE",
-"0 1020 LINE",
-"0 -300 LINE"
+"10 1020 LINE",
+"-40 1020 LINE",
+"-40 -300 LINE",
+"10 -300 LINE"
 );
 }
 );
@@ -112633,8 +112640,10 @@ paths = (
 closed = 1;
 nodes = (
 "600 360 LINE",
-"0 1020 LINE",
-"0 -300 LINE"
+"10 1020 LINE",
+"-40 1020 LINE",
+"-40 -300 LINE",
+"10 -300 LINE"
 );
 }
 );
@@ -112709,9 +112718,11 @@ paths = (
 {
 closed = 1;
 nodes = (
-"600 1020 LINE",
+"640 -300 LINE",
+"640 1020 LINE",
+"590 1020 LINE",
 "0 360 LINE",
-"600 -300 LINE"
+"590 -300 LINE"
 );
 }
 );
@@ -112723,9 +112734,11 @@ paths = (
 {
 closed = 1;
 nodes = (
-"600 1020 LINE",
+"640 -300 LINE",
+"640 1020 LINE",
+"590 1020 LINE",
 "0 360 LINE",
-"600 -300 LINE"
+"590 -300 LINE"
 );
 }
 );
@@ -112737,9 +112750,11 @@ paths = (
 {
 closed = 1;
 nodes = (
-"600 1020 LINE",
+"640 -300 LINE",
+"640 1020 LINE",
+"590 1020 LINE",
 "0 360 LINE",
-"600 -300 LINE"
+"590 -300 LINE"
 );
 }
 );
@@ -113098,5 +113113,5 @@ tH = 45;
 };
 };
 versionMajor = 2;
-versionMinor = 224;
+versionMinor = 225;
 }

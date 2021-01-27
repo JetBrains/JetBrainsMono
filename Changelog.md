@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 2.224 (Unreleased)
+## 2.225 (27.01.2021)
 - Added exclusion in `<-` ligature to look reasonable in negative arguments for C++ `<-1>` #107
 - `/**` brought back #202
 - `*/` `/*` aligned to match `*`  #215
