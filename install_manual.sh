@@ -93,7 +93,7 @@ function build_fonts_cache() {
 
 # Remove list temporary files
 function cleanup() {
-  for delme in ${*}; do
+  for delme in "$@"; do
     unlink "${delme}" || die "Unable to unlink: ${delme}"
   done
 }
