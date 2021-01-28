@@ -63,7 +63,7 @@ function get_item() {
   item="${1}"
   read_from="${2}"
 
-  awk -F '"' "/${item}/ {print \$4}" ${read_from}
+  awk -F '"' "/${item}/ {print \$4}" "${read_from}"
 
 }
 
