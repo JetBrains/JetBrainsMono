@@ -63,7 +63,7 @@ function get_item() {
   item="${1}"
   read_from="${2}"
 
-  awk -F '"' "/${item}/ {print \$4}" ${read_from}
+  awk -F '"' "/${item}/ {print \$4}" "${read_from}"
 
 }
 
@@ -93,7 +93,7 @@ function build_fonts_cache() {
 
 # Remove list temporary files
 function cleanup() {
-  for delme in ${*}; do
+  for delme in "$@"; do
     unlink "${delme}" || die "Unable to unlink: ${delme}"
   done
 }
