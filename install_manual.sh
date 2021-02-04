@@ -37,7 +37,7 @@ function check_requirements() {
     if command -v "${tool}" >/dev/null 2>&1; then
       echo "Found"
     else
-      die "Not found"
+      die "Not found. Please install \"${tool}\" to fix it."
     fi
   done
 }
