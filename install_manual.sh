@@ -128,7 +128,8 @@ function main() {
   build_fonts_cache
 
   echo "Cleaning up..."
-  cleanup "${TEMP_LATEST_INFO} ${TEMP_FONTS_ARCHIVE}"
+  cleanup "${TEMP_LATEST_INFO}"
+  cleanup "${TEMP_FONTS_ARCHIVE}"
 
   echo "Fonts have been installed"
 }
