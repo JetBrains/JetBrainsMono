@@ -91,11 +91,10 @@ function build_fonts_cache() {
   fc-cache -f || die "Unable to build fonts cache"
 }
 
-# Remove list temporary files
+# Remove temporary file
 function cleanup() {
-  for delme in "$@"; do
-    unlink "${delme}" || die "Unable to unlink: ${delme}"
-  done
+
+  unlink "${*}" || die "Unable to unlink: ${*}"
 }
 
 # Start point
