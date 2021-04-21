@@ -1,6 +1,23 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.300 (unreleased) EAP
+
+- Made triple equal ligature `===` more spacious #25
+- Added 70 symbols from #47 `ƛ` `ϕ` `ϖ` `⁅` `⁆` `⦇` `⦈` `‴` `⟪` `⟦` `⟫` `⟧` `≃` `≔` `≅` `≇` `⋎` `∸` `⋐` `⋰` `⋱` `⋮` `≡` `∹` `≳` `≲` `⋯` `⊈` `≯` `≱` `≢` `≮` `≰` `÷` `≥` `≤` `~` `∅` `≺` `≼` `≟` `⤖` `≗` `⊓` `⊔` `⊑` `≋` `↭` `↞` `↠` `↣` `↥` `↦` `↧` `⇉` `⇑` `⇒` `⇓` `⇔` `⇧` `⇨` `⍳` `⍨` `♭` `♯` `𝔽` `𝕊` `⅀`
+- Tuned `#` #275
+- Added `=:` ligature #305
+- Added floor and ceiling mathematical characters `⎪` `⎩` `⎨` `⎧` `⎢` `⎣` `⎡` `⎭` `⎬` `⎫` `⎥` `⎦` `⎤` #328
+- Corrections in `Θ` `θ` `ξ` `Σ` `∑` #351
+- Added Cyrillic Kazakh letters #391
+- Added ligature `;;;` #393
+- The ligature `<-` have 3 digit exclusion #403
+- Fixed regression with `<--` ligature #417
+- Fixed interpolation error in Italic #431
+- Corrected placement of `*` in `*/` ligature in Regular master
+- Tuned `Ч` `ч`
+- Rounded corners in `⚠`
+
 ## 2.225 (27.01.2021)
 - Added exclusion in `<-` ligature to look reasonable in negative arguments for C++ `<-1>` #107
 - `/**` brought back #202
