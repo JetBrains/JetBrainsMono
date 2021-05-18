@@ -33,6 +33,10 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
+      - name: Install ttfautohint
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
       - name: Build static fonts
         run: sources/build-statics.sh
       - name: Font Bakery CI static ttf
