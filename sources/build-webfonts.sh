@@ -15,7 +15,7 @@ rm -rf $WEB_DIR/Users/philipp.nurullin/IdeaProjects/JetBrainsMono/sources/build-
 mkdir -p $WEB_DIR
 
 echo ".
-BUILDDING WEBFONTS
+BUILDING WEBFONTS
 ."
 ttfs=$(ls $TT_DIR/*.ttf)
 for font in $ttfs
