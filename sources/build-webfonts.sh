@@ -17,20 +17,20 @@ mkdir -p $WEB_DIR
 echo ".
 BUILDING WEBFONTS
 ."
-ttfs=$(ls $TT_DIR/*.ttf)
-for font in $ttfs
-do
-	fonttools ttLib.woff2 compress $font
-done
+
+# Looking up for '*.ttf' in $TT_DIR and compress them (in parallel)
+find $TT_DIR -type f -name '*.ttf' -print0 | xargs -I {} -P0 -0 sh -c "
+	fonttools ttLib.woff2 compress {}
+"
 
 echo ".
 MOVE WEBFONTS TO OWN DIRECTORY
 ."
-webfonts=$(ls $TT_DIR/*.woff*)
-for font in $webfonts
-do
-  mv $font $WEB_DIR
-done
+
+# Looking up for '*.woff*' in $TT_DIR and move them to $WEB_DIR (in parallel)
+find $TT_DIR -type f -regex '*.woff*' -print0 | xargs -I {} -P0 -0 sh -c "
+	mv {} $WEB_DIR
+"
 
 echo ".
 COMPLETE!
