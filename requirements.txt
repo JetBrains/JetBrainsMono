@@ -99,7 +99,7 @@ opentype-sanitizer==8.1.0
     # via
     #   fontbakery
     #   gftools
-pillow==8.1.1
+pillow==8.2.0
     # via gftools
 pip-api==0.0.14
     # via fontbakery
