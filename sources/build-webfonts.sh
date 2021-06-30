@@ -1,6 +1,5 @@
 #!/bin/sh
-
-source env/bin/activate
+[ -r env/bin/activate ] && . env/bin/activate
 set -e
 
 #requires brotli
