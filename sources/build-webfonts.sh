@@ -10,7 +10,7 @@ TT_DIR=./fonts/ttf
 echo ".
 CLEAN FONTS FOLDERS
 ."
-rm -rf $WEB_DIR/Users/philipp.nurullin/IdeaProjects/JetBrainsMono/sources/build-statics.sh
+rm -rf $WEB_DIR
 mkdir -p $WEB_DIR
 
 echo ".
