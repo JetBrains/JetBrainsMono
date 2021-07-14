@@ -15,8 +15,10 @@ mkdir -p $VF_DIR
 echo ".
 GENERATING VARIABLE
 ."
-fontmake -g ./sources/$thisFont.glyphs -o variable --output-path $VF_DIR/$thisFont[wght].ttf
-fontmake -g ./sources/$thisFont-Italic.glyphs -o variable --output-path $VF_DIR/$thisFont-Italic[wght].ttf
+cat <<EOF | xargs -I {} -P0 sh -c "{}"
+fontmake -g ./sources/$thisFont.glyphs -o variable --output-path $VF_DIR/$thisFont[wght].ttf --master-dir "{tmp}" --instance-dir "{tmp}"
+fontmake -g ./sources/$thisFont-Italic.glyphs -o variable --output-path $VF_DIR/$thisFont-Italic[wght].ttf --master-dir "{tmp}" --instance-dir "{tmp}"
+EOF
 
 #Post-processing fonts ======================================================
 #Requires gftools https://github.com/googlefonts/gftools
@@ -24,24 +26,23 @@ fontmake -g ./sources/$thisFont-Italic.glyphs -o variable --output-path $VF_DIR/
 echo ".
 POST-PROCESSING VF
 ."
-vfs=$(ls $VF_DIR/*.ttf)
-for font in $vfs
-do
-	gftools fix-dsig --autofix $font
-	gftools fix-nonhinting $font $font.fix
-	mv $font.fix $font
-	gftools fix-unwanted-tables --tables MVAR $font
-done
+
+# Looking for '*.ttf' in $VF_DIR and do required actions (in parallel)
+find $VF_DIR -type f -name '*.ttf' -print0 | xargs -0 -I {} -P0 sh -c "
+	gftools fix-dsig --autofix {};
+	gftools fix-nonhinting {} {}.fix
+	mv {}.fix {}
+	gftools fix-unwanted-tables --tables MVAR {}
+"
+
 rm $VF_DIR/*gasp*
 
 gftools fix-vf-meta $VF_DIR/$thisFont[wght].ttf $VF_DIR/$thisFont-Italic[wght].ttf
-for font in $vfs
-do
-	mv $font.fix $font
-done
 
-rm -rf ./master_ufo/ ./instance_ufo/
-
+# Looking for '*.ttf' in $VF_DIR and rename them from 'NAME.fix' to 'NAME' (in parallel)
+find $VF_DIR -type f -name '*.ttf' -print0 | xargs -0 -I {} -P0 sh -c "
+	mv {}.fix {}
+"
 
 echo ".
 COMPLETE!

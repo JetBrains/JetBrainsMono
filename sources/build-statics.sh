@@ -16,16 +16,17 @@ rm -rf $TT_DIR $OT_DIR
 mkdir -p $TT_DIR $OT_DIR
 
 echo ".
-GENERATING STATIC TTF
+GENERATING STATIC TTF & OTF
 ."
-fontmake -g ./sources/$thisFont.glyphs -i -o ttf --output-dir $TT_DIR
-fontmake -g ./sources/$thisFont-Italic.glyphs -i -o ttf --output-dir $TT_DIR
+cat <<EOF | xargs -I {} -P0 sh -xc "{}"
+# GENERATING STATIC TTF
+fontmake -g ./sources/$thisFont.glyphs -i -o ttf --output-dir $TT_DIR --master-dir "{tmp}" --instance-dir "{tmp}"
+fontmake -g ./sources/$thisFont-Italic.glyphs -i -o ttf --output-dir $TT_DIR --master-dir "{tmp}" --instance-dir "{tmp}"
 
-echo ".
-GENERATING STATIC OTF
-."
-fontmake -g ./sources/$thisFont.glyphs -i -o otf --output-dir $OT_DIR
-fontmake -g ./sources/$thisFont-Italic.glyphs -i -o otf --output-dir $OT_DIR
+# GENERATING STATIC OTF
+fontmake -g ./sources/$thisFont.glyphs -i -o otf --output-dir $OT_DIR --master-dir "{tmp}" --instance-dir "{tmp}"
+fontmake -g ./sources/$thisFont-Italic.glyphs -i -o otf --output-dir $OT_DIR --master-dir "{tmp}" --instance-dir "{tmp}"
+EOF
 
 #Post-processing fonts ======================================================
 #Requires gftools https://github.com/googlefonts/gftools
@@ -34,30 +35,26 @@ fontmake -g ./sources/$thisFont-Italic.glyphs -i -o otf --output-dir $OT_DIR
 echo ".
 POST-PROCESSING TTF
 ."
-ttfs=$(ls $TT_DIR/*.ttf)
-for font in $ttfs
-do
-	gftools fix-dsig --autofix $font
-	python -m ttfautohint $font $font.fix
-	[ -f $font.fix ] && mv $font.fix $font
-	gftools fix-hinting $font
-	[ -f $font.fix ] && mv $font.fix $font
-done
+
+# Looking up for '*.ttf' in $TT_DIR and do required actions (in parallel)
+find $TT_DIR -type f -name '*.ttf' -print0 | xargs -0 -I {} -P0 sh -c "
+	gftools fix-dsig --autofix {}
+	python -m ttfautohint {} {}.fix
+	[ -f {}.fix ] && mv {}.fix {} || true
+	gftools fix-hinting {}
+	[ -f {}.fix ] && mv {}.fix {} || true
+"
 
 echo ".
 POST-PROCESSING OTF
 ."
-otfs=$(ls $OT_DIR/*.otf)
-for font in $otfs
-do
-	gftools fix-dsig --autofix $font
-	gftools fix-weightclass $font
-	[ -f $font.fix ] && mv $font.fix $font
-done
 
-
-rm -rf master_ufo/ instance_ufo/
-
+# Looking up for '*.otf' in $OT_DIR and do required actions (in parallel)
+find $OT_DIR -type f -name '*.otf' -print0 | xargs -0 -I {} -P0 sh -c "
+	gftools fix-dsig --autofix {}
+	gftools fix-weightclass {}
+	[ -f {}.fix ] && mv {}.fix {} || true
+"
 
 echo ".
 COMPLETE!
