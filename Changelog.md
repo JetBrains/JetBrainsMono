@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 - Made triple equal ligature `===` more spacious #25
 - Added 70 symbols from #47 `ƛ` `ϕ` `ϖ` `⁅` `⁆` `⦇` `⦈` `‴` `⟪` `⟦` `⟫` `⟧` `≃` `≔` `≅` `≇` `⋎` `∸` `⋐` `⋰` `⋱` `⋮` `≡` `∹` `≳` `≲` `⋯` `⊈` `≯` `≱` `≢` `≮` `≰` `÷` `≥` `≤` `~` `∅` `≺` `≼` `≟` `⤖` `≗` `⊓` `⊔` `⊑` `≋` `↭` `↞` `↠` `↣` `↥` `↦` `↧` `⇉` `⇑` `⇒` `⇓` `⇔` `⇧` `⇨` `⍳` `⍨` `♭` `♯` `𝔽` `𝕊` `⅀`
+- Added `ǒ` `ǐ` `ǔ` `ǖ` `ǘ` `ǚ` `ǜ` #187
 - Added Control code support #241
 - Tuned `#` #275
 - Added `=:` ligature #305
@@ -27,6 +28,7 @@ All notable changes to this project will be documented in this file.
 - Corrected placement of `*` in `*/` ligature in Regular master
 - Tuned `Ч` `ч`
 - Fixed consistency of `J` in italic
+
 
 ## 2.225 (27.01.2021)
 - Added exclusion in `<-` ligature to look reasonable in negative arguments for C++ `<-1>` #107
