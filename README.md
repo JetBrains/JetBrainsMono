@@ -2,7 +2,11 @@
 
 # JetBrains Mono
 A typeface made for developers. \
-More about font features & design can be found on [its page](https://jetbrains.com/mono/).
+More about font features & design can be found on [its page](https://jetbrains.com/mono/). 
+
+The font provided in two versions: with ligatures and without ligatures. The default version of JetBrains Mono have the ligatures. The version without ligatures is called **JetBrains Mono NL** and can be found [here](https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf). It also stripped from all the OpenType features. They're becoming usless if your IDE doesn't support OpenType. 
+
+If your IDE supporting OpenType we reccomend to install the default version on the JetBrains Mono and if you don't like the Ligatures turn off them manually in the settings. 
 
 # **Installation**
 
@@ -97,7 +101,7 @@ In the terminal:
 
 ## Source files
 
-Can be found in the *"Source"* folder. To open them you will need Glyphs.
+Can be found in the *"Source"* folder. To open them you will need Glyphs app.
 
 ## License
 
