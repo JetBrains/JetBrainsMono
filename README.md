@@ -4,9 +4,9 @@
 A typeface made for developers. \
 More about font features & design can be found on [its page](https://jetbrains.com/mono/). 
 
-The font provided in two versions: with ligatures and without ligatures. The default version of JetBrains Mono have the ligatures. The version without ligatures is called **JetBrains Mono NL** and can be found [here](https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf). It also stripped from all the OpenType features. They're becoming usless if your IDE doesn't support OpenType. 
+By default, JetBrains Mono includes ligatures. The version without ligatures is called **JetBrains Mono NL** and can be found [here](https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf). This version is also stripped of all OpenType features, since they don't have any effect when your IDE doesn't support OpenType.
 
-If your IDE supporting OpenType we recommend installing the default version on the JetBrains Mono and if you don't like the ligatures you can turn them off manually in the settings. 
+If your IDE supports OpenType we recommend installing the default version of the font. If you prefer not using ligatures you can turn them off manually in the settings. 
 
 # **Installation**
 
