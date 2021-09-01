@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.250 (Unreleased)
+- Added `‼` `｛` `｝` `⟅` `⟆` `≬` `⋈` `∤` `⋉` `≫` `≪` `⨅` `⋂` `⋃` `⊴` `⋢` `∩` `∪` `⋊` `⊓` `⊔` `⊡` `⊟` `⊞` `⊠` `⊏` `⊑` `⊐` `⊒` `≻` `∄` `⊛` `⊝` `⊜` `⊘` `⊗` `⊕` `↝` `↢` `↩` `↪` `↾` `⇐` `⇛` `◎` `◈` `⍓` #47
+
 ## 2.242 Quick Fix (30.07.2021)
 - Added `???` `<:<` ligatures #434
 - Corrected the `⊈` (u+2288) #475
