@@ -1,4 +1,4 @@
-name: Fontbakery CI — variable fonts
+name: Build Fonts
 
 on: 
   push:
@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    name: Fontbakery CI — variable fonts
+    name: Build Fonts
     steps:
       - name: Check out JetBrains Mono source repository
         uses: actions/checkout@v2
@@ -37,16 +37,11 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
-      - name: Install ttfautohint
-        run: |
-          sudo apt-get update
-          sudo apt-get install ttfautohint
-      - name: Build variable fonts
-        run: sources/build-vf.sh
-      - name: Font Bakery CI variable fonts
-        uses: f-actions/font-bakery@v1
+      - name: Build fonts
+        run: gftools builder config.yaml
+      - name: Upload Fonts
+        uses: actions/upload-artifact@v2
         with:
-          version: "latest"
-          subcmd: "check-googlefonts"
-          args: "--succinct --loglevel WARN"
-          path: "fonts/variable/*.ttf"
+          name: Fonts
+          path: fonts/
+
