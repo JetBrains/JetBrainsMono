@@ -1,5 +1,5 @@
 {
-.appVersion = "1357";
+.appVersion = "3098";
 classes = (
 {
 automatic = 1;
@@ -30,33 +30,8 @@ name = DigitHex;
 copyright = "Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)";
 customParameters = (
 {
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-name = trademark;
-value = "JetBrains Mono is a trademark of JetBrains s.r.o.";
-},
-{
-name = vendorID;
-value = JB;
-},
-{
 name = fsType;
 value = (
-);
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
 );
 },
 {
@@ -123,6 +98,31 @@ wght = {
 800 = 800;
 };
 };
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "JetBrains Mono is a trademark of JetBrains s.r.o.";
+},
+{
+name = vendorID;
+value = JB;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2021-09-01 08:49:12 +0000";
@@ -1595,6 +1595,7 @@ fontMaster = (
 alignmentZones = (
 "{830, 10}",
 "{730, 10}",
+"{730, 10}",
 "{550, 10}",
 "{0, -10}",
 "{-110, -10}",
@@ -1655,7 +1656,8 @@ value = 50;
 );
 descender = -270;
 horizontalStems = (
-45
+45,
+0
 );
 iconName = Light;
 id = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -1669,13 +1671,15 @@ de.kutilek.MasterGrid.value = (
 );
 };
 verticalStems = (
-50
+50,
+0
 );
 xHeight = 550;
 },
 {
 alignmentZones = (
 "{830, 10}",
+"{730, 10}",
 "{730, 10}",
 "{550, 10}",
 "{0, -10}",
@@ -1753,6 +1757,7 @@ xHeight = 550;
 alignmentZones = (
 "{830, 10}",
 "{730, 10}",
+"{730, 10}",
 "{550, 10}",
 "{0, -10}",
 "{-110, -10}",
@@ -1813,7 +1818,8 @@ value = 50;
 );
 descender = -270;
 horizontalStems = (
-140
+140,
+0
 );
 id = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";
 italicAngle = 9;
@@ -7352,11 +7358,12 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 764, 180}";
+transform = "{1, 0, 0, 1, 516, 0}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -7365,11 +7372,12 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 784, 180}";
+transform = "{1, 0, 0, 1, 531, 0}";
 }
 );
 layerId = "CCC0BD40-BA8C-414E-B576-CF0B94E6C996";
@@ -7378,11 +7386,12 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 804, 180}";
+transform = "{1, 0, 0, 1, 540, 0}";
 }
 );
 layerId = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";
@@ -21223,11 +21232,12 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 764, 180}";
+transform = "{1, 0, 0, 1, 590, 0}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -21236,11 +21246,12 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 784, 180}";
+transform = "{1, 0, 0, 1, 590, 0}";
 }
 );
 layerId = "CCC0BD40-BA8C-414E-B576-CF0B94E6C996";
@@ -21249,11 +21260,12 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 804, 180}";
+transform = "{1, 0, 0, 1, 620, 0}";
 }
 );
 layerId = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";
@@ -44263,9 +44275,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = dieresistonos;
 }
 );
@@ -44275,9 +44289,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = dieresistonos;
 }
 );
@@ -44287,9 +44303,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = dieresistonos;
 }
 );
@@ -44395,9 +44413,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = dieresistonos;
 }
 );
@@ -44407,9 +44427,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = dieresistonos;
 }
 );
@@ -44419,9 +44441,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = dieresistonos;
 }
 );
@@ -44482,9 +44506,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = omega;
 },
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 20, 0}";
 }
@@ -44495,9 +44521,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = omega;
 },
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 20, 0}";
 }
@@ -44508,9 +44536,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = omega;
 },
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 17, 0}";
 }
@@ -44527,10 +44557,12 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 23, 0}";
 },
 {
+alignment = -1;
 name = a;
 }
 );
@@ -44540,10 +44572,12 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 24, 0}";
 },
 {
+alignment = -1;
 name = a;
 }
 );
@@ -44553,10 +44587,12 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 21, 0}";
 },
 {
+alignment = -1;
 name = a;
 }
 );
@@ -44572,9 +44608,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = epsilon;
 },
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 11, 0}";
 }
@@ -44585,9 +44623,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = epsilon;
 },
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 14, 0}";
 }
@@ -44598,9 +44638,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = epsilon;
 },
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 13, 0}";
 }
@@ -44617,9 +44659,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = eta;
 },
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 45, 0}";
 }
@@ -44630,9 +44674,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = eta;
 },
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 35, 0}";
 }
@@ -44643,9 +44689,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = eta;
 },
 {
+alignment = -1;
 name = tonos;
 transform = "{1, 0, 0, 1, 35, 0}";
 }
@@ -49175,7 +49223,7 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0.15838, 1, -44, 0}";
+transform = "{1, 0, 0, 1, -44, 0}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -49408,7 +49456,7 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0.15838, 1, -44, 0}";
+transform = "{1, 0, 0, 1, -44, 0}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -49587,7 +49635,7 @@ components = (
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0.15838, 1, -44, 0}";
+transform = "{1, 0, 0, 1, -44, 0}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -61026,7 +61074,7 @@ components = (
 {
 alignment = -1;
 name = slash;
-transform = "{1, 0, 0.15838, 1, -1214, 0}";
+transform = "{1, 0, 0, 1, -1214, 0}";
 }
 );
 layerId = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";
@@ -61057,7 +61105,7 @@ components = (
 {
 alignment = -1;
 name = slash;
-transform = "{1, 0, 0.15838, 1, -1239, 0}";
+transform = "{1, 0, 0, 1, -1239, 0}";
 }
 );
 layerId = "CCC0BD40-BA8C-414E-B576-CF0B94E6C996";
@@ -61088,7 +61136,7 @@ components = (
 {
 alignment = -1;
 name = slash;
-transform = "{1, 0, 0.15838, 1, -1239, 0}";
+transform = "{1, 0, 0, 1, -1239, 0}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -68575,7 +68623,7 @@ layers = (
 components = (
 {
 name = reflexsuperset;
-transform = "{-1, 0, 0.31677, 1, 512, 0}";
+transform = "{-1, 0, 0, 1, 512, 0}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -68596,7 +68644,7 @@ width = 600;
 components = (
 {
 name = reflexsuperset;
-transform = "{-1, 0, 0.31677, 1, 512, 0}";
+transform = "{-1, 0, 0, 1, 512, 0}";
 }
 );
 layerId = "CCC0BD40-BA8C-414E-B576-CF0B94E6C996";
@@ -68617,7 +68665,7 @@ width = 600;
 components = (
 {
 name = reflexsuperset;
-transform = "{-1, 0, 0.31677, 1, 512, 0}";
+transform = "{-1, 0, 0, 1, 512, 0}";
 }
 );
 layerId = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";
@@ -77918,7 +77966,7 @@ nodes = (
 components = (
 {
 name = minus;
-transform = "{1, 0, -0.15838, 1, 48, 0}";
+transform = "{1, 0, 0, 1, 48, 0}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -77977,7 +78025,7 @@ nodes = (
 components = (
 {
 name = minus;
-transform = "{1, 0, -0.15838, 1, 47, 0}";
+transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = "CCC0BD40-BA8C-414E-B576-CF0B94E6C996";
@@ -78036,7 +78084,7 @@ nodes = (
 components = (
 {
 name = minus;
-transform = "{1, 0, -0.15838, 1, 47, 0}";
+transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";
@@ -110335,7 +110383,7 @@ layers = (
 {
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = two;
 transform = "{-1, 0, 0, -1, 600, 730}";
 }
@@ -110346,7 +110394,7 @@ width = 600;
 {
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = two;
 transform = "{-1, 0, 0, -1, 600, 730}";
 }
@@ -110357,7 +110405,7 @@ width = 600;
 {
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = two;
 transform = "{-1, 0, 0, -1, 600, 730}";
 }
@@ -116464,7 +116512,7 @@ components = (
 {
 alignment = -1;
 name = exclam;
-transform = "{1, 0, 0.15838, 1, -1244, 0}";
+transform = "{1, 0, 0, 1, -1244, 0}";
 }
 );
 layerId = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";
@@ -116512,7 +116560,7 @@ components = (
 {
 alignment = -1;
 name = exclam;
-transform = "{1, 0, 0.15838, 1, -1244, 0}";
+transform = "{1, 0, 0, 1, -1244, 0}";
 }
 );
 layerId = "CCC0BD40-BA8C-414E-B576-CF0B94E6C996";
@@ -116560,7 +116608,7 @@ components = (
 {
 alignment = -1;
 name = exclam;
-transform = "{1, 0, 0.15838, 1, -1244, 0}";
+transform = "{1, 0, 0, 1, -1244, 0}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -122513,7 +122561,7 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 600;
 }
 );
 },
