@@ -1,0 +1,8 @@
+    sources:
+      - JetBrainsMono.glyphs
+      - JetBrainsMono-Italic.glyphs
+    axisOrder:
+      - wght
+      - ital
+    familyName: JetBrains Mono
+    buildOTF: False
