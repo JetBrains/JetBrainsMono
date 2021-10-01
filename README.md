@@ -99,9 +99,14 @@ In the terminal:
 }
 ```
 
-## Source files
+## Building fom source files
 
-Can be found in the *"Source"* folder. To open them you will need Glyphs app.
+The source files can be found in the *"Source"* folder. To open them you will need Glyphs app.\
+To build the `.ttf`, `.otf`, `woff2` & variable `.ttf` you will need:
+- install **gftools** `pip install gftools` (requires python 3.9.5 or higher on BigSur)
+- Navigate to **…JetBrainsMono/sources/** in Terminal app.
+- Type `gftools builder config.yaml` in Termianl and run it.
+- After the script is complet the files can be found in *Fonts* folder.
 
 ## License
 
