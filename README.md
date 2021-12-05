@@ -2,11 +2,11 @@
 
 # JetBrains Mono
 A typeface made for developers. \
-More about font features & design can be found on [its page](https://jetbrains.com/mono/).
+More about font features & design can be found on [its page](https://jetbrains.com/mono/). 
 
 By default, JetBrains Mono includes ligatures. The version without ligatures is called **JetBrains Mono NL** and can be found [here](https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf). This version is also stripped of all OpenType features, since they don't have any effect when your IDE doesn't support OpenType.
 
-If your IDE supports OpenType we recommend installing the default version of the font. If you prefer not using ligatures you can turn them off manually in the settings.
+If your IDE supports OpenType we recommend installing the default version of the font. If you prefer not using ligatures you can turn them off manually in the settings. 
 
 # **Installation**
 
@@ -20,15 +20,15 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 #### Through brew (MacOS only)
 1. Tap the font cask to make the Jetbrains Mono font available :
 
-    ```sh
+    ```console
     brew tap homebrew/cask-fonts
     ```
 2. Install it using the `font-jetbrains-mono` cask:
 
-   ```sh
+   ```console
    brew install --cask font-jetbrains-mono
    ```
-
+   
 #### Through Chocolatey (Windows only)
 1. Install Chocolatey if you haven't done already. See [this page](https://chocolatey.org/install) for instructions on how to do that.
 2. In an elevated cmd console (Run as administrator...) :
@@ -39,27 +39,27 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 
 #### Or manually
 
-_On Mac/Windows_:
+_On Mac/Windows_: 
 
-1. [Download font](https://github.com/JetBrains/JetBrainsMono/releases/latest).
+1. [Download font](https://github.com/JetBrains/JetBrainsMono/releases/latest). 
 2. Unzip the archive and install the font:
    - Mac. Select all font files in the folder and double-click them. Click the *"Install Font"* button.
    - Windows. Select all font files in the folder, right-click any of them, then pick *"Install"* from the menu.
 
-_On Linux_:
+_On Linux_: 
 
 Open a terminal and run the following:
 
-```sh
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
 ```
 
-Once JetBrains Mono is installed in your OS, you are ready to configure the editor.
-### **JetBrains IDEs**
+Once JetBrains Mono is installed in your OS, you are ready to configure the editor.  
+### **JetBrains IDEs** 
 * Restart your IDE.
 * Go to `Preferences/Settings` → `Editor` → `Font`, and pick JetBrains Mono from the Font dropdown.
 
-### **Visual Studio Code**
+### **Visual Studio Code** 
 
 * Go to the settings editor, from the File menu choose Preferences, Settings or use keyboard shortcut <kbd>Ctrl</kbd>+<kbd>,</kbd> (<kbd>Cmd</kbd>+<kbd>,</kbd> on Mac).
 * In the *"Font Family"* input box type JetBrains Mono, replacing any content.
@@ -99,14 +99,14 @@ In the terminal:
 }
 ```
 
-## Building from source files
+## Building fom source files
 
-The source files can be found in the *"Source"* folder. To open them you will need the Glyphs app.\
-To build the `.ttf`, `.otf`, `woff2` & variable `.ttf` you will need to:
-- install **gftools** by typing `pip install gftools` in the Terminal (requires python 3.9.5 or higher on BigSur)
-- Navigate to **…JetBrainsMono/sources/** in the Terminal app.
-- Type `gftools builder config.yaml` in the Terminal and run it.
-- After the script is complete the files can be found in *Fonts* folder.
+The source files can be found in the *"Source"* folder. To open them you will need Glyphs app.\
+To build the `.ttf`, `.otf`, `woff2` & variable `.ttf` you will need:
+- install **gftools** `pip install gftools` (requires python 3.9.5 or higher on BigSur)
+- Navigate to **…JetBrainsMono/sources/** in Terminal app.
+- Type `gftools builder config.yaml` in Termianl and run it.
+- After the script is complet the files can be found in *Fonts* folder.
 
 ## License
 
