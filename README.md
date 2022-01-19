@@ -37,7 +37,7 @@ _On Mac/Windows_:
    - _Mac_. Select all font files in the folder and double-click them. Click the **Install Font** button.
    - _Windows_. Select all font files in the folder, right-click any of them, then pick **Install** from the menu.
 
-📝 Note: If you have previously installed JetBrains Mono, please unistall all previous versions to exclude conflicts and errors in rendering.
+📝 Note: If you have previously installed JetBrains Mono, please uninstall all previous versions to exclude conflicts and errors in rendering.
 
 _On Linux_: 
 
@@ -99,8 +99,8 @@ The source files can be found in the *"Source"* folder. To open them you will ne
 To build the `.ttf`, `.otf`, `woff2` & variable `.ttf` you will need:
 - install **gftools** `pip install gftools` (requires python 3.9.5 or higher on BigSur)
 - Navigate to **…JetBrainsMono/sources/** in Terminal app.
-- Type `gftools builder config.yaml` in Termianl and run it.
-- After the script is complet the files can be found in *Fonts* folder.
+- Type `gftools builder config.yaml` in Terminal and run it.
+- After the script is complete the files can be found in *Fonts* folder.
 
 ## License
 
