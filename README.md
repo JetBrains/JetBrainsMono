@@ -93,7 +93,7 @@ A ligature is a character consisting of two or more joined symbols. Traditionall
 ![Alt text](images/character-set@2x.png)
 You can find full JetBrains Mono character set on our [wiki page](https://github.com/JetBrains/JetBrainsMono/wiki/List-of-supported-symbols).
 
-## Building fom source files
+## Building from source files
 
 The source files can be found in the *"Source"* folder. To open them you will need Glyphs app.\
 To build the `.ttf`, `.otf`, `woff2` & variable `.ttf` you will need:
