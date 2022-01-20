@@ -82,7 +82,7 @@ A ligature is a character consisting of two or more joined symbols. Traditionall
 
 ![Alt text](images/ligatures-1@2x.gif)
 
-2. 2. To balance whitespace more efficiently by shifting the glyphs in certain cases:
+2. To balance whitespace more efficiently by shifting the glyphs in certain cases:
 
 ![Alt text](images/ligatures-2@2x.gif)
 
