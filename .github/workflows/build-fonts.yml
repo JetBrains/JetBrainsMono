@@ -1,23 +1,23 @@
 name: Build Fonts
 
-on: 
+on:
   push:
-    branches: 
-    - master
+    branches:
+      - master
     paths:
-    - sources/**
+      - sources/**
   pull_request:
-    branches: 
-    - master
+    branches:
+      - master
     paths:
-    - sources/**
+      - sources/**
 
 jobs:
   static-font-ci-job:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8]
+        python-version: [ 3.8 ]
     name: Build Fonts
     steps:
       - name: Check out JetBrains Mono source repository
