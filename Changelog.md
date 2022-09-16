@@ -1,12 +1,52 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 2.251 (Unreleased)
-- Added `‼` `｛` `｝` `⟅` `⟆` `≬` `⋈` `∤` `⋉` `≫` `≪` `⨅` `⋂` `⋃` `⊴` `⋢` `∩` `∪` `⋊` `⊓` `⊔` `⊡` `⊟` `⊞` `⊠` `⊏` `⊑` `⊐` `⊒` `≻` `∄` `⊛` `⊝` `⊜` `⊘` `⊗` `⊕` `↝` `↢` `↩` `↪` `↾` `⇐` `⇛` `◎` `◈` `⍓` #47
-- Removed conflicting unicode from Control Codes #491
-- Remade the Control Codes from scratch. Made them bigger.
-- Remade the `‚` `„` `“` `”` `‘` `’` for better recognition #237 #489
-- Added new ligatures `{{` `}}` `{!--` `{{--` `--}}` `{!!` `!!}` #359
+## 2.300 (Unreleased)
+### **Major changes**
+- Added OT Stylistic Set 1 `ss01`. Performs better with plain text.
+- Added OT Stylistic Set 2 `ss02`. Performs better with small line-height.
+- Added glyph alternates for `l` `t` `g` `j` `m` `w` `k` `f` `r` `y` `u` - `cv01`–`cv17` #238 #339
+- Alt `2` `6` `9` construction - `cv18`.
+- Updated construction of `8` and `5` (the old versions can be found in `cv19`& `cv20`)
+- Added less radical alternates for `!=` `!==` `==` `===` ligatures - `ss19` #287
+- Added full support for APL #47 #516
+- Added Control code support #241
+- Updated Greek alphabet to be less eccentric
+- Added Cyrillic Kazakh letters #391
+- Added SemiBold weight #453
+- Fixed regression with `<--` ligature #417
+- Fixed interpolation error in Italic #431
+- Different construction of italic `e`
+- Added full Double Struck alphabet #440
+### **Other updated and fixes**
+- Contour polishing
+- Alternate `&` - `cv15` #507
+- Alt `$` - `cv14` #527
+- Shifting the horizontal bar in `f` to match x-height - `ss20`
+- Added more anchors to the marks #463
+- Added zeroWidthNoBreakSpace (u+FEFF) #467
+- Added replacement (u+FFFD) #461
+- Added floor and ceiling mathematical characters `⎪` `⎩` `⎨` `⎧` `⎢` `⎣` `⎡` `⎭` `⎬` `⎫` `⎥` `⎦` `⎤` #328
+- Added EMQuad (u+2001) #439
+- Added `Ɛ` `↋` `↊` `૪` #356
+- Added ligature `;;;` #393
+- Added `=:` ligature #305
+- Added `﹢` U+FE62 #482
+- Added `∴` #480
+- Reworked `⚠️` #450
+- Changed the look of `~@` ligature #415
+- `! =` ligature fixed #494
+- Corrected placement of `*` in `*/` ligature in Regular master
+- Made the tail of Italic `f` shorter to render better in kitty #441
+- The ligature `<-` have 3 digit exclusion #403
+- Tuned `#` #275
+- Made triple equal ligature `===` more spacious #25
+- Debug mode for Cyrillic `c` `C` #27
+- Reverted the construction of italic `a`  #416
+- Dutch diacritics works properly #100
+- Fixed the backquotes placement #411
+- Reworked control code symbols #491
+- Updated marks placement in `Ľ`, `ď`, `ľ`, `ť` #522
 
 ## 2.242 Quick Fix (30.07.2021)
 - Added `???` `<:<` ligatures #434
