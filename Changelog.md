@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 2.300 (Unreleased)
+## 2.301 (Unreleased)
 ### **Major changes**
 - Added OT Stylistic Set 1 `ss01`. Performs better with plain text.
 - Added OT Stylistic Set 2 `ss02`. Performs better with small line-height.
@@ -47,6 +47,8 @@ All notable changes to this project will be documented in this file.
 - Fixed the backquotes placement #411
 - Reworked control code symbols #491
 - Updated marks placement in `Ľ`, `ď`, `ľ`, `ť` #522
+- Added `\/` `/\` ligatures #222
+- Added `➔` `➝` `➞` #545
 
 ## 2.242 Quick Fix (30.07.2021)
 - Added `???` `<:<` ligatures #434
