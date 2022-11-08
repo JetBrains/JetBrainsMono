@@ -1,46 +1,46 @@
 name: Build Fonts
 
-on: 
+on:
   push:
-    branches: 
-    - master
+    branches:
+      - master
     paths:
-    - sources/**
+      - sources/**
   pull_request:
-    branches: 
-    - master
+    branches:
+      - master
     paths:
-    - sources/**
+      - sources/**
 
 jobs:
   static-font-ci-job:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8]
+        python-version: [ 3.8 ]
     name: Build Fonts
     steps:
       - name: Check out JetBrains Mono source repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Set up Python v${{ matrix.python-version }} environment
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v3
         with:
           python-version: ${{ matrix.python-version }}
       - name: Python build dependency cache lookup
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ~/.cache/pip
           # Check for requirements file cache hit
           key: ${{ runner.os }}-pip-${{ hashFiles('${{ steps.config.outputs.dependpath }}') }}
       - name: Install Python build dependencies
-        uses: py-actions/py-dependency-install@v2
+        uses: py-actions/py-dependency-install@v3
         with:
           update-wheel: "true"
           update-setuptools: "true"
       - name: Build fonts
         run: gftools builder sources/config.yaml
       - name: Upload Fonts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Fonts
           path: fonts/
