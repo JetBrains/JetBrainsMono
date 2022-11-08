@@ -49,6 +49,10 @@ All notable changes to this project will be documented in this file.
 - Updated marks placement in `Ľ`, `ď`, `ľ`, `ť` #522
 - Added `\/` `/\` ligatures #222
 - Added `➔` `➝` `➞` #545
+- Added `﹢` #482
+- Complete soft doting #345
+- Updated `‚` `„` `“` `”` `‘` `‛` `‟` #563
+- Added support for Udmurt language #569
 
 ## 2.242 Quick Fix (30.07.2021)
 - Added `???` `<:<` ligatures #434
