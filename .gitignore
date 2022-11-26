@@ -4,3 +4,4 @@ out
 lib
 source/JetBrainsMono.backup
 env
+.DS_Store
