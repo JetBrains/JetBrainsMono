@@ -1,5 +1,5 @@
 {
-.appVersion = "1361";
+.appVersion = "1363";
 classes = (
 {
 automatic = 1;
@@ -129,7 +129,7 @@ wght = {
 };
 }
 );
-date = "2022-11-08 12:03:59 +0000";
+date = "2022-12-05 11:38:04 +0000";
 designer = "Philipp Nurullin, Konstantin Bulenkov";
 designerURL = "https://www.jetbrains.com";
 familyName = "JetBrains Mono";
@@ -1743,7 +1743,6 @@ sub ldot by ldot.cv01;
 sub lslash by lslash.cv01;
 ";
 name = cv01;
-notes = "Name: Alternate l";
 },
 {
 automatic = 1;
@@ -1754,7 +1753,6 @@ sub tcedilla by tcedilla.cv02;
 sub tcommaaccent by tcommaaccent.cv02;
 ";
 name = cv02;
-notes = "Name: Alternate t";
 },
 {
 automatic = 1;
@@ -1767,7 +1765,6 @@ sub gcommaaccent by gcommaaccent.cv03;
 sub gdotaccent by gdotaccent.cv03;
 ";
 name = cv03;
-notes = "Name: Alternate g";
 },
 {
 automatic = 1;
@@ -1777,7 +1774,6 @@ sub jcircumflex by jcircumflex.cv04;
 sub je-cy by je-cy.cv04;
 ";
 name = cv04;
-notes = "Name: Alternate j";
 },
 {
 automatic = 1;
@@ -1789,14 +1785,12 @@ sub ldot by ldot.cv05;
 sub lslash by lslash.cv05;
 ";
 name = cv05;
-notes = "Name: Alternate closed l";
 },
 {
 automatic = 1;
 code = "sub m by m.cv06;
 ";
 name = cv06;
-notes = "Name: Alternate m";
 },
 {
 automatic = 1;
@@ -1812,7 +1806,6 @@ sub wdieresis by wdieresis.cv07;
 sub wgrave by wgrave.cv07;
 ";
 name = cv07;
-notes = "Name: Alternate W";
 },
 {
 automatic = 1;
@@ -1834,14 +1827,12 @@ sub KaiSymbol by KaiSymbol.cv08;
 sub kappa by kappa.cv08;
 ";
 name = cv08;
-notes = "Name: Alternate K";
 },
 {
 automatic = 1;
 code = "sub f by f.cv09;
 ";
 name = cv09;
-notes = "Name: Alternate horizontal f";
 },
 {
 automatic = 1;
@@ -1851,7 +1842,6 @@ sub rcaron by rcaron.cv10;
 sub rcommaaccent by rcommaaccent.cv10;
 ";
 name = cv10;
-notes = "Name: Alternate r";
 },
 {
 automatic = 1;
@@ -1861,7 +1851,6 @@ sub gamma by gamma.cv11;
 sub lambda by lambda.cv11;
 ";
 name = cv11;
-notes = "Name: Alternate y";
 },
 {
 automatic = 1;
@@ -1886,7 +1875,6 @@ sub uring by uring.cv12;
 sub utilde by utilde.cv12;
 ";
 name = cv12;
-notes = "Name: Alternate u";
 },
 {
 automatic = 1;
@@ -1896,7 +1884,6 @@ sub less_dollar.liga by less_dollar.liga.cv14;
 sub less_dollar_greater.liga by less_dollar_greater.liga.cv14;
 ";
 name = cv14;
-notes = "Name: Alternate $";
 },
 {
 automatic = 1;
@@ -1906,21 +1893,18 @@ sub ampersand_ampersand_ampersand.liga by ampersand_ampersand_ampersand.liga.cv1
 sub ampersand_equal.liga by ampersand_equal.liga.cv15;
 ";
 name = cv15;
-notes = "Name: Alternate &";
 },
 {
 automatic = 1;
 code = "sub Q by Q.cv16;
 ";
 name = cv16;
-notes = "Name: Alternate Q";
 },
 {
 automatic = 1;
 code = "sub f by f.cv17;
 ";
 name = cv17;
-notes = "Name: Alternate closed f";
 },
 {
 automatic = 1;
@@ -1941,7 +1925,6 @@ sub sixsuperior by sixsuperior.cv18;
 sub ninesuperior by ninesuperior.cv18;
 ";
 name = cv18;
-notes = "Name: Alternate 2 6 9";
 },
 {
 automatic = 1;
@@ -1952,7 +1935,6 @@ sub eight.numr by eight.numr.cv19;
 sub eightsuperior by eightsuperior.cv19;
 ";
 name = cv19;
-notes = "Name: Alternate 8";
 },
 {
 automatic = 1;
@@ -1963,7 +1945,6 @@ sub five.numr by five.numr.cv20;
 sub fivesuperior by fivesuperior.cv20;
 ";
 name = cv20;
-notes = "Name: Alternate 5";
 },
 {
 automatic = 1;
@@ -1971,7 +1952,6 @@ code = "sub Es-cy by Es-cy.cv99;
 sub es-cy by es-cy.cv99;
 ";
 name = cv99;
-notes = "Name: Cyrillic C highlighter";
 }
 );
 fontMaster = (
@@ -75991,10 +75971,10 @@ nodes = (
 "328 20 OFFCURVE",
 "332 44 CURVE SMOOTH",
 "338 85 OFFCURVE",
-"324 120 OFFCURVE",
-"292 140 CURVE",
-"232 140 LINE",
-"264 116 OFFCURVE",
+"325 125 OFFCURVE",
+"293 145 CURVE",
+"233 145 LINE",
+"265 121 OFFCURVE",
 "280 81 OFFCURVE",
 "274 44 CURVE SMOOTH",
 "270 22 OFFCURVE",
@@ -76249,8 +76229,8 @@ layers = (
 {
 components = (
 {
-name = comma;
-transform = "{1, 0, 0, 1, 0, 581}";
+name = quotesinglbase;
+transform = "{1, 0, 0, 1, 80, 585}";
 }
 );
 layerId = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";
@@ -76259,8 +76239,8 @@ width = 600;
 {
 components = (
 {
-name = comma;
-transform = "{1, 0, 0, 1, 0, 581}";
+name = quotesinglbase;
+transform = "{1, 0, 0, 1, 80, 585}";
 }
 );
 layerId = "CCC0BD40-BA8C-414E-B576-CF0B94E6C996";
@@ -76269,8 +76249,8 @@ width = 600;
 {
 components = (
 {
-name = comma;
-transform = "{1, 0, 0, 1, 0, 581}";
+name = quotesinglbase;
+transform = "{1, 0, 0, 1, 80, 585}";
 }
 );
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -83393,7 +83373,7 @@ transform = "{1, 0, 0, 1, -600, 0}";
 {
 alignment = -1;
 name = asterisk;
-transform = "{1, 0, 0, 1, -20, 130}";
+transform = "{1, 0, 0, 1, 20, 130}";
 }
 );
 layerId = "9ADF6715-3D0F-493D-8567-18A6FBCFC567";
@@ -168254,5 +168234,5 @@ tH = 45;
 };
 };
 versionMajor = 2;
-versionMinor = 302;
+versionMinor = 303;
 }
