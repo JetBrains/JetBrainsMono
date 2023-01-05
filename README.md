@@ -27,6 +27,14 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
    ```console
    brew install --cask font-jetbrains-mono
    ```
+   
+### Pacman (ArchLinux only)
+
+Open a terminal and run the following:
+
+   ```console
+   pacman -Syu ttf-jetbrains-mono
+   ```
 
 ### Manual installation
 
