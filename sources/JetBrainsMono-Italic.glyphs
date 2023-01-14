@@ -1,5 +1,5 @@
 {
-.appVersion = "1363";
+.appVersion = "1364";
 classes = (
 {
 automatic = 1;
@@ -129,7 +129,7 @@ wght = {
 };
 }
 );
-date = "2022-12-05 11:38:04 +0000";
+date = "2023-01-14 14:01:35 +0000";
 designer = "Philipp Nurullin, Konstantin Bulenkov";
 designerURL = "https://www.jetbrains.com";
 familyName = "JetBrains Mono";
@@ -168234,5 +168234,5 @@ tH = 45;
 };
 };
 versionMajor = 2;
-versionMinor = 303;
+versionMinor = 304;
 }
