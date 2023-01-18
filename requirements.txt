@@ -1,1 +1,2 @@
 gftools
+fonttools[woff]

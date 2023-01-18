@@ -38,7 +38,9 @@ jobs:
           update-wheel: "true"
           update-setuptools: "true"
       - name: Build fonts
-        run: gftools builder sources/config.yaml
+        run: |
+          gftools builder sources/config.yaml
+          python scripts/generate_variable_webfonts.py
       - name: Upload Fonts
         uses: actions/upload-artifact@v3
         with:
