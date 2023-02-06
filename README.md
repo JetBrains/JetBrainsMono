@@ -95,12 +95,16 @@ You can find full JetBrains Mono character set on our [wiki page](https://github
 
 ## Building from source files
 
+> **Note** To build from source, you'd need Python 3.9.5 or higher (install instructions for Python [available here](https://wiki.python.org/moin/BeginnersGuide/Download)).
+
 The source files can be found in the *"Source"* folder. To open them you will need Glyphs app.\
-To build the `.ttf`, `.otf`, `woff2` & variable `.ttf` you will need:
-- install **gftools** `pip install gftools` (requires python 3.9.5 or higher on BigSur)
-- Navigate to **…JetBrainsMono/sources/** in Terminal app.
-- Type `gftools builder config.yaml` in Terminal and run it.
-- After the script is complete the files can be found in *Fonts* folder.
+To build the `.ttf`, `.otf`, `woff2` & variable `.ttf` you will need to:
+- Install **gftools** `pip install gftools`
+- Install **fonttools[woff]** `pip install fonttools[woff]`
+- Navigate to **…JetBrainsMono** in Terminal app.
+- Type `gftools builder sources/config.yaml` in Terminal and run it.
+- Type `python scripts/generate_variable_webfonts.py` in Terminal and run it to generate variable webfonts.
+- After the scripts are complete, the files can be found in *fonts* folder.
 
 ## License
 
