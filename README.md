@@ -37,7 +37,7 @@ _On Mac/Windows_:
    - _Mac_. Select all font files in the folder and double-click them. Click the **Install Font** button.
    - _Windows_. Select all font files in the folder, right-click any of them, then pick **Install** from the menu.
 
-📝 Note: If you have previously installed JetBrains Mono, please uninstall all previous versions to exclude conflicts and errors in rendering.
+> **Note** If you have previously installed JetBrains Mono, please uninstall all previous versions to exclude conflicts and errors in rendering.
 
 _On Linux_: 
 
@@ -86,7 +86,7 @@ A ligature is a character consisting of two or more joined symbols. Traditionall
 
 ![Alt text](images/ligatures-2@2x.gif)
 
-📝 Note: if your IDE doesn’t support OpenType features and ligatures, use [JetBrains Mono NL](https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf) instead.
+> **Note** if your IDE doesn’t support OpenType features and ligatures, use [JetBrains Mono NL](https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf) instead.
 
 ## Basic Character Set
 
@@ -101,9 +101,9 @@ The source files can be found in the *"Source"* folder. To open them you will ne
 To build the `.ttf`, `.otf`, `woff2` & variable `.ttf` you will need to:
 - Install **gftools** `pip install gftools`
 - Install **fonttools[woff]** `pip install fonttools[woff]`
-- Navigate to **…JetBrainsMono** in Terminal app.
+- Navigate to **JetBrainsMono** folder in Terminal app.
 - Type `gftools builder sources/config.yaml` in Terminal and run it.
-- Type `python scripts/generate_variable_webfonts.py` in Terminal and run it to generate variable webfonts.
+- Type `python scripts/generate_variable_webfonts.py` in Terminal and run it to generate variable `woff2` files.
 - After the scripts are complete, the files can be found in *fonts* folder.
 
 ## License
