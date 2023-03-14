@@ -88,6 +88,14 @@ A ligature is a character consisting of two or more joined symbols. Traditionall
 
 > **Note** if your IDE doesn’t support OpenType features and ligatures, use [JetBrains Mono NL](https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf) instead.
 
+## OpenType features
+Starting from v2.304, JetBrains Mono has added support for alternate characters.
+_Stylistic Sets_ `ss01-20` usually change a group of characters. _Character Variant_ `cv01-99` usually changes only one character.
+Here are the [instructions for enabling these features.](https://github.com/JetBrains/JetBrainsMono/wiki/OpenType-features)
+
+![Alt text](images/stylistic-sets@2x.png)
+![Alt text](images/character-variants@2x.png)
+
 ## Basic Character Set
 
 ![Alt text](images/character-set@2x.png)
