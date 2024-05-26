@@ -17,16 +17,11 @@ Select JetBrains Mono in the IDE settings: go to `Preferences/Settings` → `Edi
 
 ### Brew (macOS only)
 
-1. Tap the font cask to make the Jetbrains Mono font available:
+Install it using the `font-jetbrains-mono` cask:
 
-    ```console
-    brew tap homebrew/cask-fonts
-    ```
-2. Install it using the `font-jetbrains-mono` cask:
-
-   ```console
-   brew install --cask font-jetbrains-mono
-   ```
+```console
+brew install --cask font-jetbrains-mono
+```
 
 ### Manual installation
 
