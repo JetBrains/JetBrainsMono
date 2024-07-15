@@ -20,20 +20,15 @@ readonly RESTORE
 
 # Print error message to STDERR and exit
 function die() {
-
   echo >&2 "${RED}$*${RESTORE}"
   exit 1
 }
 
 # Check requirements
 function check_requirements() {
-
   echo "Checking requirements..."
-
   for tool in ${REQUIREMENTS}; do
-
     echo -n "${tool}... "
-
     if command -v "${tool}" >/dev/null 2>&1; then
       echo "Found"
     else
@@ -44,41 +39,34 @@ function check_requirements() {
 
 # Download URL
 function download() {
-
   url="${1}"
   save_as="${2}"
-
-  curl -sL "${1}" -o "${save_as}" || die "Unable to download: ${url}"
+  echo "Downloading from URL: ${url}"
+  echo "Saving to: ${save_as}"
+  curl -sL "${url}" -o "${save_as}" || die "Unable to download: ${url}"
 }
 
 # Generate temporary filename
 function get_tempfile() {
-
   mktemp
 }
 
 # Get item from latest release data
 function get_item() {
-
   item="${1}"
   read_from="${2}"
-
-  awk -F '"' "/${item}/ {print \$4}" "${read_from}"
-
+  grep "\"${item}\"" "${read_from}" | awk -F '"' '{print $4}'
 }
 
 # Extract fonts archive
 function extract() {
-
   archive="${1}"
   extract_to="${2}"
-
   unzip -o "${archive}" -d "${extract_to}" >/dev/null 2>&1
 }
 
 # Create fonts directory
 function create_fonts_dir() {
-
   if [ ! -d "${LOCAL_FONTS_DIR}" ]; then
     echo "Creating fonts directory: ${LOCAL_FONTS_DIR}"
     mkdir -p "${LOCAL_FONTS_DIR}" >/dev/null 2>&1 || die "Unable to create fonts directory: ${LOCAL_FONTS_DIR}"
@@ -87,30 +75,28 @@ function create_fonts_dir() {
 
 # Build fonts cache
 function build_fonts_cache() {
-
   fc-cache -f || die "Unable to build fonts cache"
 }
 
 # Remove temporary file
 function cleanup() {
-
-  unlink "${*}" || die "Unable to unlink: ${*}"
+  if [ -e "${1}" ]; then
+    unlink "${1}" || die "Unable to unlink: ${1}"
+  else
+    echo "File not found for unlink: ${1}"
+  fi
 }
 
 # Start point
 function main() {
-
   echo "Installing latest JetBrains Mono fonts..."
-
   check_requirements
-
   TEMP_LATEST_INFO=$(get_tempfile)
 
   echo "Downloading latest release info: ${LATEST_RELEASE_INFO}"
   download "${LATEST_RELEASE_INFO}" "${TEMP_LATEST_INFO}"
 
   TAG_NAME=$(get_item "tag_name" "${TEMP_LATEST_INFO}")
-
   echo "Latest fonts version: ${TAG_NAME}"
 
   BROWSER_URL=$(get_item "browser_download_url" "${TEMP_LATEST_INFO}")
