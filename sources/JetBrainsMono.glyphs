@@ -1,10 +1,6 @@
 {
 .appVersion = "3315";
 .formatVersion = 3;
-DisplayStrings = (
-"ǏǑǓǛǗǙǕ
-Ɛɛ"
-);
 axes = (
 {
 name = Weight;
@@ -2169,11 +2165,11 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1020;
+value = 1120;
 },
 {
 name = winDescent;
-value = 300;
+value = 400;
 },
 {
 name = hheaAscender;
@@ -2280,11 +2276,11 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1020;
+value = 1120;
 },
 {
 name = winDescent;
-value = 300;
+value = 400;
 },
 {
 name = underlinePosition;
@@ -2386,11 +2382,11 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1020;
+value = 1120;
 },
 {
 name = winDescent;
-value = 300;
+value = 400;
 },
 {
 name = underlinePosition;
