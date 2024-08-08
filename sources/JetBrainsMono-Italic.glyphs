@@ -1,9 +1,6 @@
 {
 .appVersion = "3315";
 .formatVersion = 3;
-DisplayStrings = (
-"✶"
-);
 axes = (
 {
 name = Weight;
@@ -1987,7 +1984,7 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1120;
+value = 1165;
 },
 {
 name = winDescent;
@@ -2100,7 +2097,7 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1120;
+value = 1165;
 },
 {
 name = winDescent;
@@ -2204,7 +2201,7 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1120;
+value = 1165;
 },
 {
 name = winDescent;
@@ -116095,19 +116092,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(375,530,l),
-(407,730,l),
-(357,730,l),
-(325,530,l)
+(262,-180,l),
+(293,10,l),
+(243,10,l),
+(212,-180,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(262,-180,l),
-(293,10,l),
-(243,10,l),
-(212,-180,l)
+(375,530,l),
+(407,730,l),
+(357,730,l),
+(325,530,l)
 );
 },
 {
