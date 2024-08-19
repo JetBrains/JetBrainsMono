@@ -14,7 +14,7 @@ All notable changes to this project will be documented in this file.
 - Added OT Stylistic Set 2 `ss02`. Performs better with small line-height.
 - Added glyph alternates for `l` `t` `g` `j` `m` `w` `k` `f` `r` `y` `u` - `cv01`–`cv17` #238 #339
 - Alt `2` `6` `9` construction - `cv18`.
-- Updated construction of `8` and `5` (the old versions can be found in `cv19`& `cv20`)
+- Updated construction of `8` and `5` (the old versions can be found in `cv19`& `cv20`, respectively)
 - Added less radical alternates for `!=` `!==` `==` `===` ligatures - `ss19` #287
 - Added full support for APL #47 #516
 - Updated Greek alphabet to be less eccentric
