@@ -12,3 +12,4 @@
 Konstantin Bulenkov <kb@jetbrains.com>
 Philipp Nurullin <philipp.nurullin@jetbrains.com>
 Rosalie Wagner <mail@rosaliewagner.com>
+Emma Marichal <bonjour@emmamarichal.fr>
