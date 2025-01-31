@@ -128246,7 +128246,7 @@ width = 600;
 unicode = 8863;
 },
 {
-glyphname = squaredplus;
+glyphname = squaredtimes;
 layers = (
 {
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -128384,10 +128384,10 @@ nodes = (
 width = 600;
 }
 );
-unicode = 8862;
+unicode = 8864;
 },
 {
-glyphname = squaredtimes;
+glyphname = squaredplus;
 layers = (
 {
 layerId = "EDF5EB54-295C-4C90-9A2F-67CD82979CFF";
@@ -128513,7 +128513,7 @@ nodes = (
 width = 600;
 }
 );
-unicode = 8864;
+unicode = 8862;
 },
 {
 glyphname = squareimageof;
