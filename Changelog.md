@@ -81,7 +81,7 @@ All notable changes to this project will be documented in this file.
 - Tuned Greek letters construction and contour polish #336
 - Removed `[||]` ligature to more consistence with `[|`  `|]` #353
 - Added `ϖ` #369
-- Fixed monospace breaking by tuning `⟵` `⟶` `⟷` arrows to fit standart width #387
+- Fixed monospace breaking by tuning `⟵` `⟶` `⟷` arrows to fit standard width #387
 - Added exclusion in `[<` `>]` to perform in `[<=5]` expression #388
 - Fixed Powerline arrows height #395
 
