@@ -4,6 +4,9 @@ import org.w3c.dom.Node
 import org.w3c.dom.NodeList
 import java.io.File
 import java.io.FileOutputStream
+import java.nio.file.Files
+import java.nio.file.attribute.FileTime
+import java.time.Instant
 import java.util.concurrent.TimeUnit
 import javax.xml.parsers.DocumentBuilderFactory
 import javax.xml.transform.TransformerFactory
@@ -68,8 +71,29 @@ fun generateNoLigaturesFont(file: File, doc: Document) {
 
     val ttxFile = File(dir, ttx)
     doc.saveAs(ttxFile)
+
+    makeReproducible(dir)
+
     "ttx $ttx".runCommand(dir)
     ttxFile.deleteAndLog()
+}
+
+fun makeReproducible(dir: File) {
+    val epochString = System.getenv("SOURCE_DATE_EPOCH") ?: return
+    val epochSeconds = epochString.toLongOrNull() ?: return
+    val timestamp = FileTime.from(Instant.ofEpochSecond(epochSeconds))
+
+    if (!dir.isDirectory) return
+
+    dir.walkTopDown()
+        .filter { it.isFile }
+        .forEach { file ->
+            try {
+                Files.setLastModifiedTime(file.toPath(), timestamp)
+            } catch (e: Exception) {
+                println("Failed to update ${file.path}: ${e.message}")
+            }
+        }
 }
 
 class NodeListWrapper(val nodeList: NodeList) : AbstractList<Node>(), RandomAccess {
