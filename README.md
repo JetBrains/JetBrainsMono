@@ -23,6 +23,15 @@ Install it using the `font-jetbrains-mono` cask:
 brew install --cask font-jetbrains-mono
 ```
 
+### APT (Debian 11.11+/Ubuntu 21.04+)
+
+The `fonts-jetbrains-mono` package is available in the official repositories and is managed by the Debian Fonts Team. Install it using APT:
+
+```console
+sudo apt update
+sudo apt install fonts-jetbrains-mono
+```
+
 ### Manual installation
 
 _On Mac/Windows_: 
@@ -33,6 +42,7 @@ _On Mac/Windows_:
    - _Windows_. Select all font files in the folder, right-click any of them, then pick **Install** from the menu.
 
 > **Note** If you have previously installed JetBrains Mono, please uninstall all previous versions to exclude conflicts and errors in rendering.
+
 
 _On Linux_: 
 
