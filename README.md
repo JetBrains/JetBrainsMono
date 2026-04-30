@@ -39,7 +39,7 @@ _On Linux_:
 Open a terminal and run the following:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+/bin/bash -c "$(curl -fsSL [https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh](https://raw.githubusercontent.com/JetBrains/JetBrainsMono/refs/heads/master/install_manual.sh))"
 ```
 
 Once JetBrains Mono is installed in your OS, you are ready to configure the editor.  
