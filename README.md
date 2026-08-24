@@ -116,15 +116,14 @@ JetBrains Mono typeface is available under the [OFL-1.1 License](https://github.
 The source code is available under [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Credits
-
+V
 **Type designer**\
-Philipp Nurullin
-
+Voive Volkano
 **Team lead**\
 Konstantin Bulenkov
 
 **Thanks to**\
-Nikita Prokopov\
+Volkan ural\
 Eugene Auduchinok\
 Tatiana Tulupenko\
 Dmitrij Batrak\
