@@ -38,7 +38,7 @@ ttfs=$(ls $TT_DIR/*.ttf)
 for font in $ttfs
 do
 	gftools fix-dsig --autofix $font
-	python -m ttfautohint $font $font.fix
+	python3 -m ttfautohint $font $font.fix
 	[ -f $font.fix ] && mv $font.fix $font
 	gftools fix-hinting $font
 	[ -f $font.fix ] && mv $font.fix $font
